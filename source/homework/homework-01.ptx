@@ -14,7 +14,14 @@
         <p>
           This is the first homework exercise.
         </p>
+
+        <figure xml:id="fig-example">
+          <image source="hw1_image.png" width="50%"/>
+          <caption>This is the caption for my image.</caption>
+          <description>A brief text description of the image for accessibility.</description>
+        </figure>
       </statement>
+
     </exercise>
 
   </page>
