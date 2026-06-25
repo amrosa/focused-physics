@@ -17,7 +17,13 @@
 
         <figure xml:id="fig-example">
           <caption>This is the caption for my image.</caption>
-          <image source="./hw1_image.png" width="50%"/>
+          <image source="images/hw1img/hw1_image.png" width="50%">
+            <description>
+              <p>
+                Descriptions need p tags my dude!
+            </p>
+          </description>
+          </image>
         </figure>
       </statement>
 
