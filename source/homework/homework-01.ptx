@@ -16,9 +16,8 @@
         </p>
 
         <figure xml:id="fig-example">
-          <image source="hw1_image.png" width="50%"/>
           <caption>This is the caption for my image.</caption>
-          <description>A brief text description of the image for accessibility.</description>
+          <image source="./hw1_image.png" width="50%"/>
         </figure>
       </statement>
 
