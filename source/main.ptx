@@ -6,9 +6,9 @@
   <xi:include href="./docinfo.ptx" />
   <!-- By creating a PreTeXt "book" for the course, we can split components into "chapters" -->
   <book>
-    <title>Course Name (change me)</title>
+    <title>Focused Physics I</title>
 
-    <subtitle>MATH xxx Semester 20xx</subtitle>
+    <subtitle>Phys 1760 Fall 2026</subtitle>
 
     <!-- Optional: include frontmatter with author info and date -->
     <xi:include href="./frontmatter.ptx" />
@@ -61,9 +61,19 @@
 
     <chapter xml:id="homework">
       <title>Homework</title>
+      
+        <xi:include href="./homework/homework-01.ptx"/>  
+        <xi:include href="./homework/homework-template.ptx"/>
 
-      <!-- Include homework files -->
-      <xi:include href="./homework/homework-01.ptx"/>
+    </chapter>
+
+    <chapter xml:id="ch-quizzes">
+      <title>Reading Quizzes</title>
+
+        <section xml:id="quiz-section">
+          <title>Reading Quizzes</title>
+          <xi:include href="./quizzes/quiz-01.ptx"/>
+        </section>  
 
     </chapter>
 

@@ -7,7 +7,7 @@
   <xi:include href="../docinfo.ptx"/>
 
   <slideshow xml:id="slides">
-    <title>Slides for MATH xxx</title>
+    <title>Slides for Course</title>
 
     <frontmatter>
       <titlepage-items/>
