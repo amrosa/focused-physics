@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>Homework 12</title>
+
+  <objectives>
+    <introduction>
+        <p>
+            The purpose of the homework is to:
+        </p>
+    </introduction>
+   <ul>
+        <li>
+            <p>
+             Practice applying the concepts and techniques discussed this week
+            </p>
+        </li>
+
+        <li>
+            <p>
+             Reveal gaps in your understanding so you know what to study
+            </p>
+        </li>
+
+        <li>
+            <p>
+                Enable a productive re-read of the textbook chapter/engagement with
+                other course resources.
+            </p>
+        </li>
+    </ul>
+    <conclusion>
+        <p>
+          The homework is both a valuable learning opportunity and a gauge of how
+          well you're doing. Did you solve all the problems by yourself with no help? Incredible!
+          If that didn't happen, that's OK: we're not expected to get everything right the first time.
+          What you need to do is look carefully at what you needed help with, and then make a study plan,
+          which will likely include solving more problems, to fill in the gaps in your understanding.
+        </p>
+    </conclusion>
+  </objectives>
+  
+  <introduction>
+    <p>
+      <alert>Instructions:</alert> Complete all the exercises below and submit your work on Canvas by the due date.
+    </p>
+  </introduction>
+
+  <page>
+
+    <exercise>
+        <title>Spacetime Physics 8-3</title>
+        <p>
+            A few notes to help you with each of the parts:
+            <ul>
+                <li>
+                    <p>
+                        Part a) is like a variable mass problem: if you gain momentum <m>d\vec{p}</m>
+                        in time <m>dt</m>, the force acting on you is <m>\vec{f}=\dfrac{d\vec{p}}{dt}</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        As explained in sample problem 8-5, to go from intensity (power per area) to absorbed
+                        power, you use the cross section <m>\pi r^2</m> of the satellite.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        You may use, without explanation, that the intensity of solar radiation at distance <m>R</m>
+                        from the sun is <m>I(R)=I_*  \dfrac{R_E^2}{R^2}</m> , where <m>I_*</m> is the solar constant
+                        and <m>R_E</m> is the Earth-sun distance (150 million km). 
+                        The quick explanation is that the solar power output is a constant <m>P_0</m>, and that power
+                        radiates in every direction, so the intensity (power/area) at any distance is 
+                        <m>P_0/4πR^2</m>. You'll also need the idea from b/c.
+
+                    </p>
+                </li>
+            </ul>
+        </p>
+        
+    </exercise>
+    <exercise>
+        <title>Additional Spacetime Physics Problems</title>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        8-8 and 8-9
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        8-13
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        8-27 (the result of L-9 will help)
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        8-29
+                    </p>
+                </li>
+            </ul>
+        </p>
+        
+    </exercise>
+    <exercise>
+        <title>Impossible Processes</title>
+        <p>
+            Show that the following processes are dynamically impossible. Lots of ways of approaching these: 
+            you can try brute-forcing the conservation laws, seeing things in a clever reference-frame, 
+            using an elegant 4-momentum argument (or some combination of all three!).
+        </p>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        A single photon strikes a stationary electron and gives up all its energy to the electron.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        A single photon in empty space is transformed into an electron and a positron.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        A fast positron and a stationary electron annihilate, producing only one photon.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </exercise>
+    
+    <exercise>
+        <title>Uranium Fission</title>
+        <p>
+            	A common fission process for uranium is 
+                
+                <md>n+\ce{^{235}_{92}U}→\ce{_{36}^{141}Ba}+\ce{_{56}^{92}Kr}+3n</md>. 
+                
+                The masses of neutron, uranium, barium, and krypton are, respectively, 1.0086u, 234.9934673u, 
+                140.8836846u, and 91.906425u.
+                <ol>
+                    <li>
+                        <p>
+                            How much energy (in MeV) is generated in this process? 1u<m>c^2</m>=931.5MeV
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                          	As a fraction of the initial mass, how much mass is lost in this process?
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                             How much energy can be generated in this way from 1kg of Uranium? 
+                             Compare with the energy generated by burning 1kg of fossil fuels, 
+                             which is roughly <m>50\times 10^6</m> J
+                        </p>
+                    </li>
+                </ol>
+        </p>
+        
+    </exercise>
+
+    <exercise>
+        <title>Practicing Taylor Expansions</title>
+        <p>
+            You shoot a pion and a muon, both with an energy of 10 GeV, down a 1km tunnel. By how much distance 
+            does the muon win? The pion has a mass of 134 MeV, and the muon has a mass of 105 MeV. So note that the 
+            gamma factors are quite large (roughly 100 for the muon). Do this in two steps:
+        </p>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        First, using the binomial expansion <m>(1+x)^n\simeq 1+nx</m>, 
+                        valid when <m>nx\ll 1</m>, derive an expression for <m>\beta</m> as a function of 
+                        <m>\gamma</m>, which for you will be valid when <m>\gamma \gg 1</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Now use basic kinematics, as well as any other approximations you see fit, to find out by 
+                        how much the muon comes out ahead. The lesson here is: series expansions are your friend. 
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </exercise>
+  </page>
+</worksheet>

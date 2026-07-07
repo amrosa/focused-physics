@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="notes-week-04">
+    <title>Week 4</title>
+
+    <subsection>
+        <title>Chapter 3</title>
+
+        <p>
+            <alert>This is repeated from last week's reading guide.</alert>
+        </p>
+
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        Sections 3.5 through 3.7 will be covered in class and you
+                        won't be quizzed on them. Differential equations can be a source of anxiety,
+                        but please note that any questions involving a differential
+                        equation will either be about doing an integral, or
+                        using a solution to a differential equation to do
+                        kinematics.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Why do differential equations show up in mechanics?
+                        Well, the acceleration of a particle is
+                        <m>\dfrac{d^2x}{dt^2}</m>, and often we don't know the
+                        acceleration as a function of time, but we know it as a
+                        function of position.
+                        This gives us an equation relating the position
+                        <m>x(t)</m> to some of its derivatives.
+                        What should you know about differential equations?
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        What should you know about differential equations?
+                        Two things: First, differential equations of the form
+                        <m>\dfrac{dx}{dt}=f(x)</m> can be solved by integration,
+                        and we will do an example in class.
+                        Usually, as you'll see in the examples, the interesting
+                        part is obtaining the differential equation by applying
+                        a physical principle
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Second: the solution to the differential equation is a
+                        function <m>x(t)</m>, and if we know <m>x(t)</m> we can
+                        do kinematics.
+                        If we need to solve a differential equation that is
+                        currently out of our mathematical reach but is
+                        physically important, like in section 3.7, I will give
+                        you the solution.
+                        The point here is that sometimes the exact form of
+                        <m>x(t)</m> is important to understand a problem better,
+                        but you should not put your focus on the fact that you
+                        don't know how to solve the differential equation.
+                        You will learn how eventually.
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </subsection>
+
+    <subsection xml:id="subsec-chap4">
+        <title>Chapter 4</title>
+        <p>
+            <alert>Reading Quiz 5 Covers 4.1 through 4.3</alert>
+        </p>
+        <p>
+            <alert>Reading Quiz 6 Covers 4.5 and 4.6 </alert>
+        </p>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        Sections 4.1 through 4.3 are the rigorous foundation for why we were able
+                        to solve problems about cars, blocks, etc. without having to care about
+                        every single atom in an object. Splitting up the motion of a rigid body into
+                        motion of the center of mass + rotation about the center of mass is a major
+                        goal that we're slowly working towards.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Example 4.1, 4.2, and 4.5 are about the motion of the center of mass. Sometimes,
+                        the motion is quite intuitive. Other times, as you'll see in the
+                        problems (and maybe ex 4.5 itself), not so much. The important thing for us is that
+                        it is something that can be calculated.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Section 4.4 won't be critical now, but the application of example 4.6 is very
+                        cool and is worth reading. Exoplanets are a hot topic in astrophysics research,
+                        meaning that there is room to do research using Newtonian mechanics! The lesson here
+                        is that the problem of 2 isolated particles interacting can be reduced to just 1
+                        particle once you remove the motion of the center of mass (this is a change of
+                        inertial reference frame!)
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Sections 4.5 and 4.6 introduce the impulse-momentum relationship. The key idea here
+                        is to always think about a <term>system</term> before rushing to solve a problem.
+                        Once you have defined a system, then you can apply the impulse-momentum relationship to it.
+                        If your system is isolated, then this relationship tells you that the momentum of the system
+                        (or just some of its components) remains constant. A particular problem might ask you to
+                        think about different systems in different parts. But you can't really do anything until you
+                        are clear about the system(s).
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        The other lesson of this part of the chapter is that conservation principles are sort of like banking.
+                        A quantity (here: momentum) changes because external agents give (deposit) or remove (withdraw) momentum.
+                        A lot of the momentum problem-solving is really just accounting: how much momentum did I start with?
+                        How much did I have at the end? Were there external influences? The fact that momentum is a vector makes
+                        this interpretation a little weaker (we'll see some demonstrations in class), but it can be a helpful
+                        picture.
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </subsection>
+</section>

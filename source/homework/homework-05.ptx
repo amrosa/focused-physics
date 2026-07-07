@@ -81,7 +81,13 @@
                 4.23
               </p>
             </li>
-
+            
+            <li>
+              <p>
+                5.10 Note: you don't need energy arguments here as long as you understand the basic
+                motion of the chain while it falls. Momentum is all it takes.
+              </p>
+            </li>
           </ul>
         </p>
       </statement>
@@ -115,45 +121,13 @@
                 <p>
                     	Let us now make the gross estimate that all animals have roughly the same density <m>\rho</m>. 
                         Using your assumption, find how the frequency f scales with animal size: that is, you should find 
-                        an expression of the type f=CL^n. The constant C isn't particularly important 
-                        (it can depend on lots of things that we aren’t taking into account here!), but the power n can be 
+                        an expression of the type <m>~{f=CL^n}</m>. The constant <m>C</m> isn't particularly important 
+                        (it can depend on lots of things that we aren't taking into account here!), but the power n can be 
                         compared to experiment. This is an example of an <term>allometric scaling relation</term>
                 </p>
             </li>
         </ol>
     </exercise>
 
-    <exercise>
-        <title>Energy of two particles in the CM frame</title>
-        <p>
-            Show that the kinetic energy of a two-particle system, 
-            <m>K=\frac{1/2} m_1 v_1^2+\frac{1/2} m_2 v_2^2 = \frac{1/2} MV_{CM}^2+\frac{1/2}   μV_r^2</m>, where <m>V_{CM}</m> is the speed of the 
-            center of mass; <m>V_r</m> is the relative speed between the two particles, and 
-            <m>\mu=\dfrac{m_1 m_2}{m_1+m_2}</m>. Hint: start by solving for <m>(v_1,v_2)</m> in terms of 
-            <m>(V_CM,V_r)</m>. You may work in one dimension instead of using vectors, but this result is valid in 3D.
-        </p>
-        
-    </exercise>
-
-    <exercise>
-        <title>K&amp;K Energy Problems</title>
-        
-        <p>
-            <ul>
-                <li>
-                    <p>
-                        5.9
-                    </p>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <p>
-                        6.1
-                    </p>
-                </li>
-            </ul>
-        </p>
-    </exercise>
   </page>
 </worksheet>

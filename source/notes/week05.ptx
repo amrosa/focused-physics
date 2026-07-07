@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="notes-week-05">
+    <title>Week 5</title>
+
+    <subsection xml:id="subsec-chap4-2ndhalf">
+        <title>Chapter 4</title>
+        <p>
+            <alert>Reading Quiz 7 Covers 4.7 and 4.8</alert>
+        </p>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        <q>Variable Mass</q> problems can be quite tricky to solve. One main
+                        challenge is to remember that you need to be clear about your system
+                        <em>before</em> applying Newton's 2nd law/Conservation of momentum to it.
+                        The other tricky part is that the specific system (meaning: the specific
+                        set of particles) that you care about can change with time.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        K&amp;K provide a good algorithm here, and it's worth following it. Determine
+                        the relevant system at time <m>t</m>. If there is mass flow into or out of the system,
+                        you should include the mass that will flow in or out in your definition of system. Then,
+                        <em>keeping the system fixed</em>, draw a pair of pictures representing the impulse-momentum
+                        relationship over a small time <m>dt</m>, and see what you learn from that.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Section 4.8 then follows with a very cool application: the motion of a rocket. The logarithm
+                        that comes from the integration also shows why space travel is hard. The fuel mass required
+                        grows exponentially with the change in speed.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Sections 4.9 and 4.10 are optional: the examples are very cool and the brief introduction
+                        to thermodynamics is exciting! Time permitting, we'll discuss some of this in class.
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </subsection>
+</section>

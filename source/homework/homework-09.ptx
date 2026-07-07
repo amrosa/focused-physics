@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <worksheet>
-  <title>Homework 09</title>
+  <title>Homework 08</title>
 
   <objectives>
     <introduction>
@@ -49,63 +49,78 @@
   <page>
 
     <exercise>
-      <title>K&amp;K Problems</title>
+      <title>Properties of Angular Momentum and Moment of Inertia</title>
+      <statement>
         <p>
             <ul>
                 <li>
                     <p>
-                        7.6 [note: if <m>v</m> is very large, the person can be swept off of one of their feet and 
-                        tumble <mdash/> think <q>action movie car rolling out of a turn</q>]
+                        7.1 Hint: this problem is easier if you use vector notation and, yes, you can
+                        <q>take out</q> a constant vector out of a sum if you do it carefully.
                     </p>
                 </li>
                 <li>
                     <p>
-                        7.9
+                        7.7
                     </p>
                 </li>
                 <li>
                     <p>
-                        7.14
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        7.21
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        7.25
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        7.29
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        7.30
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        7.37
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        7.40 [hint: think about the relationship between the rotational and translational motion 
-                        in the toothed part and in the frictionless part. An FBD will certainly be helpful]
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        8.3 
+                        7.8
                     </p>
                 </li>
             </ul>
         </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+        <title>Statics</title>
+        <p>
+            7.5
+        </p>        
+    </exercise>
+
+
+    <exercise>
+        <title>Using the angular momentum principle</title>
+            <p>
+                7.10
+            </p>
+    </exercise>
+
+    <exercise>
+        <title>Putting Everything Together</title>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        7.3
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        7.4
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        7.13
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        7.20
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        7.33
+                    </p>
+                </li>
+            </ul>
+        </p>
+        
     </exercise>
   </page>
 </worksheet>

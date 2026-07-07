@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="notes-week-06">
+    <title>Week 6</title>
+
+    <subsection xml:id="subsec-energy-intro">
+        <title>Chapters 5 and 6</title>
+        <p>
+            <alert>Reading Quiz 8 Covers 5.1 through 5.3.1</alert>
+        </p>
+        <p>
+            <alert>Reading Quiz 9 Covers 5.6, 5,7, and 6.1 through 6.3</alert>
+        </p>
+
+        <p>
+            Note: we are taking a winding path through the textbook because the 
+            discussion of energy in chapter 5, though not incorrect, can easily lead
+            to some misconceptions that can come back to bite you when you're doing
+            the problems. I recommend taking this path, but if you want to read
+            the text straight through, note that there is a big sleight-of-hand
+            happening when you go from section 5.3.2 to section 5.3.3. In particular,
+            the left hand side of (5.15) is <em>not</em> the total work done on the
+            system.
+        </p>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                       Sections 5.1 through 5.2 introduce a trick to obtain the solution
+                       to the differential equation obtained from Newton's laws for 1D motion
+                       when the force depends only on the position <m>x</m>. Section 5.3.2
+                       then formalizes this by defining the concepts of kinetic energy and
+                       work done on a particle.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        In class, we will talk about how to describe the energy of a two-particle system,
+                        and the concept of <term>potential energy</term> will show up. I don't think the
+                        book does a great job of emphasizing that potential energy is a property of a system
+                        of interacting objects and doesn't belong just to one particle. This is likely a new
+                        idea for you because in most problems, the source of gravitational potential energy
+                        is an interaction with the Earth, and the Earth doesn't really care about the motion
+                        of a small object on its surface. You should wait to read 5.5 and beyond until
+                        we have discussed this in class.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Sections 5.6 and 5.7 introduce a graphical method to understand the motion of a particle
+                        qualitatively from the just the shape of <m>U(x)</m>, no integration required. Energy
+                        diagrams are ubiquitous, so look at this section carefully!
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Sections 6.1 and 6.3 use energy diagrams to talk about small displacements of an object
+                        about an equilibrium point. Small displacements about an equilibrium point are very common,
+                        and the fact that we can describe them accurately with the math of simple harmonic motion
+                        makes the mass on a spring an incredibly useful model. You'll see the mass on a spring 
+                        again in quantum mechanics, solid-state physics, quantum field theory, and beyond.
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </subsection>
+</section>

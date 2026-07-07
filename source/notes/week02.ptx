@@ -4,25 +4,73 @@
   <title>Week 2</title>
 
   <subsection>
-    <title>Monday</title>
+    <title>Chapter 2</title>
+    <p>
+      <alert>Reading Quiz 2 Covers 2.1 through 2.6</alert>
+    </p>
+    <p>
+      <alert>Reading Quiz 3 Covers 2.9</alert>
+    </p>
 
     <p>
+      <ul>
+        <li>
+          <p>
+            Sections 2.1 - 2.3 are setting the context for Newton's laws. Important things to note here:
+            they are very, very useful, but have limitations. The textbook isn't a history book, but note
+            that it took a great deal of work to distill Newton's laws in the form we use today.
+          </p>
+        </li>
+        <li>
+          <p>
+            Section 2.4 is the modern interpretation of Newton's first law. A very common mistake is to 
+            try and apply the 2nd law while implicitly using an accelerated frame of reference. What
+            defines an inertial frame? Difficult question. For now, we'll accept that the reference frame
+            fixed to the surface of the Earth is approximately inertial, and go from there.
+          </p>
+        </li>
+        <li>
+          <p>
+            Sections 2.5 and 2.6 describe Newton's 2nd and 3rd laws in more detail. Note that the 3rd law
+            relates pairs of forces acting on different objects. The 2nd law will be our workhorse for
+            the term: given an object, we can identify the external forces acting on it, and write
+            the 2nd law for its motion.
+          </p>
+        </li>
+        <li>
+          <p>
+            Section 2.8  is actually much more important than you might think. First, checking that your answers 
+            <q>have the right units</q> is one of the most basic sanity checks, and will need to become second nature to you 
+            in every single problem you solve (and not only in this class but throughout physics!). 
+            Second, and more subtly, dimension-based arguments can often tell you surprisingly much about physical 
+            phenomena without even doing any calculations. There is some additional reading about this on Canvas, totally
+            optional.
+          </p>
+        </li>
+        <li>
+          <p>
+            Section 2.9 introduces an algorithm to applying Newton's laws. I am going to ask you to follow this algorithm
+            <alert>to the letter</alert> in the homework. You won't need to number all the steps, but we want to see it.
+            It might feel unnatural to be this systematic if you <q>know how to solve a problem intuitively</q>, but what
+            do we do when intuition fails? We look for explicit strategies. Trying to go directly from problem statement
+            to solution is a common hurdle from students in this course. Here's a secret: most of the time, no one
+            can do that. Take your time, be patient and systematic. That will develop your intuition and then, after
+            solving many problems, things will come faster.
+          </p>
+        </li>
+        <li>
+          <p>
+            More on section 2.9: <term>constraint equations</term> are likely to be new to you, especially this way of
+            finding a constraint on the positions of the objects and taking two derivatives to obtain an acceleration 
+            constraint. Practice doing this for every single problem that has a constraint. In order for your constraint
+            work well with Newton's laws, the coordinates you choose need to be attached to an inertial frame. To get
+            constraints right, it will be critical to have a clear diagram with all coordinate axes clearly defined, so
+            you understand how to convert, for instance, a length <m>L</m> to some difference in coordinates
+            <m>x_2-x_1</m>, for instance.
+          </p>
+        </li>
+      </ul>
     </p>
   </subsection>
 
-
-  <subsection>
-    <title>Wednesday</title>
-
-    <p>
-    </p>
-  </subsection>
-
-
-  <subsection>
-    <title>Friday</title>
-
-    <p>
-    </p>
-  </subsection>
 </section>

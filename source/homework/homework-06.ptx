@@ -49,126 +49,48 @@
   <page>
     <exercise>
         <title>K&amp;K Problems</title>
-        <p>
-            For each problem, be clear if you are using real work or Center of mass work in your solution.
-        </p>
 
         <p>
             <ul>
                 <li>
                     <p>
-                        5.1
+                        5.11 Note: you can break up the motion into parts, but you can also directly
+                        use the results of section 5.2 here, but there are some subtleties to be
+                        discussed next week.
                     </p>
                 </li>
                 <li>
                     <p>
-                        5.2
+                        5.9
                     </p>
                 </li>
                 <li>
                     <p>
-                        5.3
+                        5.13 and 6.1 (they are really a unit)
                     </p>
                 </li>
                 <li>
                     <p>
-                        5.4
+                        5.14 and 6.2 (also a unit)
                     </p>
                 </li>
-                <li>
-                    <p>
-                        5.6
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        5.8
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        5.18
-                    </p>
-                </li>
+
             </ul>    
         </p>
     </exercise>
 
     <exercise>
-        <title>The Astro-blaster</title>
+        <title>Energy of two particles in the CM frame</title>
         <p>
-            A tennis ball with a small mass m sits on top of a basketball with a large mass M (see figure).
-            The bottom of the basketball is a height <m>h</m> above the ground, and the tennis ball is standing 
-            right on top of it. After the balls are dropped, how high does the tennis ball go? 
-            Assume <m>M\gg m</m> and that the balls are separated by a very small distance, so that they basically
-            collide the moment the basketball reverses its motion. No need to solve the elastic collision problem
-            again from scracth. If you're up to the challenge, imagine what would happen if you have N balls 
-            stacked on top of each other, all satisfying <m>m_1\gg m_2 \gg m_3 \gg \cdots \gg m_N</m> [this is optional].
-        </p>
-        
-        <image source="images/hwimg/hw6/astro-blaster.png" width="40%">
-            <shortdescription>add description</shortdescription>
-        </image>
-    </exercise>
-  </page>
-
-  <page>
-    <exercise>
-        <title>The Rocket-Powered Skateboard</title>
-        <p>
-            Consider a rocket-powered skateboard that is about to roll downhill. To escape on the right with 
-            the maximum speed, where should it fire a brief impulse (i.e., blast its engines)?
-        </p>
-        
-        <image source="images/hwimg/hw6/rocket.png" width="50%">
-            <shortdescription>add description</shortdescription>
-        </image>
-
-        <p>
-            At first glance, it is not obvious why the timing of the impulse would even matter. 
-            To have a concrete model for the impulse, let's say that the rocket, of mass <m>M_R</m>, throws a 
-            blob of mass <m>m</m> backwards, which ends up moving with speed <m>u</m> relative to the rocket.
-        </p>
-
-        <p>
-            To avoid any ambiguity: immediately after the blob ejection, someone standing on the skateboard would 
-            see the blob traveling away with speed <m>u</m>.
-        </p>
-
-        <p>
-            <ol>
-                <li>
-                    <p>
-                         Show that the change in the rocket's velocity immediately after the blast
-                         is the same regardless of where you fire the blast.
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        Show that the total change in kinetic energy (rocket + fuel) also does not depend on where 
-                        you fire the blast.
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        Finally, show that the change in kinetic energy of the rocket does depend on where
-                        the blast is fired
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        To make sure you're interpreting everything correctly, complete the following sentence:
-                        <q>The total kinetic energy of the system increases by <fillin characters="5" />. 
-                        Mechanistically (or shall we say chemically?), this extra energy comes from <fillin characters="5" />,
-                        so it makes sense that it's a fixed amount regardless of when the rocket fires.
-                        However, the resulting increase in rocket kinetic energy can be different, because <fillin characters="5" />.</q>
-                    </p>
-                </li>
-            </ol>
+            Show that the kinetic energy of a two-particle system, 
+            <m>K=\frac{1}{2} m_1 v_1^2+\frac{1}{2} m_2 v_2^2 = \frac{1}{2} MV_{CM}^2+\frac{1/2}   μV_r^2</m>, where <m>V_{CM}</m> is the speed of the 
+            center of mass; <m>V_r</m> is the relative speed between the two particles, and 
+            <m>\mu=\dfrac{m_1 m_2}{m_1+m_2}</m>. Hint: start by solving for <m>(v_1,v_2)</m> in terms of 
+            <m>(V_CM,V_r)</m>. You may work in one dimension instead of using vectors, but this result is valid in 3D.
         </p>
         
     </exercise>
-
+    
     <exercise>
         <title>Conservation of Energy-Like Problems in Other Contexts</title>
         <p>

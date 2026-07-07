@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <worksheet>
-  <title>Homework 08</title>
+  <title>Homework 07</title>
 
   <objectives>
     <introduction>
@@ -49,77 +49,151 @@
   <page>
 
     <exercise>
-      <title>Properties of Angular Momentum and Moment of Inertia</title>
-      <statement>
+        <title>Undamped SHM</title>
         <p>
+            <ol>
+                <li>
+                    <p>
+                        If a mass m = 0.2 kg is tied to one end of a spring whose force constant k = 80 N/m and 
+                        whose other end is held fixed, what are the angular frequency <m>\omega</m>, the 
+                        frequency <m>f</m>, and the period <m>\tau</m> of its oscillations? 
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        If the initial position and velocity are <m>x_0=-1</m> m and <m>v_0=40</m> m/s, what are the
+                        constants <m>A,\delta</m> in the expression <m>x(t)=A\cos (\omega t+\delta)</m>? Hint: your 
+                        calculator will give you the wrong phase constant: draw a graph of <m>x(t)</m> to figure out the 
+                        correct quadrant of <m>\delta</m>
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </exercise>
+    
+    <exercise>
+        <title>Averaging</title>
+        <p>
+            Consider an undamped simple harmonic oscillator with period <m>\tau</m>. Let 
+            <m>\langle f \rangle</m>denote the average value of any variable <m>f(t)</m>, averaged over one complete
+            cycle:
+            <md>
+                \langle f \rangle = \frac{1}{\tau} \int\limits_0^{\tau} f(t) dt
+            </md>
+        </p>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        Show the important results <m>\langle \cos^2(\omega t +\delta)\rangle=0</m> and
+                        <m>~{\langle\cos(\omega t+\delta)\sin(\omega t+\delta)\rangle=0}</m>
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </exercise>
+
+    <exercise>
+        <title>Critically damped oscillator</title>
+        <p>
+            Verify that the function <m>x(t)= t e^{-\gamma t/2}</m> is indeed a second solution of the equation of 
+            motion for a critically damped oscillator <m>(\gamma/2=ω_0)</m>.
+        </p>
+        
+    </exercise>
+
+    <exercise>
+        <title>K&amp;K 11.2</title>
+        <p>
+        </p>
+    </exercise>
+  </page>
+
+  <page>
+    <exercise>
+        <title>General Solution of the Driven Oscillator</title>
+        <p>
+            Suppose that you have found two particular solutions <m>x_1 (t),x_2(t)</m> of the inhomogeneous equation of 
+            motion for a driven damped oscillator: <md>\ddot{x}+\gamma\dot{x}+\omega_0^2x=f(t)</md>.
+        </p>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        Show that <m>x_1-x_2</m> satisfies the homogeneous equation
+                        <md>\ddot{x}+\gamma\dot{x}+\omega_0^2x=0</md>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Argue that the general solution to the equation of motion of the driven oscillator is
+                        then of the form <m>x(t)=x_p(t)+x_h(t)</m>, where <m>x_p(t)</m> is any particular solution
+                        of the inhomogeneous problem that you can find, and <m>x_h(t)</m> is a solution of the
+                        homogeneous equation to be determined by the specific initial conditions.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </exercise>
+
+    <exercise>
+        <title>Back to the beginning</title>
+        <p>
+            We started our discussion of resonance talking about the coffee cup and how to prevent spilling. 
+            Solve the differential equation we found in class using the results of this chapter and verify our 
+            intuitive results, namely:
+
             <ul>
                 <li>
                     <p>
-                        7.1 Hint: this problem is easier if you use vector notation and, yes, you can
-                        <q>take out</q> a constant vector out of a sum if you do it carefully.
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        7.7
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        7.8
+                        If the spring is very stiff or the frequency of the bumps is very small, the coffee 
+                        oscillates with the same amplitude as the road
                     </p>
                 </li>
             </ul>
-        </p>
-      </statement>
-    </exercise>
 
-    <exercise>
-        <title>Statics</title>
-        <p>
-            7.5
-        </p>        
-    </exercise>
-
-
-    <exercise>
-        <title>Using the angular momentum principle</title>
-            <p>
-                7.10
-            </p>
-    </exercise>
-
-    <exercise>
-        <title>Putting Everything Together</title>
-        <p>
             <ul>
                 <li>
                     <p>
-                        7.3
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        7.4
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        7.13
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        7.20
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        7.33
+                        If the spring is very soft or the frequency of bumps is very large, 
+                        the coffee doesn't oscillate very much
                     </p>
                 </li>
             </ul>
+
         </p>
+        
+    </exercise>
+
+    <exercise>
+        <title>Power</title>
+        <ol>
+            <li>
+                <p>
+                    <q>Open up</q> our expression for the steady state displacement of the driven oscillator, 
+                    <m>X(t)=X_0 \cos⁡(\Omega t+\varphi)</m> into 
+                    <md>X(t)=X_1  \cos⁡(\Omega t)+X_2 \sin⁡(\Omega t)</md>, and use the triangle we defined in class 
+                    to find <m>X_1,X_2</m> explicitly
+                </p>
+            </li>
+            <li>
+                <p>
+                    The instantaneous power provided by the driving force is 
+                    <m>~{P(t)=F(t)\dot{X}(t)}</m>. Calculate the average power provided by the driving force and check 
+                    that it is always positive. Why should that be the case?
+                </p>
+            </li>
+            <li>
+                <p>
+                    Show that the average power has a maximum at resonance <m>\Omega=\omega_0</m>
+                </p>
+            </li>
+            <li>
+                <p>
+                    Show that <m>X_1=0</m> at resonance
+                </p>
+            </li>
+        </ol>
         
     </exercise>
   </page>

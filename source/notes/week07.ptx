@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="notes-week-07">
+    <title>Week 7</title>
+
+    <subsection xml:id="subsec-energy-finish">
+        <title>Chapter 5.3.2-5.3.5, 5.4, 5.8-5.11</title>
+        <p>
+            <alert>Reading Quiz 10 Covers 5.3.1 through 5.4</alert>
+        </p>
+
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        Sections 5.3.2 and 5.3.3 extend the work energy principle to 3D <em>and</em>
+                        to multi-particle systems simultaneously, but this is done with some sleight
+                        of hand. The first thing to note here is the appearance of the dot product: the
+                        work only depends on the projection of the force along the path of the particle.
+                        This is important!
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        The language of <term>line integrals</term> used in the text is likely to be
+                        intimidating. I will not ask you to evaluate line integrals, but the language
+                        will be important. All that equation (5.11) asks you to do is add up the little
+                        bit of work done by the external forces at different points in the path. Examples
+                        5.9 and 5.10 show you how this is done in practice, which you will learn in detail
+                        in Calculus 3.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        It is very important that you realize that equation (5.15) does not represent the total
+                        work done on a system of particles. It is, in fact, nothing more than a mathematical trick, but 
+                        it is useful! What equation (5.15) is telling you is how much of the external work done on the
+                        system goes into changing the motion of the center of mass. In many problems, this is all you need
+                        to know. In other problems (e.g thermodynamics) this is useless.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Long-story short: the actual work-energy principle is the one we discussed in class. The total
+                        work done, which is the some of the work done by the individual forces, using the displacement
+                        <em>of the point of application of each individual force</em>, changes the total energy of the
+                        system, which can have many forms. Phew!
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Section 5.4 deals with the subtleties of finding the potential energy attached to a force
+                        in 3D. It turns out that not every vector function <m>\vec{F}(\vec{r})</m> can be derived
+                        from a potential <m>U(\vec{r})</m>. The notes at the end of chapter 5 have a lot to say about
+                        this, and you'll discuss this in detail in Calc 3 and beyond.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        The actual point that section 5.8 is making is this: often, when you're dealing with
+                        non-conservative forces like friction, it's conceptually cleaner to just think about
+                        the motion of the center of mass instead of worrying about thermal energy.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Sections 5.9-5.11 are fun, but optional.
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </subsection>
+</section>

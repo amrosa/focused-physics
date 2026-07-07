@@ -190,4 +190,34 @@
         </task>
     </exercise>
   </page>
+  <page>
+    <exercise>
+        <title>K&amp;K Problems</title>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        2.1 parts a) and b)
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        2.2 Note: maybe you solved this problem before. The goal here is to be systematic in your solution
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        2.3
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        2.6
+                    </p>
+                </li>
+            </ul>
+        </p>
+        
+    </exercise>
+  </page>
 </worksheet>

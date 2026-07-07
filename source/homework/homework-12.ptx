@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <worksheet>
-  <title>Homework 12</title>
+  <title>Homework 11</title>
 
   <objectives>
     <introduction>
@@ -49,149 +49,161 @@
   <page>
 
     <exercise>
-        <title>Spacetime Physics 8-3</title>
+        <title>Conceptual Question</title>
         <p>
-            A few notes to help you with each of the parts:
+            No need to write 5 paragraph essays to answer each question but try to answer each question clearly and 
+            precisely. It's OK to criticize the language in some of these questions or what the question is 
+            saying in your answers <mdash/> that's part of the exercise.
+
+            <ol>
+                <li>
+                    <p>
+                        Given two events A and B (with timelike separation), explain the difference between the 
+                        coordinate time <m>\Delta t_{AB}</m>, the spacetime interval <m>\Delta s_{AB}</m>, 
+                        and the proper time <m>\Delta\tau_{AB}</m>. Can the coordinate time ever be equal to the 
+                        spacetime interval? Can the proper time ever be equal to the spacetime interval?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        A particular event has coordinates (x,t) in one frame. How do you use the Lorentz 
+                        transformations to find the coordinates (x<prime/>,t<prime/>) of the event in a different
+                        reference frame?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        When using the Lorentz transformations, how do we know which frame is the primed frame 
+                        (the <q>moving frame</q>) and which frame is the unprimed one (the one <q>at rest</q>)?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Two twins travel away from each other at relativistic speed. The time-dilation result says that each 
+                        twin sees the other twin's clock running slow. So each says the other has aged less. 
+                        How would you reply to someone who asks, <q>But which twin really is younger?</q> 
+                        (Note: this is not the twin paradox situation)
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </exercise>
+
+    <exercise>
+        <title>Spacetime Physics Problems</title>
+        <p>
             <ul>
                 <li>
                     <p>
-                        Part a) is like a variable mass problem: if you gain momentum <m>d\vec{p}</m>
-                        in time <m>dt</m>, the force acting on you is <m>\vec{f}=\dfrac{d\vec{p}}{dt}</m>.
+                        3-14
                     </p>
                 </li>
                 <li>
                     <p>
-                        As explained in sample problem 8-5, to go from intensity (power per area) to absorbed
-                        power, you use the cross section <m>\pi r^2</m> of the satellite.
+                        L-8 Note: to make the next problem easier, transform the adequate displacements to solve 
+                        for <m>\cos\phi</m>
                     </p>
                 </li>
                 <li>
                     <p>
-                        You may use, without explanation, that the intensity of solar radiation at distance <m>R</m>
-                        from the sun is <m>I(R)=I_*  \dfrac{R_E^2}{R^2}</m> , where <m>I_*</m> is the solar constant
-                        and <m>R_E</m> is the Earth-sun distance (150 million km). 
-                        The quick explanation is that the solar power output is a constant <m>P_0</m>, and that power
-                        radiates in every direction, so the intensity (power/area) at any distance is 
-                        <m>P_0/4πR^2</m>. You'll also need the idea from b/c.
-
+                        L-9 Solve it using velocity transformation
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        L-14 Note: the idea in part f) is very important. A lot of apparent paradoxes
+                        come from the fact that an ideal rigid body cannot exist in relativity
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        5-4 Make sure to explain how everything is consistent. For instance, show that
+                        in part c) the distance to the tennis balls reduces to what it should be.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        6-3 Additional instructions: for part a), show that you can pick a range of speeds 
+                        (smaller than c) that reverses the order of events 
+                        (i.e if P is before Q in the home frame, Q is before P in some rocket frames). 
+                        For parts b) and c), show that this does not happen: if P is before Q in the home frame, 
+                        it will be before Q in every rocket frame.
                     </p>
                 </li>
             </ul>
         </p>
         
     </exercise>
+  </page>
+  
+  <page>
     <exercise>
-        <title>Additional Spacetime Physics Problems</title>
+        <title>Two-observer spacetime diagram</title>
         <p>
-            <ul>
-                <li>
-                    <p>
-                        8-8 and 8-9
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        8-13
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        8-27 (the result of L-9 will help)
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        8-29
-                    </p>
-                </li>
-            </ul>
-        </p>
-        
-    </exercise>
-    <exercise>
-        <title>Impossible Processes</title>
-        <p>
-            Show that the following processes are dynamically impossible. Lots of ways of approaching these: 
-            you can try brute-forcing the conservation laws, seeing things in a clever reference-frame, 
-            using an elegant 4-momentum argument (or some combination of all three!).
-        </p>
-        <p>
+            Your boss is on the Earth-Pluto shuttle, which travels at a constant velocity of 0.60 straight from Earth to 
+            Pluto, a distance of 5.0 h in an inertial frame attached to the sun. An hour into the flight 
+            (according to your boss's watch) your boss sends a laser message to you on earth, asking you to send a 
+            wake-up call appropriately timed so that your boss can catch a 1-h nap 
+            (as measured on your boss's watch). You immediately reply with the wake-up call 
+            and an apology that the call is late, claiming in your defense that the laws of physics prevented a 
+            timely response. Draw a two-observer spacetime diagram to answer the following questions:
+
             <ol>
                 <li>
                     <p>
-                        A single photon strikes a stationary electron and gives up all its energy to the electron.
+                    Why was your boss's request impossible?
                     </p>
                 </li>
                 <li>
                     <p>
-                        A single photon in empty space is transformed into an electron and a positron.
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        A fast positron and a stationary electron annihilate, producing only one photon.
+                        How long did your boss sleep (according to your boss's watch) before your message was 
+                        received at the shuttle? 
                     </p>
                 </li>
             </ol>
-        </p>
-    </exercise>
-    
-    <exercise>
-        <title>Uranium Fission</title>
-        <p>
-            	A common fission process for uranium is 
-                
-                <md>n+\ce{^{235}_{92}U}→\ce{_{36}^{141}Ba}+\ce{_{56}^{92}Kr}+3n</md>. 
-                
-                The masses of neutron, uranium, barium, and krypton are, respectively, 1.0086u, 234.9934673u, 
-                140.8836846u, and 91.906425u.
-                <ol>
-                    <li>
-                        <p>
-                            How much energy (in MeV) is generated in this process? 1u<m>c^2</m>=931.5MeV
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                          	As a fraction of the initial mass, how much mass is lost in this process?
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                             How much energy can be generated in this way from 1kg of Uranium? 
-                             Compare with the energy generated by burning 1kg of fossil fuels, 
-                             which is roughly <m>50\times 10^6</m> J
-                        </p>
-                    </li>
-                </ol>
         </p>
         
     </exercise>
 
     <exercise>
-        <title>Practicing Taylor Expansions</title>
+        <title>Explicit Solution to the twin paradox</title>
         <p>
-            You shoot a pion and a muon, both with an energy of 10 GeV, down a 1km tunnel. By how much distance 
-            does the muon win? The pion has a mass of 134 MeV, and the muon has a mass of 105 MeV. So note that the 
-            gamma factors are quite large (roughly 100 for the muon). Do this in two steps:
-        </p>
-        <p>
+            The following problem is based on an explicit numerical example of the twin paradox due to 
+            Sir Charles Darwin (grandson of the biologist). On New Year's Day, 3000, an astronaut (A) sets out from 
+            Earth at speed 0.8c and travels to the nearest star, <m>\alpha</m>-Centauri, which is just about 
+            4 light-years away as measured in the Earth frame of reference. 
+            Having reached the star she immediately turns around and returns to Earth at the same speed, 
+            arriving home on New Year's Day, 3010, by Earth time. 
+            The astronaut has a brother (B) who remains on earth, and they agree to send one another 
+            greetings by radar-telephone on every New Year's Day until the traveler gets back.
+
             <ol>
                 <li>
                     <p>
-                        First, using the binomial expansion <m>(1+x)^n\simeq 1+nx</m>, 
-                        valid when <m>nx\ll 1</m>, derive an expression for <m>\beta</m> as a function of 
-                        <m>\gamma</m>, which for you will be valid when <m>\gamma \gg 1</m>.
+                         Show, briefly, that A sends only 6 messages
+                         (including the one made on the last day of her trip), whereas B sends 10.
                     </p>
                 </li>
                 <li>
                     <p>
-                        Now use basic kinematics, as well as any other approximations you see fit, to find out by 
-                        how much the muon comes out ahead. The lesson here is: series expansions are your friend. 
+                        Draw a space-time diagram of A's journey as plotted in the Earth reference frame. 
+                        Draw also the world lines of all the radar signals that B transmits. 
+                        Verify with the help of the diagram that A (the astronaut) has received only 1 signal up to 
+                        the moment of her turnaround and receives the other 9 during the return half of the trip.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Draw another space-time diagram, again in the Earth reference frame, showing the world lines of
+                        the astronaut and of all the signals that she sends. Verify that her brother receives one 
+                        message each 3 years of Earth time for the first 9 years after the departure, and then receives 
+                        3 more messages during the last year, making a total of 6—which is just right,
+                        since for the astronaut the trip has taken 3 years each way.
                     </p>
                 </li>
             </ol>
         </p>
+        
     </exercise>
   </page>
 </worksheet>
