@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>Reading Quiz 02: Newton's 1st and 2nd laws</title>
+  <introduction>
+    <p>
+      <alert>Contents:</alert> This quiz covers sections 2.1 through 2.6.
+    </p>
+    <p>
+      <alert>Instructions:</alert> Answer all the questions to the best of your ability and upload your work to the "Quiz 2" assignment in Canvas.
+    </p>
+  </introduction>
+
+  <page>
+    <exercise>
+      <statement>
+        <p>
+         	The result of example 1, relating <m>F_{\text{apparent}}</m> to <m>F_{\text{true}}</m> seems to depend on
+            the fact that Commander Wright is ahead of Commander Earhart. Draw a diagram with Earhart ahead of 
+            Wright (or Wright ahead of the fleeing ship!) and show that you get the same relationship 
+            (be careful with signs!).
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          	 You and a friend are on a road trip, with your friend driving. As your friend takes a sharp turn to
+             the left, you feel yourself thrown to the right. Give an example of an inertial reference system you 
+             might want to use to analyze your motion. Identify the forces that act on you and draw a diagram representing
+             them.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          	Look at the figure accompanying	problem 2.2 of K&amp;K. This figure is slightly misleading in terms
+            of choosing an intertial reference frame. Explain how you might change the figure or what statements
+            you might add to make the figure physically more clear. Hint: is there an inertial coordinate system
+            that can use the distance from the block to the pulley as a coordinate?
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+             A mass is tied to a string attached to the ceiling and going around a horizontal circle as shown in the 
+             figure below  
+             <url href="https://www.youtube.com/watch?v=0CaWx_ghSbI" visual="youtube.com/watch?v=0CaWx_ghSbI">
+              (Link to a video of the motion)</url>.
+             If you were to draw a diagram showing the relevant forces to analyze the motion of the mass, 
+             which forces must be included? Your answer can just be the letters that apply. 
+        </p>
+        <sidebyside widths="30% 50%" valign="top">
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            String tension.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Gravitational force.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Ceiling reaction force.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Air resistance.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Centripetal force.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Centrifugal force.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+
+            <image source="images/quiz-images/quiz2/conical_pendulum.jpg" width="95%">
+                <shortdescription>(update, add long description)</shortdescription>
+                
+            </image>
+        </sidebyside>
+      </statement>
+    </exercise>
+  </page>
+</worksheet>

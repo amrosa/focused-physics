@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>Reading Quiz 12: Resonance</title>
+  <introduction>
+    <p>
+      <alert>Contents:</alert> This quiz covers Note 11.3, Note 11.4, and Section 11.5. 
+    </p>
+    <p>
+      <alert>Instructions:</alert> Answer all the questions to the best of your ability and upload your work to the 
+      <q>Quiz 12</q> assignment in Canvas.
+    </p>
+  </introduction>
+
+  <page>
+    <exercise>
+      <statement>
+        <p>
+          	Show that <m>|e^{i\phi}|=1</m> for any real number <m>\phi</m>.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          	For any pair of complex numbers <m>z_1,z_2</m>, show that <m>|z_1z_2|=|z_1||z_2|</m> (hint: polar form).
+            What does this imply about <m>|\frac{1}{z}|</m>?
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+            Go through the steps of multiplying and divinding by an appropriate complex conjugate to go from
+            the first expression of <m>z_0</m> to the second on given in the text.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+            Derive equation (4) in note 11.3.
+        </p>
+      </statement>
+    </exercise>
+
+  </page>
+</worksheet>

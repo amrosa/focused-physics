@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <worksheet>
-  <title>Reading Quiz 01</title>
+  <title>Reading Quiz 01: Vectors and Kinematics</title>
   <introduction>
     <p>
       <alert>Contents:</alert> This quiz covers sections 1.1 through 1.6, and you may skip material on the cross product.
@@ -15,8 +15,8 @@
     <exercise>
       <statement>
         <p>
-          The <q>geometric sketch</q> of the identity <m>\vec{A}+\vec{B}=\vec{B}+\vec{A}</m>on page 4 seems to assume its result: the vectors
-          <m>\vec{A}</m> and <m>\vec{B}</m>are drawn in different order and different places. 
+          The <q>geometric sketch</q> of the identity <m>\vec{A}+\vec{B}=\vec{B}+\vec{A}</m> on page 4 seems to assume its result: the vectors
+          <m>\vec{A}</m> and <m>\vec{B}</m> are drawn in different order and different places. 
           What property of vectors allows the sketch to be made as shown and keeps the proof valid?
         </p>
       </statement>

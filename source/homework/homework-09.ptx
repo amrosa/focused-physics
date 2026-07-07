@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>Homework 09</title>
+
+  <objectives>
+    <introduction>
+        <p>
+            The purpose of the homework is to:
+        </p>
+    </introduction>
+   <ul>
+        <li>
+            <p>
+             Practice applying the concepts and techniques discussed this week
+            </p>
+        </li>
+
+        <li>
+            <p>
+             Reveal gaps in your understanding so you know what to study
+            </p>
+        </li>
+
+        <li>
+            <p>
+                Enable a productive re-read of the textbook chapter/engagement with
+                other course resources.
+            </p>
+        </li>
+    </ul>
+    <conclusion>
+        <p>
+          The homework is both a valuable learning opportunity and a gauge of how
+          well you're doing. Did you solve all the problems by yourself with no help? Incredible!
+          If that didn't happen, that's OK: we're not expected to get everything right the first time.
+          What you need to do is look carefully at what you needed help with, and then make a study plan,
+          which will likely include solving more problems, to fill in the gaps in your understanding.
+        </p>
+    </conclusion>
+  </objectives>
+  
+  <introduction>
+    <p>
+      <alert>Instructions:</alert> Complete all the exercises below and submit your work on Canvas by the due date.
+    </p>
+  </introduction>
+
+  <page>
+
+    <exercise>
+      <title>K&amp;K Problems</title>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        7.6 [note: if <m>v</m> is very large, the person can be swept off of one of their feet and 
+                        tumble <mdash/> think <q>action movie car rolling out of a turn</q>]
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        7.9
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        7.14
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        7.21
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        7.25
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        7.29
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        7.30
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        7.37
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        7.40 [hint: think about the relationship between the rotational and translational motion 
+                        in the toothed part and in the frictionless part. An FBD will certainly be helpful]
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        8.3 
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </exercise>
+  </page>
+</worksheet>

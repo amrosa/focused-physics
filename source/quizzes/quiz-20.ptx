@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>Reading Quiz 20: Nuclear Binding Energy and Reactions</title>
+  <introduction>
+    <p>
+      <alert>Contents:</alert> Reading covers sections 8.6 through 8.8. 
+    </p>
+    <p>
+      <alert>Instructions:</alert> Answer all the questions to the best of your ability and upload your work to the 
+      <q>Quiz 20</q> assignment in Canvas.
+    </p>
+  </introduction>
+
+  <page>
+    <exercise>
+      <statement>
+        <p>
+          	Explain why the graph in page 238 shows that iron is more stable than both helium and uranium.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+	        In atomic mass units, the masses of proton, neutron, and helium (2 protons and 2 neutrons) are, 
+            respectively, <m>~{m_p=1.00728u},~{m_n=1.00866u},~{m_{He}=4.001506u}</m>. To answer the questions below,
+            you will need the conversion factors <m>1\text{u}=931.45 \text{MeV}</m> and 
+            <m>1 \text{MeV}=1.6\times10^{(-13)} \text{J}</m>.
+        </p>
+
+        <ol>
+            <li>
+                <p>
+                  How much energy does it take to break apart a helium nucleus? By this I mean the energy
+                  to take the helium nucleus and turn it into 2 protons and 2 neutrons that are infinitely far
+                  away from each other, with no kinetic energy. This is known as the <term>binding energy</term>
+                  <m>B</m> of helium.
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    What is the ratio of the binding energy of helium to its rest energy?
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    The mass of the hydrogen atom is <m>m_H=1.00783</m>u, and its binding energy is 
+                    <m>13.6</m> eV. What is the ratio of the binding energy of hydrogen to its rest energy?
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    Using your calculations from this question, explain why conservation of mass holds
+                    in chemistry but not in nuclear physics.
+                </p>
+            </li>
+        </ol>
+
+      </statement>
+    </exercise>
+
+
+  </page>
+</worksheet>

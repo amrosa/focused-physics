@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>Reading Quiz 9: Potential Energy, Energy Diagrams, and Harmonic Motion</title>
+  <introduction>
+    <p>
+      <alert>Contents:</alert> This quiz covers sections 5.6, 5.7, and 6.1 through 6.3.
+    </p>
+    <p>
+      <alert>Instructions:</alert> Answer all the questions to the best of your ability and upload your work to the 
+      <q>Quiz 9</q> assignment in Canvas.
+    </p>
+  </introduction>
+
+  <page>
+    <exercise>
+      <statement>
+        <p>
+          	From the figure at the top of page 186, how can we tell that the particle will be accelerated towards the
+            origin and reverse its motion whenever it reaches <m>x_1</m> and <m>x_2</m>?
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          		For the example of the pendulum in page 216, use the Taylor series for cosine, which is 
+              <m>\cos\theta = 1-\frac{\theta^2}{2}+\frac{\theta^4}{4!}-\frac{\theta^6}{6!}+\ldots</m> 
+                to find the approximate expression for U in the text
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          		Derive the expression for the kinetic energy of the pendulum, <m>K=\frac{1}{2}ml^2\dot{\theta}^2</m>.
+              Explain your assumptions clearly and list any expressions from kinematics you may be using.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          	The figure shows the potential energy function <m>V(r)</m> for a particular interaction, where <m>r</m> 
+            is the distance between the particles interacting. Explain the behavior of the force 
+            (attractive or repulsive) as a function of r
+        </p>
+
+          <image source="images/quiz-images/quiz9/pe-diag-1.png" width="50%">
+                <shortdescription>(update, add long description)</shortdescription>
+                
+          </image>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          In the hypothetical atomic interaction shown in the figure, assume that the atoms initially have zero 
+          velocity at a separation of 0.2nm. How will their separation evolve in time? What happens if initially
+          their separation is 0.4nm?
+        </p>
+
+          <image source="images/quiz-images/quiz9/pe-diag-2.png" width="60%">
+                <shortdescription>(update, add long description)</shortdescription>
+                
+          </image>
+      </statement>
+    </exercise>
+
+  </page>
+</worksheet>

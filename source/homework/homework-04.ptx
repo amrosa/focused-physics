@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>Homework 04</title>
+
+  <objectives>
+    <introduction>
+        <p>
+            The purpose of the homework is to:
+        </p>
+    </introduction>
+   <ul>
+        <li>
+            <p>
+             Practice applying the concepts and techniques discussed this week
+            </p>
+        </li>
+
+        <li>
+            <p>
+             Reveal gaps in your understanding so you know what to study
+            </p>
+        </li>
+
+        <li>
+            <p>
+                Enable a productive re-read of the textbook chapter/engagement with
+                other course resources.
+            </p>
+        </li>
+    </ul>
+    <conclusion>
+        <p>
+          The homework is both a valuable learning opportunity and a gauge of how
+          well you're doing. Did you solve all the problems by yourself with no help? Incredible!
+          If that didn't happen, that's OK: we're not expected to get everything right the first time.
+          What you need to do is look carefully at what you needed help with, and then make a study plan,
+          which will likely include solving more problems, to fill in the gaps in your understanding.
+        </p>
+    </conclusion>
+  </objectives>
+  
+  <introduction>
+    <p>
+      <alert>Instructions:</alert> Complete all the exercises below and submit your work on Canvas by the due date.
+    </p>
+  </introduction>
+
+  <page>
+
+    <exercise>
+      <title>Practice with differential equations</title>
+      <statement>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        3.15. Note: It looks scary, but follow the instructions: write down the differential 
+                        equation and then find the period by identifying the <m>\omega^2</m> in the diff. eq. Make 
+                        sure to apply the results of the <q>shell theorem</q> of section 3.3.1, and look at note 3.1 
+                        if it's not clear how to do this.
+                    </p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <p>
+                        3.25 Hint: the track must have some shape <m>z(r)</m>, use your calculus knowledge + Newton's laws to solve for
+                        <m>\dfrac{dz}{dr}</m>
+                    </p>
+                </li>
+            </ul>
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+        <title>Center of Mass</title>
+        <statement>
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                            4.2
+                        </p>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <p>
+                            4.3
+                        </p>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <p>
+                            4.4 
+                        </p>
+                    </li>
+                </ul>
+            </p>
+        </statement>
+        
+    </exercise>
+
+
+    <exercise>
+        <title>Momentum</title>
+        <statement>
+            <p>
+            Note: the novelty in many of these problems is that the motion now involves several stages. 
+            So now your <q>careful drawing</q> should be the important frames from the movie depicting this motion. 
+            Note also that when motion comes in several stages, these different stages may be best approached or 
+            solved in different ways. 
+            </p>
+            
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                            4.5
+                        </p>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <p>
+                            4.6 Hint: solve the problem algebraically first, then do all the unit conversions.
+                        </p>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <p>
+                            4.8
+                        </p>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <p>
+                            4.15
+                        </p>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <p>
+                            4.7 Note: this will require using a differential equation, center of mass, AND momentum 
+                            arguments. Do this problem last
+                        </p>
+                    </li>
+                </ul>
+            </p>
+        </statement>
+        
+    </exercise>
+  </page>
+</worksheet>

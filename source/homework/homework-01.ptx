@@ -2,6 +2,44 @@
 
 <worksheet>
   <title>Homework 01</title>
+
+ <objectives>
+    <introduction>
+        <p>
+            The purpose of the homework is to:
+        </p>
+    </introduction>
+   <ul>
+        <li>
+            <p>
+             Practice applying the concepts and techniques discussed this week
+            </p>
+        </li>
+
+        <li>
+            <p>
+             Reveal gaps in your understanding so you know what to study
+            </p>
+        </li>
+
+        <li>
+            <p>
+                Enable a productive re-read of the textbook chapter/engagement with
+                other course resources.
+            </p>
+        </li>
+    </ul>
+    <conclusion>
+        <p>
+          The homework is both a valuable learning opportunity and a gauge of how
+          well you're doing. Did you solve all the problems by yourself with no help? Incredible!
+          If that didn't happen, that's OK: we're not expected to get everything right the first time.
+          What you need to do is look carefully at what you needed help with, and then make a study plan,
+          which will likely include solving more problems, to fill in the gaps in your understanding.
+        </p>
+    </conclusion>
+  </objectives>
+
   <introduction>
     <p>
       <alert>Instructions:</alert> Complete all the exercises below and submit your work by the due date.
@@ -10,24 +48,95 @@
 
   <page>
     <exercise>
+      <title>K&amp;K Problems</title>
       <statement>
-        <p>
-          This is the first homework exercise.
-        </p>
-
-        <figure xml:id="fig-example">
-          <caption>This is the caption for my image.</caption>
-          <image source="images/hw1img/hw1_image.png" width="50%">
-            <description>
-              <p>
-                Descriptions need p tags my dude!
+        <p><ul>
+          <li>
+            <p>
+              1.1 parts a,b,c. Ignore the cross product question
             </p>
-          </description>
-          </image>
-        </figure>
-      </statement>
+          </li>
+          
+          <li>
+            <p>
+              1.2
+            </p>
+          </li>
 
+          <li>
+            <p>
+              1.8 Hint: compute the dot product <m>\vec{a}\cdot\vec{b}</m> in two different ways.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              1.14
+            </p>
+          </li>
+
+          <li>
+            <p>
+              1.16
+            </p>
+          </li>
+
+          <li>
+            <p>
+              1.23 [definition: jerk is <m>\dfrac{da_x}{dt}</m>]
+            </p>
+          </li>
+        </ul></p>
+
+     </statement>
     </exercise>
 
+    <exercise>
+      <statement>
+        <p>
+          What is the angle between <m>\vec{a}=\hat{i}+3\hat{j}+\hat{k}</m> and <m>\vec{b}=\hat{i}-2\hat{j}
+            +\hat{k}</m>?
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <title>The Bird and The Train</title>
+      <statement>
+        <p>
+          Consider two trains moving in opposite directions on the same track. The trains start simultaneously from
+          two towns, Atown and Btown, separated by a distance <m>L</m>. Each train travels toward each other with 
+          constant speed <m>v</m>. A bird is initially located in front of the train in Atown. As the train departs 
+          Atown, the bird travels with speed <m>u \gt v</m> along the track towards Btown. 
+        </p>
+
+        <p>
+          When it encounters the second train, it instantaneously reverses direction until it encounters the first
+          train, then it reverses again, etc. The bird continues flying between the two trains until
+          the trains meet, and then flies away. The purpose of this problem is to compute the total distance flown by 
+          the bird until the trains meet. There are two good ways to solve this problem, and you can try either one. 
+        </p>
+
+ <p>       <ul>
+          <li>
+            <p>
+              Find an expression for the distance <m>d_n</m> covered by the bird after its n-th encounter with a 
+              train. Define <m>d_0</m> as the distance traveled during the first flight from Atown towards the 
+              train near Btown, <m>d_1</m> the distance traveled by the bird during the first trip from the Btown
+              train to the Atown train, etc. You will get an infinite series to sum! 
+            </p>
+          </li>
+
+          <li>
+            <p>
+              The other way is to look at the problem carefully, and realize that there is a very simple solution
+              given all the assumptions here. If you take this route, remember to <alert>explain your 
+                assumptions and steps clearly in the solution, don't just write equations.</alert>
+            </p>
+          </li>
+        </ul></p>
+      </statement>
+      
+    </exercise>
   </page>
 </worksheet>

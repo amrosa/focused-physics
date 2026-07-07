@@ -3,33 +3,62 @@
 <section xml:id="notes-week-01">
   <title>Week 1</title>
 
-  <introduction>
-    <p>
-      This is an outline of the topics we covered in the first week of class.
-    </p>
-  </introduction>
+  
+<subsection> 
+  <title>Chapter 1.1-1.9. Reading Quiz Covers 1.1 through 1.6</title>
+  
+  <p>
+    <ul>
+      <li>
+        <p>
+          Sections 1.1 through 1.4.1 introduce the basic vector operations using geometric language.
+          Being able to draw vector diagrams is a key skill in the course, and a good vector diagram
+          can often save you a lot of algebra!
+        </p>
+      </li>
+      <li>
+        <p>
+          Sections 1.5 and 1.6 translate the geometric language into algebra, much like analytic geometry
+          tells you that the algebraic equation <m>y=mx+b</m> describes the geometric object that is a straight line.
+          Vector algebra is also a key skill of the course. Note that the book uses boldface characters to describe
+          vectors and normal font to describe scalars. I will prefer to put an arrow over characters, like 
+          <m>\vec{A}</m>. You should practice keeping track of what is a vector and what is a scalar and being
+          careful with your notation, as well as how to convert between a magnitude and direction to
+          a component representation. The graders are instructed to care about this! 
+        </p>
+      </li>
+      <li>
+        <p>
+          Sections 1.7 and 1.8 start our description of kinematics, the mathematical description of motion. The
+          main points here, as well as in section 1.9, are that we can differentiate and integrate vector functions
+          with respect to time. Kinematics will be important for us because to understand what causes motion,
+          we must first be able to describe it mathematically.
+        </p>
+      </li>
+      <li>
+        <p>
+          The functions we meet in calc 1 can only increase or decrease. Vectors can get bigger, smaller, or change
+           directions. This section gives you the intuition, via geometry, of the time derivative of a 
+           vector. Very important!
+        </p>
+      </li>
+      <li>
+        <p>
+          Pay extra attention to Examples 1.8 and 1.12. Simple rotational motion will come back again and again, 
+          and it's a good test case to practice vector notation. 
+        </p>
+      </li>
+      <li>
+        <p>
+          Other sections (1.11 onwards, including all the polar coordinate stuff) are ok to skip. 
+          Good reading if you are interested, but you should focus on the previous sections. 
+          Same for the <q>notes</q> at the end <mdash/> know that they are there and use them as reference
+          material later, when it becomes necessary, but don't stress about them now.
+        </p>
+      </li>
+    </ul>
+  </p>
+  
+</subsection>
 
-  <!-- Can also be <handout> instead of <subsection> to get a printable version -->
-  <subsection>
-    <title>Monday 8/22</title>
-
-    <p>
-    </p>
-  </subsection>
-
-
-  <subsection>
-    <title>Wednesday 8/24</title>
-
-    <p>
-    </p>
-  </subsection>
-
-
-  <subsection>
-    <title>Friday 8/26</title>
-
-    <p>
-    </p>
-  </subsection>
 </section>

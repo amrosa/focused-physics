@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<handout>  
+    <title>Challenge Problem 4: Tuned Mass Dampers</title>
+    <page>
+    <objectives>
+        The purpose of the challenge problems is to practice:
+                <ul>
+                    <li>
+                        <p>
+                         Categorizing your struggles with a problem (applied problem solving)
+
+                        </p>
+                    </li>
+                <li>
+                    <p>
+                        Discovering for getting unstuck when you're stuck (applied problem solving)
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Turning a vague confusion into a specific question (communication dexterity)
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Resolving conflicting arguments: I know there's an error, but where? (critical skills)
+                    </p>
+                </li>
+            </ul>
+   </objectives>
+
+    <assemblage>
+        <title>General Advice and Logistics</title>
+        
+            <p>
+                <alert>Logistics:</alert> Challenge problems are collaborative. You are required to work in groups.
+                Individual submissions will not be accepted, so please make sure to find a partner ahead of time.
+                Please contact the instructor if you are having trouble finding a partner. 
+            </p>
+
+            <p>
+                Starting on your own is encouraged, but articulating your arguments, questions, and understanding 
+                those of your classmates is one of the key skills this course seeks to develop. If you cannot clearly
+                explain your argument, or are thrown off by questions, your understanding is not solid. 
+            </p>
+
+            <p>
+                <alert>Some tips:</alert> The hardest thing to fix is a blank page. Start with drawing a careful 
+                picture; writing everything that's given; everything that's unknown; the thing you're looking for; 
+                then writing all the things you know are true, labeled by why they are true.
+            </p>
+            <p>
+            </p>
+
+            <p>
+                <alert>Perfectionism reminder:</alert> the goal of the challenge problems is to challenge you. 
+                This means that they will be hard, and when you turn them in for the first time you may not be sure
+                if your solution is correct. That's OK: you will get feedback on your solution and you will have a 
+                chance to resubmit, taking the feedback into account. Furthermore, we are not looking for perfection 
+                (but you should strive for it anyway!). I don't mean to say you should just throw something at the
+                wall and see if it sticks. Just remember that the challenge is part of the process and it'll lead 
+                to growth.
+            </p>
+
+            <p>
+                <alert>Sanity checks:</alert> Once you have solved the problem, check that your solution makes sense.
+                We will ask you to do this over and over, because it is an important skill to develop. When you
+                submit your design for a bridge, you better be sure it won't collapse. When you publish a paper with
+                your major theoretical breakthrough or experimental discovery, you want to be sure that you are right.
+                Perhaps a way of thinking about this is as follows: try to find errors in your solution. Are the
+                units right? If I make a particular variable go to zero or infinity, does the answer behave
+                in the expected way? If I plug in reasonable numerical values, do I get a reasonable result?
+            </p>
+            <p>
+                <alert>Academic Integrity:</alert> Looking up solutions to this problem to see if it's already been solved, 
+                as well as using AI tools to generate solutions/ideas for the problems, is not allowed. Doing this 
+                is not only a serious ethica violation (presenting work that is not your own as if it were), but it
+                short-circuits the valuable learning  process of thinking hard about something and refining your 
+                thinking until you get it right. If you need help, talk to one of your instructors, or 
+                collaborate with another group. You have two chances! Believe in yourself and take it slowly.
+            </p>
+    </assemblage>
+    </page>
+
+    <page>
+        <introduction>
+            <title>Context for the Problem</title>
+            <p>
+                The resonance phenomenon can be harnessed for many useful applications <mdash/> 
+                but can also be destructive, destroying bridges or toppling buildings. 
+                For example, if winds (a fluctuating force) happen to excite one of the resonant modes of a 
+                skyscraper, this spells trouble! Having completed a brand-new skyscraper, a construction company 
+                discovers a problem (oops!). When the winds pick up, the building begins to sway at dangerous 
+                levels. An engineer proposes to remedy the issue by installing the following contraption at one of 
+                the top floors:
+            </p>
+            
+            <image source="images/challenge/c4skyscraper/tmd_intro.png" width="80%">
+                <shortdescription>add a statement</shortdescription>
+            </image>
+
+            <p>
+                This idea is called a <q>tuned mass damper</q> (TMD). It was first applied in the 1900s to reduce 
+                the rolling motion of ships. Today, such systems are often included in the design of tall 
+                structures. In a few cases they were indeed installed after an <q>oops</q> moment 
+                (For an example, Google the story of the John Hancock Tower in Boston).
+
+                The piston-like element in the schematic denotes viscous drag; it is a device that opposes motion 
+                (of its ends relative to each other) with a force proportional to velocity:
+                <m>F=-\eta v</m>. In practice, it is often indeed implemented as a piston moving in a cylinder 
+                filled with oil, as drawn on the schematic.
+
+            </p>
+
+            <image source="images/challenge/c4skyscraper/piston.png" width="40%">
+                <shortdescription>add a statement</shortdescription>
+            </image>
+
+        </introduction>
+    </page>
+
+    
+<page>
+    <conclusion>
+        <title>Challenge Problem Statement</title>
+        
+        <p>
+            This problem will use a simplified model for the tuned mass damper, as shown in the figure. The
+            building, represented by the mass <m>M</m>, is driven by a force <m>F(t)</m>, and the damper is
+            undriven except for its contact with the building.
+        </p>
+        <p>
+            The coordinate <m>y</m> represents the position of the damper relative to the building. Since the
+            building accelerates, this is not attached to an inertial frame, so remember that the position
+            of the damper with respect to the inertial frame of the Earth is <m>x+y</m>
+        </p>
+
+        <image source="images/challenge/c4skyscraper/tmd_sketch.png" width="80%">
+                <shortdescription>add a statement</shortdescription>
+        </image>
+        <p>
+            Here's how to proceed:
+            <ol>
+                <li>
+                    <p>
+                        Write the equations of motion for the building and the damper. Sanity check that
+                        when <m>m_d=0</m> you just get a single equation for the building, and if the
+                        building is held fixed the equation of motion for the damper makes sense.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Rewrite the equation of motion introducing the following parameters:
+                        
+                        <md> \dfrac{\eta}{M}\equiv\gamma,
+                             \dfrac{k}{M}\equiv\omega^2,
+                             \dfrac{\eta_d}{m_d} \equiv \gamma_d, 
+                             \dfrac{k_d}{m_d} \equiv \omega_d^2,
+                             \mu\equiv\dfrac{m_d}{M}</md>.
+                        
+                        Show that your equations of motion reduce to
+                        <md number="no">
+                            <mrow>\amp \mu\ddot{x}+\mu\ddot{y}+\gamma\dot{x}=\dfrac{F(t)}{M}</mrow>
+                            <mrow>\amp \ddot{x}+\gamma_d\dot{y}=0</mrow>
+                        </md>
+                        
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Solve for the amplitude ratio <m>\lambda=\dfrac{A_y}{A_x}</m> of the amplitudes
+                        of the building and the damper.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Use your answer to argue that we can reduce the building oscillation amplitude by using a 
+                        larger mass <m>m_d</m> and/or allowing it to develop large oscillations (large <m>\lambda</m>).
+                    </p>
+                </li>
+            </ol>
+        </p>
+        <project>
+            <p>
+                This problem has a lot of algebra: be patient. If you use complex numbers,
+                this will be a lot easier, but be sure you understand how to interpret your expressions.
+            </p>
+            <p>
+                I cannot emphasize this enough: be strategic in approaching the algebra.
+            </p>
+    </project>
+    </conclusion>
+    </page>
+</handout>

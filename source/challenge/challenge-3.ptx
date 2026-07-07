@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<handout>  
+    <title>Challenge Problem 3: The Heavy Chain</title>
+    <page>
+    <objectives>
+        The purpose of the challenge problems is to practice:
+                <ul>
+                    <li>
+                        <p>
+                         Categorizing your struggles with a problem (applied problem solving)
+
+                        </p>
+                    </li>
+                <li>
+                    <p>
+                        Discovering for getting unstuck when you're stuck (applied problem solving)
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Turning a vague confusion into a specific question (communication dexterity)
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Resolving conflicting arguments: I know there's an error, but where? (critical skills)
+                    </p>
+                </li>
+            </ul>
+   </objectives>
+
+    <assemblage>
+        <title>General Advice and Logistics</title>
+        
+            <p>
+                <alert>Logistics:</alert> Challenge problems are collaborative. You are required to work in groups.
+                Individual submissions will not be accepted, so please make sure to find a partner ahead of time.
+                Please contact the instructor if you are having trouble finding a partner. 
+            </p>
+
+            <p>
+                Starting on your own is encouraged, but articulating your arguments, questions, and understanding 
+                those of your classmates is one of the key skills this course seeks to develop. If you cannot clearly
+                explain your argument, or are thrown off by questions, your understanding is not solid. 
+            </p>
+
+            <p>
+                <alert>Some tips:</alert> The hardest thing to fix is a blank page. Start with drawing a careful 
+                picture; writing everything that's given; everything that's unknown; the thing you're looking for; 
+                then writing all the things you know are true, labeled by why they are true.
+            </p>
+            <p>
+            </p>
+
+            <p>
+                <alert>Perfectionism reminder:</alert> the goal of the challenge problems is to challenge you. 
+                This means that they will be hard, and when you turn them in for the first time you may not be sure
+                if your solution is correct. That's OK: you will get feedback on your solution and you will have a 
+                chance to resubmit, taking the feedback into account. Furthermore, we are not looking for perfection 
+                (but you should strive for it anyway!). I don't mean to say you should just throw something at the
+                wall and see if it sticks. Just remember that the challenge is part of the process and it'll lead 
+                to growth.
+            </p>
+
+            <p>
+                <alert>Sanity checks:</alert> Once you have solved the problem, check that your solution makes sense.
+                We will ask you to do this over and over, because it is an important skill to develop. When you
+                submit your design for a bridge, you better be sure it won't collapse. When you publish a paper with
+                your major theoretical breakthrough or experimental discovery, you want to be sure that you are right.
+                Perhaps a way of thinking about this is as follows: try to find errors in your solution. Are the
+                units right? If I make a particular variable go to zero or infinity, does the answer behave
+                in the expected way? If I plug in reasonable numerical values, do I get a reasonable result?
+            </p>
+            <p>
+                <alert>Academic Integrity:</alert> Looking up solutions to this problem to see if it's already been solved, 
+                as well as using AI tools to generate solutions/ideas for the problems, is not allowed. Doing this 
+                is not only a serious ethica violation (presenting work that is not your own as if it were), but it
+                short-circuits the valuable learning  process of thinking hard about something and refining your 
+                thinking until you get it right. If you need help, talk to one of your instructors, or 
+                collaborate with another group. You have two chances! Believe in yourself and take it slowly.
+            </p>
+    </assemblage>
+</page>
+
+    
+<page>
+    <conclusion>
+        <title>Challenge Problem Statement</title>
+        
+        <p>
+            A heavy chain is lying in a pile on a table. The table height is <m>H</m>, and the chain has uniform 
+            linear density <m>\lambda</m> (in other words, a segment of length <m>L</m> has mass 
+            <m>\lambda L</m>). I pass one end over a light, well-oiled pulley, and let it go all the way to 
+            the floor, where it forms another (smaller) pile. Initially, I hold the chain so it doesn't move. 
+            Then, I let go.
+        </p>
+        <p>
+            Claim: the chain will start moving, and will eventually reach a certain steady-state speed
+            <m>v</m>. Your task is to find this <m>v</m>.
+        </p>
+        <image source="images/challenge/c3chain/heavy_chain.png" width="40%">
+            <shortdescription>Add a description</shortdescription>
+        </image>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        Start by explaining carefully why the chain will start moving. Your argument will involve 
+                        drawing some forces; make sure you clearly state, for each force, which object is acting on 
+                        which other object. (Pulley? Table? The entire chain? A segment of a chain?)
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        When you are analyzing the moving chain, make sure to clearly identify which force is
+                        responsible for the <q>resistance</q> that keeps the chain from accelerating forever
+                        and makes it reach a terminal speed.  You should find that this force depends on the
+                        speed the chain is sliding.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        You are not required to solve for the full time evolution <m>v(t)</m> by finding a 
+                        differential equation: once you've identified all the relevant forces and systems,
+                        you can set everything to a steady state and solve for the terminal speed.
+                    </p>
+                </li>
+            </ol>
+        </p>
+        <project>
+            <p>
+                You should already be in the habit of drawing lots of pictures, but make sure you very clearly
+                define what your system is using a picture, and cleary identify the forces that act on that system.
+                Remember that once you pick a system at time t, you should use the <em>same system</em>
+                at time t+dt to apply Newton's laws/conservation of momentum in the interval dt.
+            </p>
+            <p>
+                This problem will require analyzing multiple systems. To keep things simple, you may assume
+                that the tension at the top of the pulley is equal on both sides.
+            </p>
+    </project>
+    </conclusion>
+    </page>
+</handout>

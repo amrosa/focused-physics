@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>Reading Quiz 15: Introduction to Special Relativity</title>
+  <introduction>
+    <p>
+      <alert>We are switching textbooks now. Section numbers now refer to Taylor &amp; Wheeler.</alert>
+      <alert>Contents:</alert> Reading covers Sections 1.1-1.4 and Sections 2.1,2.2,2.6,2.7. You may skip
+      the conversations between the thinking students and the bird, and most of the boxes.
+    </p>
+    <p>
+      <alert>Instructions:</alert> Answer all the questions to the best of your ability and upload your work to the 
+      <q>Quiz 15</q> assignment in Canvas.
+    </p>
+  </introduction>
+
+  <page>
+    <exercise>
+      <statement>
+        <p>
+          	On page 5, Mary and John measure different distances between the two sparks. Is either of these 
+            observers making the <q>correct</q> measurement of the distance between the two events? Which law of 
+            physics has something to say about this?
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          	To formalize the discussion in section 1.4 a bit more, let's define a new quantity <m>w=ct</m> and 
+            redefine velocity to be <m>\frac{dx}{dw}</m> instead of <m>\frac{dx}{dt}</m>. When we make this change, 
+            what are the new units of velocity, acceleration, and momentum? What is the conversion factor between 
+            <q>regular units</q> and the corresponding <q>Special Relativity</q> (SR) units?
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          	Sections 2.1 and 2.2 spend a lot of time talking about gravity. Look at the definition of inertial 
+            reference frame in section 2.3 and explain why our inertial reference frames need to be in free-fall. 
+            Is this an issue in an empty universe (i.e., one with no matter)? If you get stuck, it's ok to just
+            write down your general thoughts on this.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          		Is the sum of the interior angles of a triangle equal to 180 degrees on a spherical surface? On a
+                plane surface? Under what circumstances does spherical geometry reduce to plane geometry? 
+                Draw an analogy between classical mechanics and relativistic mechanics [Look up: Area and Spherical
+                Excess or Spherical Trigonometry].
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+            The time interval assigned to a pair of events following the procedure of section 2.7 is called the 
+            <term>coordinate time interval</term> of an event. In section 1.3 the textbook introduced the 
+            <term>wristwatch time</term> as well as the <term>spacetime interval</term>. List a few differences
+            between these types of times, i.e, how you might tell if a time interval is a coordinate time, 
+            wristwatch time, or spacetime interval. We will have a lot more to say about this, so it's OK if you
+            can't find many differences or get stuck.            
+        </p>
+      </statement>
+    </exercise>
+  </page>
+</worksheet>

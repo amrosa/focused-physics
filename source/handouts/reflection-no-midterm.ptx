@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet>
+  <title>Self-Reflection</title>
+
+  <page>
+    <exercise>
+      <p>
+        What do you think is your biggest knowledge gap right now?
+        (Concepts/Types of problems)
+      </p>
+    </exercise>
+
+    <exercise>
+      <p>
+        What is your biggest strategy gap right now?
+        What aspect of your problem-solving process isn't 100% solid, feels like
+        guesswork, causes you to get stuck or make mistakes?
+        Some examples: drawing a good diagram and identifying all relevant
+        variables, uncovering physical assumptions, converting physics to math,
+        sanity checks, <ellipsis/>
+      </p>
+    </exercise>
+
+    <exercise>
+      <p>
+        Which of these do you think is limiting you more right now <mdash/>
+        understanding of physics or faults in the problem-solving process?
+      </p>
+    </exercise>
+
+    <exercise>
+      <p>
+        Don't just focus on the negatives.
+        What are you doing well?
+        How have you grown in the past few weeks?
+      </p>
+    </exercise>
+
+    <exercise>
+      <p>
+        Do you have a study group?
+        How do you get help when you struggle with something?
+      </p>
+    </exercise>
+
+    <exercise>
+      <p>
+        How much help would you say you needed with the past few assignments?
+      </p>
+    </exercise>
+
+    <exercise>
+      <p>
+        Identify one specific, actionable decision you could take this week to
+        improve your understanding of the course topics.
+        An <q>actionable</q> decision means it should be specific enough to be
+        clear if you are succeeding at following it.
+        <q>Study better</q> or <q>Be more careful about X</q> is vague.
+        <q>Find 4 problems online with a nontrivial-looking constraint and practice writing it mathematically</q>
+        <mdash/> this is actionable.
+      </p>
+    </exercise>
+
+    <exercise>
+      <p>
+        Is there anything you want additional feedback on?
+      </p>
+    </exercise>
+
+    <exercise>
+      <p>
+        Is there anything you'd like to share with me about the course, or about
+        how you're doing?
+      </p>
+    </exercise>
+  </page>
+</worksheet>

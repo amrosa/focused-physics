@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>Reading Quiz 07: Mass and Momentum Flows</title>
+  <introduction>
+    <p>
+      <alert>Contents:</alert> This quiz covers sections 4.7 through 4.9
+    </p>
+    <p>
+      <alert>Instructions:</alert> Answer all the questions to the best of your ability and upload your work to the 
+      <q>Quiz 7</q> assignment in Canvas.
+    </p>
+  </introduction>
+
+  <page>
+    <exercise>
+      <statement>
+        <p>
+             Draw a <q>before-and-after</q> picture of the Freight Car and Hopper in Example 4.13. That is, draw the
+             system at time t and then draw it again at time t+dt, and show the velocity vectors of all relevant 
+             parts of the system. Use your drawing to verify the equations for P(t) and P(t+dt) in the text.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Same thing for example 4.14, but let a constant force F act on the cart, so its speed will not remain 
+          constant. Use the impulse-momentum principle to obtain an equation for <m>\frac{dv}{dt}</m>, the 
+          acceleration of the cart.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          	Go back to example 4.8: what can you say about the momentum <m>P_y</m> in this example? 
+            Try to give your answer as the impulse of a specific force
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>
+                Can you explain the result of the previous problem physically? It should look rather simple.
+            </p>
+        </statement>
+    </exercise>
+
+     <exercise>
+        <statement>
+            <p>
+                 Explain, mathematically, what is meant by the statement on page 140: <q>The correct equation of 
+                 motion results from taking the limit and including only the non-vanishing <sq>first-order</sq> terms. 
+                 Terms beyond the first order, such as <m>\Delta m\Delta v</m> vanish in the limit 	<m>\Delta t\to 0</m></q>
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>
+                In variable mass situations like the rocket, we could consider our system to be the rocket and all
+                of the fuel, including the fuel expelled in the past. The momentum of this system is conserved and the
+                definition of the system doesn't change in time, so this might be simpler. Can you think of any reasons
+                not to do this?
+            </p>
+        </statement>
+    </exercise>
+  </page>
+</worksheet>

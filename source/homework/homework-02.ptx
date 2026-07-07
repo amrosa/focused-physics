@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>Homework 02</title>
+
+ <objectives>
+    <introduction>
+        <p>
+            The purpose of the homework is to:
+        </p>
+    </introduction>
+   <ul>
+        <li>
+            <p>
+             Practice applying the concepts and techniques discussed this week
+            </p>
+        </li>
+
+        <li>
+            <p>
+             Reveal gaps in your understanding so you know what to study
+            </p>
+        </li>
+
+        <li>
+            <p>
+                Enable a productive re-read of the textbook chapter/engagement with
+                other course resources.
+            </p>
+        </li>
+    </ul>
+    <conclusion>
+        <p>
+          The homework is both a valuable learning opportunity and a gauge of how
+          well you're doing. Did you solve all the problems by yourself with no help? Incredible!
+          If that didn't happen, that's OK: we're not expected to get everything right the first time.
+          What you need to do is look carefully at what you needed help with, and then make a study plan,
+          which will likely include solving more problems, to fill in the gaps in your understanding.
+        </p>
+    </conclusion>
+  </objectives>
+
+  <introduction>
+    <p>
+      <alert>Instructions:</alert> Complete all the exercises below and submit your work by the due date.
+    </p>
+  </introduction>
+
+  <page>
+    <exercise>
+        <title>A Special Collision</title>
+        <p>
+            Two objects of equal mass are approaching one another with equal speeds v and collide head-on. 
+            By the symmetry of the situation, after the collision their velocities reverse. Using only this 
+            information, determine what happens to the objects after a different collision: one of them is at rest, 
+            and the other one, initially with speed <m>v</m>, collides head-on with it.
+        </p>
+        
+    </exercise>
+
+    <exercise>
+        <title>Crossing the river</title>
+        <p>
+            For the swimmer problem we did in class, consider the alternative scenario: what if instead of trying to
+            cross the bank in the shortest time, we are trying to cross the bank by swimming the shortest distance? 
+            When the swim speed <m>V</m> is larger than the current speed <m>u</m>, we solved this in class. 
+            What should you do when <m>v\lt u</m>? There's an elegant solution, but if you go about it by trying to
+            directly find the minimum of the distance, try to extremize the simplest quantity.
+        </p>
+    </exercise>
+
+    <exercise>
+        <title>Catching the bus</title>
+        <p>
+            You woke up late and are worried about missing the bus. 
+            As you approach the bus stop, you spot the bus at a distance <m>a</m> directly west of the bus stop. 
+            You are at a distance <m>b</m> directly south of the bus stop, but you're walking through a park and 
+            can run in any direction. If the bus drives at speed <m>V</m>, what is the minimum speed <m>u</m> at 
+            which you need to run to catch the bus? 
+        </p>
+        
+    </exercise>
+  </page>
+
+  <page>
+    <exercise>
+        <title>Using Vectors to Describe Motion</title>
+        <introduction>
+            <p>
+             A wheel of radius <m>R</m> is spinning clockwise on a fixed axis with a constant angular velocity 
+             <m>\omega</m>. Coordinate axes are chosen as shown, and the axis of the spinning wheel travels
+             with uniform velocity <m>\vec{V}_0</m> along the x axis. The value of <m>V_0</m> is an independent 
+             parameter, and is not related to <m>\omega</m> in any way. For example, the axis of the wheel is 
+             attached to a train car, traveling with that velocity, and the wheel just happens to be spinning
+             at some rate.
+             </p> 
+             <p>
+                Imagine painting a particular point on the wheel in red. At t=0, the axis of the wheel is at 
+                <m>(0,R)</m> and point you painted is at <m>(0,0)</m> (<q>the ground</q>) 
+             </p>
+
+             <image source="images/hwimg/hw2/wheel.png" width="50%">
+                <shortdescription>Add descriptions</shortdescription>
+             </image>
+
+        </introduction>
+        <task>
+            <title>Warm-up: motion of a point on the wheel</title>
+            
+            <statement>
+                <p>
+                    Find the position, velocity and acceleration vectors for the point, as a function of time.
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <title>Rolling without slipping</title>
+            <introduction>
+                <p>
+                    If our point on the wheel were to be moving horizontally whenever it touched the ground,
+                    there would be a lot of friction between the wheels and the track, which would lead to wear
+                    on the wheels. A real wheel often satisfies the <term>no-slip condition</term>, meaning that
+                    the point of the wheel touching the ground is never moving horizontally.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Show that this condition is satisfied if <m>V_0=\omega R</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Qualitatively explain why there is no friction between the wheel and the
+                        ground only when this condition is satisfied.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Write expressions for the position, velocity, and acceleration vectors of the point
+                        on the wheel in terms of <m>\omega, R, t</m> only.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        What is the acceleration of the point on the moment it touches the ground?
+                    </p>
+                </statement>
+            </task>
+        </task>
+
+        <task>
+            <title>A Common Confusion</title>
+            <introduction>
+                <p>
+                    The relationships (1) <m>v = \omega R</m> of the speed of a particle going around a circle, and
+                    (2) <m>V_0 = \omega R</m> of the previous part look very similar but describe two completely 
+                    different things. Don't confuse them!
+                </p> 
+                <p>
+                    To illustrate the difference, consider the following scenario. A motorcyclist revs up the 
+                    engine, kicks into gear, the wheel spins up almost instantaneously, and the motorcycle races 
+                    off in a puff of smoke, leaving the smell of burnt rubber and a big black mark on the asphalt.
+                    Let <m>\omega (t)</m> denote the angular speed of the tire. 
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Which speed in this problem (of what, relative to what?) is related to 
+                        <m>\omega</m> by relationship (1), and which by relationship (2)?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Note that of these two relationships, one holds throughout the scene described, and 
+                        the other only for a portion of the time! Comment which is which.
+                    </p>
+                </statement>
+            </task>
+        </task>
+    </exercise>
+  </page>
+</worksheet>

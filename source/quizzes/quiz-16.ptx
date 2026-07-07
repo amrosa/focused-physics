@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>Reading Quiz 16: The New Effects of Special Relativity</title>
+  <introduction>
+    <p>
+      <alert>Contents:</alert> Reading covers sections 3.1 through 3.6. Do not skip the conversation between
+      the thnking student and the bird on page 64.
+    </p>
+    <p>
+      <alert>Instructions:</alert> Answer all the questions to the best of your ability and upload your work to the 
+      <q>Quiz 16</q> assignment in Canvas.
+    </p>
+  </introduction>
+
+  <page>
+    <exercise>
+      <statement>
+        <p>
+          	In a given frame, a clock reads noon when a ball hits it. Do observers in all other frames agree that 
+            the clock reads noon when the ball hits it?
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          	In n pre-relativity physics, forces and accelerations are absolute, unlike the statement on page 59 of the 
+            textbook. What changes in relativity that makes accelerations no longer absolute? 
+            [Think about this for ~5 min and give your best answer]
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          	Using the postulates of special relativity, explain carefully and precisely why the observer on the 
+            ground can say that the events mentioned on page 62 of the textbook are simultaneous.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          	Describe how the concept of simultaneity enters into the measurement of the length of a rod.
+        </p>
+      </statement>
+    </exercise>
+
+  </page>
+</worksheet>

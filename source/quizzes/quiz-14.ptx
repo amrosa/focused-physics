@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>Reading Quiz 14: Angular Momentum, Torque, and Moment of Inertia</title>
+  <introduction>
+    <p>
+      <alert>Contents:</alert> This quiz covers sections 7.3 through 7.5. 
+    </p>
+    <p>
+      <alert>Instructions:</alert> Answer all the questions to the best of your ability and upload your work to the 
+      <q>Quiz 14</q> assignment in Canvas.
+    </p>
+  </introduction>
+
+  <page>
+    <exercise>
+      <statement>
+        <sidebyside widths = "70% 20%">
+          <p>
+          		K&amp;K calculate just the Z component of <m>\vec{L}</m> to get around the fact that,
+              in general, <m>\vec{L}</m> is not parallel to <m>\vec{\omega}</m>. Show, however, that if a
+              rigid body is symmetrical about the rotation axis, like the one in the figure, then, <m>\vec{L}</m> 
+              is parallel to <m>\vec{\omega}</m>. The picture has a hint here: the <q>problematic components</q>
+              should cancel in pairs.
+          </p>
+
+          <image source="images/quiz-images/quiz14/symmetric-top.png">
+            <shortdescription>Update Description</shortdescription>
+          </image>
+        </sidebyside>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          	If you have a ring and a disk of the same mass and radius rotating about their center, example 7.1ab) 
+            shows that <m>I_{\text{ring}} \gt I_{\text{disk}}</m>. How do you explain this intuitively?
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          	Show that you can obtain the result of example 7.3d) by applying the parallel axis theorem instead of 
+            direct integration, starting from the result of 7.3c)
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          	In example 5.12, what does the book mean when it says that the boundary conditions are 
+            <q>built in</q> to the energy solution? 
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Rank the moment of inertia of the structure in the figure below about 
+          the different axes of rotation shown.
+        </p>
+
+        <image source="images/quiz-images/quiz14/moment-of-inertia.png" width="50%">
+          <shortdescription></shortdescription>
+        </image>
+      </statement>
+    </exercise>
+  </page>
+
+  <page>
+    <exercise>
+      <statement>
+        <p>
+          You are using a wrench to loosen a nut. Rank the arrangements used in the figure below from
+          least to most effective
+        </p>
+
+        <image source="images/quiz-images/quiz14/wrench-conceptest.png" width="50%">
+          <shortdescription></shortdescription>
+        </image>
+      </statement>
+    </exercise>
+
+  </page>
+</worksheet>

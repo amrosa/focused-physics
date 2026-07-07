@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>Reading Quiz 03: Newton's laws</title>
+  <introduction>
+    <p>
+      <alert>Contents:</alert> This quiz covers section 2.9
+    </p>
+    <p>
+      <alert>Instructions:</alert> Answer all the questions to the best of your ability and upload your work to the "Quiz 3" assignment in Canvas.
+    </p>
+  </introduction>
+
+  <page>
+    <exercise>
+      <statement>
+        <p>
+         		 Look at the free-body diagrams on page 66 of the text. Why is the force <m>F_2</m> labeled like that
+                 and not as <m>W_a</m>? Can you think of a situation where <m>F_2</m> and <m>W_a</m> 
+                 have different magnitudes? Describe briefly.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          	 On example 2.5.1, the book used the coordinate system shown on the left to describe the position of the
+             block and wedge. Why not use the coordinate system on the right, which incorporates the 
+             <q>constraint that the block slides on the wedge</q> more naturally?
+        </p>
+
+        <sidebyside widths="40% 40%">
+            <image source="images/quiz-images/quiz3/wedge-conventional.png">
+                <shortdescription>Update Description</shortdescription>
+            </image>
+
+            <image source="images/quiz-images/quiz3/wedge-tilted.png">
+                <shortdescription>Update Description</shortdescription>
+            </image>
+        </sidebyside>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          	Draw the forces acting on the combined pulley-and-block system on example 2.5.2
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>
+                A table rests on the floor. A <alert>tightly stretched spring</alert> is connected between the 
+                table and the floor, as shown below. Draw the force diagram for the table.
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>
+                Consider a car at rest. Which of Newton's laws lets us conclude that the downward 
+                gravitational pull of the Earth on the car and the upward contact force of the ground on the car 
+                are equal and opposite?
+            </p>
+        </statement>
+    </exercise>
+  </page>
+</worksheet>

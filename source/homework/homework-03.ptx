@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>Homework 03</title>
+
+ <objectives>
+    <introduction>
+        <p>
+            The purpose of the homework is to:
+        </p>
+    </introduction>
+   <ul>
+        <li>
+            <p>
+             Practice applying the concepts and techniques discussed this week
+            </p>
+        </li>
+
+        <li>
+            <p>
+             Reveal gaps in your understanding so you know what to study
+            </p>
+        </li>
+
+        <li>
+            <p>
+                Enable a productive re-read of the textbook chapter/engagement with
+                other course resources.
+            </p>
+        </li>
+    </ul>
+    <conclusion>
+        <p>
+          The homework is both a valuable learning opportunity and a gauge of how
+          well you're doing. Did you solve all the problems by yourself with no help? Incredible!
+          If that didn't happen, that's OK: we're not expected to get everything right the first time.
+          What you need to do is look carefully at what you needed help with, and then make a study plan,
+          which will likely include solving more problems, to fill in the gaps in your understanding.
+        </p>
+    </conclusion>
+  </objectives>
+
+  <introduction>
+    <p>
+      <alert>Instructions:</alert> Complete all the exercises below and submit your work by the due date.
+    </p>
+  </introduction>
+
+  <page>
+    <exercise>
+      <title>K&amp;K Problems</title>
+      <statement>
+        <p>
+          <ul>
+            <li>
+              <p>
+                2.1 parts a) and b)
+              </p>
+            </li>
+
+            <li>
+              <p>
+                2.3
+              </p>
+            </li>
+
+            <li>
+              <p>
+                2.5
+              </p>
+            </li>
+
+            <li>
+              <p>
+                2.7
+              </p>
+            </li>
+
+            <li>
+              <p>
+                2.8
+              </p>
+            </li>
+
+            <li>
+              <p>
+                2.10 + solve for the acceleration of <m>M_3</m> to sanity check
+                your work.
+              </p>
+            </li>
+
+            <li>
+              <p>
+                3.2
+              </p>
+            </li>
+
+            <li>
+              <p>
+                3.3
+              </p>
+            </li>
+
+            <li>
+              <p>
+                3.5
+              </p>
+            </li>
+
+            <li>
+              <p>
+                3.8
+              </p>
+            </li>
+
+            <li>
+              <p>
+                3.10
+              </p>
+            </li>
+          </ul>
+        </p>
+      </statement>
+    </exercise>
+  </page>
+</worksheet>

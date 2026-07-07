@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>Homework 10</title>
+
+  <objectives>
+    <introduction>
+        <p>
+            The purpose of the homework is to:
+        </p>
+    </introduction>
+   <ul>
+        <li>
+            <p>
+             Practice applying the concepts and techniques discussed this week
+            </p>
+        </li>
+
+        <li>
+            <p>
+             Reveal gaps in your understanding so you know what to study
+            </p>
+        </li>
+
+        <li>
+            <p>
+                Enable a productive re-read of the textbook chapter/engagement with
+                other course resources.
+            </p>
+        </li>
+    </ul>
+    <conclusion>
+        <p>
+          The homework is both a valuable learning opportunity and a gauge of how
+          well you're doing. Did you solve all the problems by yourself with no help? Incredible!
+          If that didn't happen, that's OK: we're not expected to get everything right the first time.
+          What you need to do is look carefully at what you needed help with, and then make a study plan,
+          which will likely include solving more problems, to fill in the gaps in your understanding.
+        </p>
+    </conclusion>
+  </objectives>
+  
+  <introduction>
+    <p>
+      <alert>Instructions:</alert> Complete all the exercises below and submit your work on Canvas by the due date.
+    </p>
+  </introduction>
+
+  <page>
+
+    <exercise>
+        <title>Conceptual Questions</title>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        The time dilation effect is described as <q>moving clocks run slow</q>. 
+                        Does this result have anything to do with the time it takes light to travel from the 
+                        clock to your eye?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        A clock on a moving train reads <m>T</m>. As seen from the ground, does the clock read 
+                        <m>\gamma T</m> or <m>T/\gamma</m>?
+                    </p>
+                </li>
+            </ol>
+        </p>
+        
+    </exercise>
+    <exercise>
+      <title>Spacetime Physics Problems</title>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        1-3
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        1-7 (feel free to use the invariant interval if you'd like or think about how to do this 
+                        using time dilation/length contraction)
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        1-9 Edited a little bit: given the travel distance <m>L</m>, first obtain expressions for 
+                        the rocket trip time <m>t_R</m> given the Earth trip time <m>t_E</m> and vice-versa. 
+                        Also obtain the speed of the rocket in both cases.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        3-7 No need for calculations if you can clearly explain which reasoning is correct
+                        and which is not.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        3-15
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        3-16 Note: It is ok to make estimates for this problem, don't try to be exact. 
+                        The map in the book gives distances in milliarcseconds, which is an angle. The conversion factor to light 
+                        years is the distance <m>L</m> between the quasar and Earth given in the text 
+                        (you can think about the <q>distance</q> in mas as the angle between the directions where different points 
+                        in the map are located, and then <m>L\theta</m> is a distance because <m>\theta</m> is very small)
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </exercise>
+
+    <exercise>
+        <title>Rocket Trave</title>
+        <p>
+            At noon a rocketship passes the earth with a velocity 0.8c. Observers on the ship and on Earth agree
+            that it is noon. Let this be our t=0. It will make your life easier to measure distances in units of 
+            minutes. For this problem, take the <q>Earth frame</q> to be at rest. This means you might say that
+            <q>rocket clocks are slow</q> or <q>rocket distances are shorter</q> or something similar. 
+        </p>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        At 12:30 P.M. as read by a rocketship clock, the ship passes an interplanetary navigational
+                        station that is fixed relative to the Earth and whose clocks read Earth time.
+                        What time is it at the station?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        How far from Earth (in Earth coordinates) is the station?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        At 12:30 P.M. rocketship time the ship reports by radio back to Earth. When 
+                        (by Earth time) does the Earth receive the signal?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        The station on Earth replies immediately. When (by rocket time) is the reply received?
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </exercise>
+  </page>
+
+  <page>
+    <exercise>
+        <title>Doing it again.</title>
+        <p>
+            Do problem 3 again, but this time take the rocket frame to be the one at rest.
+        </p>
+    </exercise>
+
+    <exercise>
+        <title>Seeing vs observing and measuring</title>
+        <p>
+            As discussed in the text, you measure the length of a rod by finding out where its two ends are at a 
+            fixed time. This requires reading some sort of report from our lattice of rods and clocks, 
+            and it is not what you see with your eyes. Let's try to figure out what a Lorentz-contracted rod might 
+            look like. Suppose a meter stick pointing in the x direction moves along the x axis with speed 0.8c 
+            (so its length is not 1m in our frame), with its midpoint passing through the origin at t = 0.  
+        </p>
+        <p>
+            An observer is situated very far along the x axis and a little bit below it 
+            (so the stick doesn’t hit them but we won’t worry about vertical displacements). 
+
+            <ol>
+                <li>
+                    <p>
+                        Where (in the observer’s frame) are the end points of the meter stick at t = 0?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        When does the observer see the midpoint pass through the origin ?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Where were the endpoints of the rod located when they emitted the light
+                        that reached the observer at the same time as you found in the previous part?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                     So if you were to take a picture of the stick with your eyes, 
+                     what would be the size of the stick?
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </exercise>
+    
+    <exercise>
+        <title>The Doppler Effect</title>
+        <p>
+        A radar transmitter T is fixed to a spaceship S' which is moving to the right with speed <m>v</m> 
+        relative to observers on Earth. A timer on the spaceship has a period <m>\tau_s</m> and it causes T 
+        to emit radar pulses, which travel at the speed of light. The pulses are received by R on Earth 
+        (See the figure below).
+        </p>
+
+        <image source="images/hwimg/hw10/doppler_sketch.png" width="80%">
+            <shortdescription>Add a description</shortdescription>
+        </image>
+
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        What would be the period <m>\tau_E</m> of the timer as seen by observers A and B on Earth, 
+                        spaced a distance <m>v\tau_E</m> apart? To be clear, this means that if A sees a pulse fire when 
+                        T passes A, then B would also see a pulse fire when T passes B.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Show that the receiver R would observe the time interval between pulses arriving from T not
+                        as <m>τ_S</m> or <m>τ_E</m> but rather <m>\tau^{'}=τ_{S} \sqrt{\dfrac{c+v}{c-v}} </m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Explain why the observer at R measures a different period for the transmitter than 
+                        observers A and B who are in the same reference frame. (Hint: Compare the events measured 
+                        by R to the events measured by A and B.)
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </exercise>
+  </page>
+</worksheet>

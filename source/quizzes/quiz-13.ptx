@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>Reading Quiz 13: Rotational Kinematics and Angular Momentum</title>
+  <introduction>
+    <p>
+      <alert>Contents:</alert> This quiz covers sections 1.4.2, 1.6 (components of cross products), section
+      8.2 (up to example 8.3), and sections 7.1 and 7.2. You should do the reading roughly in this order. 
+    </p>
+    <p>
+      <alert>Instructions:</alert> Answer all the questions to the best of your ability and upload your work to the 
+      <q>Quiz 13</q> assignment in Canvas.
+    </p>
+  </introduction>
+
+  <page>
+    <exercise>
+      <statement>
+        <p>
+          	Draw a picture showing the equivalence of the <q>corkscrew rule</q> to the following method to find
+            the direction of <m>\vec{A}\times\vec{B}</m>: put the index finger of your right hand in the direction 
+            of <m>\vec{A}</m>, then have your middle finger point in the direction of <m>\vec{B}</m>. The
+            cross-product <m>\vec{A}\times\vec{B}</m> then points in the direction of your thumb.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          	The definition of angular velocity in terms of derivatives of angles as shown in K&amp;K is nice but not 
+            really correct (you’ll fix this in 4011). For now, show that for all the examples in 8.2 you can find 
+            the direction of <m>\vec{\omega}</m> in the following way. Curl your right hand in the direction of 
+            rotation, and then <m>\vec{\omega}</m>points along your thumb. Its magnitude is given by the instantaneous
+            <m>\frac{d\theta}{dt}</m> about the axis of rotation (this part is a definition, don't show it).
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          			Check that for either choice of origin in example 7.2, the relationship 
+                <m>~{\vec{v}=\vec{\omega}\times\vec{r}}</m>. Use the rule from the above problem to find <m>\vec{\omega}</m>
+                Lesson: if a vector obeys <m>~{\frac{d\vec{A}}{dt}=\vec{\omega}\times\vec{A}}</m>, then that vector is
+                rotating with constant angular velocity about the axis determined by <m>\vec{\omega}</m>.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          		Verify, using the right hand rule (draw some pictures!) that the directions of 
+              <m>\vec{L}_B</m> in example 7.2 are correct.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          
+          	It may seem weird that <m>\vec{L}</m> in the previous example has a horizontal component but think 
+            about the following questions. 
+            
+          <ol>
+            <li>
+              <p>
+                If you didn't know the particle was in a conical pendulum, and all you had was a picture showing 
+                you <m>\vec{r},\vec{p}</m>, could you say whether the particle was rotating along the z axis or the x axis?
+              </p>
+            </li>
+            <li>
+              <p>
+                 In which sense, then, does the direction of <m>\vec{L}</m> <q>splits the difference</q> or, 
+                 rather, accounts for both possibilities?
+              </p>
+            </li>
+          </ol>
+
+            
+        </p>
+      </statement>
+    </exercise>
+  </page>
+</worksheet>

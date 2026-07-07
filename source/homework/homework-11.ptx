@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>Homework 11</title>
+
+  <objectives>
+    <introduction>
+        <p>
+            The purpose of the homework is to:
+        </p>
+    </introduction>
+   <ul>
+        <li>
+            <p>
+             Practice applying the concepts and techniques discussed this week
+            </p>
+        </li>
+
+        <li>
+            <p>
+             Reveal gaps in your understanding so you know what to study
+            </p>
+        </li>
+
+        <li>
+            <p>
+                Enable a productive re-read of the textbook chapter/engagement with
+                other course resources.
+            </p>
+        </li>
+    </ul>
+    <conclusion>
+        <p>
+          The homework is both a valuable learning opportunity and a gauge of how
+          well you're doing. Did you solve all the problems by yourself with no help? Incredible!
+          If that didn't happen, that's OK: we're not expected to get everything right the first time.
+          What you need to do is look carefully at what you needed help with, and then make a study plan,
+          which will likely include solving more problems, to fill in the gaps in your understanding.
+        </p>
+    </conclusion>
+  </objectives>
+  
+  <introduction>
+    <p>
+      <alert>Instructions:</alert> Complete all the exercises below and submit your work on Canvas by the due date.
+    </p>
+  </introduction>
+
+  <page>
+
+    <exercise>
+        <title>Conceptual Question</title>
+        <p>
+            No need to write 5 paragraph essays to answer each question but try to answer each question clearly and 
+            precisely. It's OK to criticize the language in some of these questions or what the question is 
+            saying in your answers <mdash/> that's part of the exercise.
+
+            <ol>
+                <li>
+                    <p>
+                        Given two events A and B (with timelike separation), explain the difference between the 
+                        coordinate time <m>\Delta t_{AB}</m>, the spacetime interval <m>\Delta s_{AB}</m>, 
+                        and the proper time <m>\Delta\tau_{AB}</m>. Can the coordinate time ever be equal to the 
+                        spacetime interval? Can the proper time ever be equal to the spacetime interval?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        A particular event has coordinates (x,t) in one frame. How do you use the Lorentz 
+                        transformations to find the coordinates (x<prime/>,t<prime/>) of the event in a different
+                        reference frame?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        When using the Lorentz transformations, how do we know which frame is the primed frame 
+                        (the <q>moving frame</q>) and which frame is the unprimed one (the one <q>at rest</q>)?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Two twins travel away from each other at relativistic speed. The time-dilation result says that each 
+                        twin sees the other twin's clock running slow. So each says the other has aged less. 
+                        How would you reply to someone who asks, <q>But which twin really is younger?</q> 
+                        (Note: this is not the twin paradox situation)
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </exercise>
+
+    <exercise>
+        <title>Spacetime Physics Problems</title>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        3-14
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        L-8 Note: to make the next problem easier, transform the adequate displacements to solve 
+                        for <m>\cos\phi</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        L-9 Solve it using velocity transformation
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        L-14 Note: the idea in part f) is very important. A lot of apparent paradoxes
+                        come from the fact that an ideal rigid body cannot exist in relativity
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        5-4 Make sure to explain how everything is consistent. For instance, show that
+                        in part c) the distance to the tennis balls reduces to what it should be.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        6-3 Additional instructions: for part a), show that you can pick a range of speeds 
+                        (smaller than c) that reverses the order of events 
+                        (i.e if P is before Q in the home frame, Q is before P in some rocket frames). 
+                        For parts b) and c), show that this does not happen: if P is before Q in the home frame, 
+                        it will be before Q in every rocket frame.
+                    </p>
+                </li>
+            </ul>
+        </p>
+        
+    </exercise>
+  </page>
+  
+  <page>
+    <exercise>
+        <title>Two-observer spacetime diagram</title>
+        <p>
+            Your boss is on the Earth-Pluto shuttle, which travels at a constant velocity of 0.60 straight from Earth to 
+            Pluto, a distance of 5.0 h in an inertial frame attached to the sun. An hour into the flight 
+            (according to your boss's watch) your boss sends a laser message to you on earth, asking you to send a 
+            wake-up call appropriately timed so that your boss can catch a 1-h nap 
+            (as measured on your boss's watch). You immediately reply with the wake-up call 
+            and an apology that the call is late, claiming in your defense that the laws of physics prevented a 
+            timely response. Draw a two-observer spacetime diagram to answer the following questions:
+
+            <ol>
+                <li>
+                    <p>
+                    Why was your boss's request impossible?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        How long did your boss sleep (according to your boss's watch) before your message was 
+                        received at the shuttle? 
+                    </p>
+                </li>
+            </ol>
+        </p>
+        
+    </exercise>
+
+    <exercise>
+        <title>Explicit Solution to the twin paradox</title>
+        <p>
+            The following problem is based on an explicit numerical example of the twin paradox due to 
+            Sir Charles Darwin (grandson of the biologist). On New Year's Day, 3000, an astronaut (A) sets out from 
+            Earth at speed 0.8c and travels to the nearest star, <m>\alpha</m>-Centauri, which is just about 
+            4 light-years away as measured in the Earth frame of reference. 
+            Having reached the star she immediately turns around and returns to Earth at the same speed, 
+            arriving home on New Year's Day, 3010, by Earth time. 
+            The astronaut has a brother (B) who remains on earth, and they agree to send one another 
+            greetings by radar-telephone on every New Year's Day until the traveler gets back.
+
+            <ol>
+                <li>
+                    <p>
+                         Show, briefly, that A sends only 6 messages
+                         (including the one made on the last day of her trip), whereas B sends 10.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Draw a space-time diagram of A's journey as plotted in the Earth reference frame. 
+                        Draw also the world lines of all the radar signals that B transmits. 
+                        Verify with the help of the diagram that A (the astronaut) has received only 1 signal up to 
+                        the moment of her turnaround and receives the other 9 during the return half of the trip.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Draw another space-time diagram, again in the Earth reference frame, showing the world lines of
+                        the astronaut and of all the signals that she sends. Verify that her brother receives one 
+                        message each 3 years of Earth time for the first 9 years after the departure, and then receives 
+                        3 more messages during the last year, making a total of 6—which is just right,
+                        since for the astronaut the trip has taken 3 years each way.
+                    </p>
+                </li>
+            </ol>
+        </p>
+        
+    </exercise>
+  </page>
+</worksheet>

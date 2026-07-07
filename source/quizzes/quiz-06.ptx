@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>Reading Quiz 06: Impulse and Momentum</title>
+  <introduction>
+    <p>
+      <alert>Contents:</alert> This quiz covers sections 4.5 and 4.6
+    </p>
+    <p>
+      <alert>Instructions:</alert> Answer all the questions to the best of your ability and upload your work to the 
+      <q>Quiz 6</q> assignment in Canvas.
+    </p>
+  </introduction>
+
+  <page>
+    <exercise>
+      <statement>
+        <p>
+            Is there a physical reason to define the muzzle <q>velocity</q> <m>v_0</m> in example 4.8 as a 
+            relative speed? If not, then why not just give the speed of the ball relative to the ground?
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Look at the paragraph at example 4.9 that says <q>Conservation of momentum is accurate here (<ellipsis/>)</q>.
+          This is still true when we include gravity. How does the result of example 4.10 help you justify that?
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          	Go back to example 4.8: what can you say about the momentum <m>P_y</m> in this example? 
+            Try to give your answer as the impulse of a specific force
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>
+                If we added friction between the launcher and the ground, would we still be able to use conservation of 
+                <m>P_x</m> to find the velocity of the launcher right after the collision? Why or why not?
+            </p>
+        </statement>
+    </exercise>
+
+  </page>
+</worksheet>

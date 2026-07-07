@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>Post-Exam Self-Reflection</title>
+
+  <page>
+    <exercise>
+      <p>
+        How much time did you spend preparing for the exam?
+      </p>
+    </exercise>
+
+    <exercise>
+      <p>
+        How did you distribute your workload (in %) between working by yourself and
+        working with others?
+      </p>
+    </exercise>
+
+    <exercise>
+      <p>
+        How did you distribute your workload (in %) between reading class notes,
+        reworking old homework problems, trying new problems, and reading the book?
+        You may add any other strategies you used here.
+      </p>
+    </exercise>
+
+    <exercise>
+      <p>
+        What was difficult about the exam? Be specific: did you have trouble identifying 
+        concepts, translating physics into math, doing algebra, or what?
+      </p>
+    </exercise>
+
+    <exercise>
+        <p>
+            (Optional, but I recommend it) Annotate your exam and correct your mistakes. Upload
+            a corrected version of your test.
+        </p>
+    </exercise>
+
+    <exercise>
+      <p>
+        Identify one specific, actionable decision you could take this week to
+        improve for your next exam.
+
+        An <q>actionable</q> decision means it should be specific enough to be
+        clear if you are succeeding at following it.
+        <q>Study better</q> or <q>Be more careful about X</q> is vague.
+        <q>Find 4 problems online with a nontrivial-looking constraint and practice writing it mathematically</q>
+        <mdash/> this is actionable.
+      </p>
+    </exercise>
+
+    <exercise>
+      <p>
+        Is there anything you want additional feedback on?
+      </p>
+    </exercise>
+
+    <exercise>
+      <p>
+        Is there anything you'd like to share with me about the course, or about
+        how you're doing?
+      </p>
+    </exercise>
+  </page>
+</worksheet>

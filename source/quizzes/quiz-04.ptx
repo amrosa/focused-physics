@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>Reading Quiz 04: Newton's laws</title>
+  <introduction>
+    <p>
+      <alert>Contents:</alert> This quiz covers sections 3.1 through 3.5
+    </p>
+    <p>
+      <alert>Instructions:</alert> Answer all the questions to the best of your ability and upload your work to the 
+      <q>Quiz 4</q> assignment in Canvas.
+    </p>
+  </introduction>
+
+  <page>
+    <exercise>
+      <statement>
+        <p>
+            The ISS is at an altitude (distance from the surface of the Earth) of about 400km. Calculate the ratio of
+            the force of gravity felt by an astronaut at the ISS to the force of gravity they feel on Earth's surface.
+            Given the result, can you explain why astronauts float in the space station?
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          	 Expand on the result of example 3.2. While still taking the rope to be massive (but totally horizontal),
+             find the tension at both ends of the rope and at the rope's center.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          		Physically, why should the tension <m>T(x)</m> from example 3.3 approach 0 as <m>~{x\to 0}</m>?
+                Your answer doesn't have to be a long paragraph, but make sure you are saying more than
+                 <q>because it has to be</q>.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>
+                Consider the statement that <q>friction opposes motion</q>. Come up with an example where the friction
+                force on an object is in the direction of motion, <q>propelling</q> the object forward. What motion 
+                would you say that friction is really opposing, then? Check page 92 for help. 
+            </p>
+        </statement>
+    </exercise>
+
+  </page>
+</worksheet>

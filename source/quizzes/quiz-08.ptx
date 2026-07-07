@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>Reading Quiz 08: Integrating Equations of Motion in 1D</title>
+  <introduction>
+    <p>
+      <alert>Contents:</alert> This quiz covers sections 5.1 through 5.3.1
+    </p>
+    <p>
+      <alert>Instructions:</alert> Answer all the questions to the best of your ability and upload your work to the 
+      <q>Quiz 8</q> assignment in Canvas.
+    </p>
+  </introduction>
+
+  <page>
+    <exercise>
+      <statement>
+        <p>
+             You might be worried about the mathematical argument in 5.2 being unsound, so let's show it in
+             a different way. Start with the quantity <m>K=\frac{1}{2} m\dot{x}^2</m> and show that 
+             <m>\frac{dK}{dt}=F\dot{x} </m>. Show how this implies that
+             <m>\Delta K=\int F(x)dx</m> (you'll need the chain rule). 
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>
+                A force of constant magnitude <m>F</m> acts on a particle of mass <m>m</m> that can only move
+                in one dimension. Determine the sign of the work done by the force on the particle for the situations
+                listed below. Your answer can just be <q>positive</q> or <q>negative</q> for each question.
+
+                <ol>
+                    <li>
+                        <p>
+                            The force points to the right and the particle moves to the right.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The force points to the right and the particle moves to the left.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The force points to the left and the particle moves to the right.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The force points to the left and the particle moves to the left.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          	Example 5.1 solves for the max height. Instead of doing that, solve for the speed of the particle 
+            <m>v</m> as a function of <m>z</m>. If we want to know the particle's velocity, what do we have to take 
+            into account? Why are there two acceptable solutions for the velocity?
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          	Use your answer from the previous question to explain why technically the expression for 
+            <m>\frac{dx}{dt}</m> in example 5.2 is not quite correct, but nevertheless the solution 
+            <m>x(t)=x_0 \cos⁡(\omega t)</m> doesn't suffer from the same issue.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>
+                 Take the expression for the escape velocity from example 5.3 and find its value in terms of the 
+                 mass <m>M</m> and radius <m>R</m> of a spherical body, then find the value of the radius 
+                 <m>R_s</m>, given a mass, for the escape velocity to be the speed of light. This is called the 
+                 Schwarzschild radius: the size an object of mass <m>M</m> would have to be to become a black hole.
+                 Calculate this value for the Earth.
+            </p>
+        </statement>
+    </exercise>
+
+  </page>
+</worksheet>

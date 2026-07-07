@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>Reading Quiz 11: Complex Numbers and Damped Oscillations</title>
+  <introduction>
+    <p>
+      <alert>Contents:</alert> This quiz covers sections 11.1, 11.2, and the complex numbers notes (or note 11.1
+      if you have seen complex numbers already) 
+    </p>
+    <p>
+      <alert>Instructions:</alert> Answer all the questions to the best of your ability and upload your work to the 
+      <q>Quiz 11</q> assignment in Canvas.
+    </p>
+  </introduction>
+
+  <page>
+    <exercise>
+      <statement>
+        <p>
+          	Equations 11.2 and 11.3 are equivalent, and example 1 makes it seem like it's pretty easy to find the 
+            angle <m>\varphi</m>. Let's go through the following exercise:
+            <ol>
+                <li>
+                    <p>
+                       Take any values for <m>x_0,v_0,\omega</m> such that <m>x_0\lt 0,v_0\gt 0</m>
+                        (write them in your answer). Find the angle <m>\varphi</m> using your calculator. 
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Use your value of <m>\varphi</m> to find the amplitude, and then recalculate
+                        <m>x_0,v_0</m>. One of them should have the wrong sign.     
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Can you explain why the angle given by your calculator is wrong? Hint: look at the
+                        graph of <m>\cos(x)</m> for <m>0\lt x \lt 2\pi</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Given what you found above, can you see a reason why it might be preferrable to use
+                        equation 11.3 instead of equation 11.2 to describe harmonic motion?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        That said, if I'm going to give you the equation for <m>x(t)</m> in a problem directly
+                        instead of having you find the constants, which form would you prefer?
+                    </p>
+                </li>
+            </ol>  
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Consider the complex numbers <m>z=1+i,w=3i,u=2\sqrt{3}-2i</m>.
+          
+          <ol>
+            <li>
+                <p>
+                    Draw these numbers as points in the plane, and find their magnitude and argument.
+                    Use the range <m>-\pi \lt \theta \lt \pi</m> for the arguments.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Calculate <m>z+u,u-w,zw,z/u</m>
+                </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+    </exercise>
+
+
+  </page>
+</worksheet>

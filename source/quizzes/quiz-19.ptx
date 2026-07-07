@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>Reading Quiz 19: 4-Momentum</title>
+  <introduction>
+    <p>
+      <alert>Contents:</alert> Reading covers sections 8.1 through 8.5. 
+    </p>
+    <p>
+      <alert>Instructions:</alert> Answer all the questions to the best of your ability and upload your work to the 
+      <q>Quiz 19</q> assignment in Canvas.
+    </p>
+  </introduction>
+
+  <page>
+    <exercise>
+      <statement>
+        <p>
+          		Conceptually, how is the relativistic energy <m>E=\gamma m</m> different from the pre-relativity 
+                kinetic energy <m>K=1/2 mv^2</m>? Use the discussion of page 223 as a guide 
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          	Briefly explain why the total energy and total momentum for the system of page 224 behaves as a 
+            single object with 20 units of mass.
+        </p>
+
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          		In Chapter 7, we defined the 4-momentum to be 
+                <m>\underset{\sim}{p} = m\frac{\text{spacetime displacement}}{\text{proper time}}</m>
+                (the undertilde is a notation for 4-D vectors, like the arrow over 3-D vectors).
+                Photons are massless particles, so the <q><m>m</m></q> in the definition of the 4-momentum is a 
+                problem. Is there another issue in trying to define the 4-momentum as we did in Chapter 7? 
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          		Figure 8-6 shows the solution to a collision of a photon of energy <m>2m_e</m> that backscatters 
+                off a free electron. Write the conservation of momentum and conservation of energy equations for 
+                this collision, keeping the final energy of the photon and the electron as unknowns. 
+                There is no need to solve the equations.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>
+                How fast is the <q>polyelectron</q> moving in the example from page 234?
+            </p>
+        </statement>
+    </exercise>
+
+  </page>
+</worksheet>

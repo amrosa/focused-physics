@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>Reading Quiz 05: Center of Mass</title>
+  <introduction>
+    <p>
+      <alert>Contents:</alert> This quiz covers sections 4.1 through 4.3
+    </p>
+    <p>
+      <alert>Instructions:</alert> Answer all the questions to the best of your ability and upload your work to the "Quiz 5" assignment in Canvas.
+    </p>
+  </introduction>
+
+  <page>
+    <exercise>
+      <statement>
+        <p>
+            Make a drawing of three particles interacting via any internal forces you want, as well as some external
+            forces. Draw the FBD for the three particles and label the forces that cancel when you follow the procedure
+            leading to Equation 4.1 in the text.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          	 Look for a stroboscopic picture online (attach it to your work) that shows the parabolic motion of the 
+             center of mass under the action of gravity while an object is flying through the air. Do you see any
+             features of the motion of the object that are not captured by the motion of the center of mass?
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          		Example 4.2 <q>leaves it as a problem</q> for you to show something. Prove that statement here.
+                You can do this using vectors in full generality, or being clever with your choice of coordinate system.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>
+                In example 4.3, the total mass of the stick is <m>\frac{\lambda_0 L}{2}</m>. What fraction of the
+                total mass is to the left of the center of mass? Does this point to a danger in the term 
+                <q>center of mass</q>? 
+            </p>
+        </statement>
+    </exercise>
+
+  </page>
+</worksheet>

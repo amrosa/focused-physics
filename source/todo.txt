@@ -1,0 +1,18 @@
+Things to do:
+
+Update homework to reflect the schedule
+
+Add all the reading guides
+
+Edit the syllabus
+
+Update image descriptions and make sure they are all long descriptions (hw, quizzes, challenges)
+
+Check that images and page sizes make sense on the web version
+
+Time permitting:
+change \frac to \dfrac
+fix <q> tags
+Create solutions (might not do that one)
+
+

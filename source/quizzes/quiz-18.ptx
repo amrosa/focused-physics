@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>Reading Quiz 18: Introduction to 4-momentum</title>
+  <introduction>
+    <p>
+      <alert>Contents:</alert> Reading covers sections 7.1 through 7.5. 
+    </p>
+    <p>
+      <alert>Instructions:</alert> Answer all the questions to the best of your ability and upload your work to the 
+      <q>Quiz 18</q> assignment in Canvas.
+    </p>
+  </introduction>
+
+  <page>
+    <exercise>
+      <statement>
+        <p>
+          	Let's use the procedure at the very end of page 191 to find the Newtonian momentum of a particle, 
+            using the diagram to the right. Explain in which sense two observers at rest with respect to one 
+            another agree that the momentum they obtain using the events A and B and their time interval 
+            <m>\Delta t</m> is <q>the same vector</q>, even though they clearly measure different components 
+            for it.                
+        </p>
+
+        <image width="50%">
+            <shortdescription>something to say here</shortdescription>
+            <latex-image>
+                \begin{tikzpicture}
+                     \draw[very thick,->,>=stealth] (0,0)--(0,3) node[above] {$y$};
+                     \draw[very thick,->,>=stealth] (0,0)--(3,0) node[right] {$x$};
+
+                     \draw[very thick,->,>=stealth] (0,0)--(20:3) node[above] {$x'$};
+                     \draw[very thick,->,>=stealth] (0,0)--(110:3) node[right] {$y'$};
+                     \draw[fill=black] (0,0) circle (0.05) node[below] {$A$};
+
+                     \draw[fill=black] (50:3) circle (0.05) node[above] {$B$};
+                     \draw[color={rgb,255:red,221; green,34; blue,119},->,>=stealth,ultra thick] (0,0)--(50:3) node[midway,left] {$\Delta \vec{x}$};
+
+                     \draw[dashed,thick] (50:3)--++(-1.92836,0);
+                     \draw[dashed,thick] (50:3)--++(0,-2.298133);
+
+                     \draw[dotted,thick] (50:3)--++(200:2.5980762);
+                     \draw[dotted,thick] (50:3)--++(290:1.5);
+                \end{tikzpicture}
+            </latex-image>
+        </image>
+
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          	Let's say we insist on using <m>\vec{p}=m\vec{v}</m> but recognize that momentum should be part of some 
+            4-D object. We will therefore use the definition (7-1) to define a 4-D momentum but use the coordinate 
+            time instead of the proper time. Calculate the magnitude of this 4-D vector described in section 4.3 
+            and show that different observers measure different lengths for this arrow. Using your discussion of 
+            question 1, does this seem like an appropriate definition of momentum?
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          		The picture below shows an elastic collision which conserves the Newtonian momentum
+                <m>m\vec{v}</m>
+        </p>
+
+        <image source="images/quiz-images/quiz18/before-after.png" width="70%">
+            <shortdescription></shortdescription>
+        </image>
+        <ol>
+            <li>
+                <p>
+                    Use the velocity addition formula to draw this before-and-after picture in the reference frame
+                    where the particle of mass <m>2m</m> blob is at rest <alert>after the collision</alert>. 
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    Use your new before-and-after picture to show that the Newtonian momentum is not conserved
+                    in the new reference frame. This is a general fact: if the Newtonian momentum remains constant
+                    in one reference frame, it will <alert>not remain constant in every frame.</alert> Thus, 
+                    conservation of momentum using the old definition cannot be a law of physics.
+                </p>
+            </li>
+        </ol>
+      </statement>
+    </exercise>
+
+  </page>
+</worksheet>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>Reading Quiz 10: Work and Energy in 3D</title>
+  <introduction>
+    <p>
+      <alert>Contents:</alert> This quiz covers sections 5.3.2 through 5.4. 
+    </p>
+    <p>
+      <alert>Instructions:</alert> Answer all the questions to the best of your ability and upload your work to the 
+      <q>Quiz 1</q> assignment in Canvas.
+    </p>
+  </introduction>
+
+  <page>
+    <exercise>
+      <statement>
+        <p>
+          	Equation 5.15 comes from integrating the net force <m>\vec{F}_{\text{net}}</m> over the displacement of 
+            the <alert>center of mass</alert>, <m>d\vec{R}</m>. Is this the same thing as the total work done on 
+            each of the particles in the system, added up? Can you think of situations where they might be different?
+            What about situations where they are the same? Your examples should involve more than 1 particle.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          	On page 5, the book shows the projection of <m>\vec{B}</m> on <m>\vec{A}</m>. Draw a sketch of the projection of <m>\vec{A}</m> on <m>\vec{B}</m> 
+            and use that to establish the equations for <m>\vec{A} \cdot \vec{B}</m> in terms of projections.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          		In example 5.4 of the conical pendulum, even though the pendulum is swinging, its energy remains 
+              constant. What is the role of the forces here? What about the pendulum are they changing?
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          	In example 5.12, what does the book mean when it says that the boundary conditions are 
+            <q>built in</q> to the energy solution? 
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          <ol>
+            <li>
+              <p>
+                Look at problem 5.4 in the homework. What is a choice of system for which the mechanical energy 
+                K+U is constant? Make sure to explain why it is constant.    
+              </p>
+            </li>
+
+            <li>
+              <p>
+                Is there a (potentially different) system that has a constant horizontal momentum <m>P_x</m>? 
+                For this same system, what can you say about the vertical momentum <m>P_y</m>?  
+              </p>
+            </li>
+
+            <li>
+              <p>
+                Reflection on the above: If you try to use the same system from part (a) to answer part (b), 
+                do any difficulties arise? Lesson: we are allowed to use different systems to discuss the same problem, but
+                we must be extremely clear about which system we are applying our physical principles to.
+              </p>
+            </li>
+          </ol>
+          	
+        </p>
+      </statement>
+    </exercise>
+  </page>
+</worksheet>

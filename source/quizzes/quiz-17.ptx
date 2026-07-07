@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>Reading Quiz 17: Spacetime Diagrams</title>
+  <introduction>
+    <p>
+      <alert>Contents:</alert> Reading covers sections 5.1 through 5.7. 
+    </p>
+    <p>
+      <alert>Instructions:</alert> Answer all the questions to the best of your ability and upload your work to the 
+      <q>Quiz 17</q> assignment in Canvas.
+    </p>
+  </introduction>
+
+  <page>
+    <exercise>
+      <statement>
+        <p>
+          		Draw the worldline of a particle moving at constant speed on a spacetime diagram. Use your drawing to show 
+                that the slope of the worldline is <m>c/v</m> or, if you're using SR units, <m>1/v</m>. Note: I will
+                use SR units exclusively this week. 
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          	Describe the motion of the objects that follow the worldlines below (image credit: Prof. 
+            Dan V. Schroeder). Note that he labels the axes as x and t, which is the usual practice, but we're assuming
+            that either x is measured in seconds or t in meters. Be quantitative: if you can determine a 
+            particle speed using the grid lines, do it.
+        </p>
+
+        <image source="images/quiz-images/quiz17/SpacetimeDiagramWithFiveWorldlines.svg" width="80%">
+            <shortdescription>Convert these pdf images to a different format man</shortdescription>
+        </image>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          	Explain the following statement about spacetime diagrams: “The time axis of a spacetime diagram is the 
+            worldline of an observer present at the origin event and at rest”.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          		The picture below (also from Prof. Schroeder) shows a geometric method of determining an observer's 
+                space axis, that is, the set of events that are simultaneous to a particular origin event <m>O</m>.
+                Event <m>O</m> is taken to be half-way in time between <m>F</m> and <m>S</m>, and then the line 
+                <m>OB</m> gives you the space axis. Draw events <m>F,O,S,B</m> using the <m>x</m> and <m>t</m> 
+                axes of an observer moving to the left relative to the t<prime/>x<prime/> observer (so the 
+                t<prime/>x<prime/> observer is moving to the right in the x-t diagram). Use this to qualitatively 
+                draw the t<prime/> and x<prime/> axes in the x-t diagram.
+        </p>
+
+        <image source="images\quiz-images\quiz17\BouncingLightPulse1.svg" width="50%">
+            <shortdescription></shortdescription>
+        </image>
+      </statement>
+    </exercise>
+
+  </page>
+</worksheet>
