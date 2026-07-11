@@ -1,0 +1,108 @@
+<section xml:id="notes-week-13">
+    <title>Weeks 13 and 14</title>
+    <introduction>
+        <p>
+            <alert>Reading covers chapters 5, 6, and 7</alert>
+        </p>
+        <p>
+            <alert>Reading Quiz 17 covers 5.1 through 5.7</alert>
+        </p>
+        <p>
+            <alert>Reading Quiz 18 covers 7.1 through 7.5</alert>
+        </p>
+    </introduction>
+    <subsection xml:id="subsec-chap5">
+        <title>Spacetime Physics Chapter 5</title>
+
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        Chapter 5 introduces <term>spacetime diagrams</term>, a visualization
+                        tool for understanding how events are related in special relativity.
+                        This chapter doesn't use the Lorentz transformations, so it focuses
+                        on understanding things using the interval <m>x^2-t^2</m>. The idea
+                        is that different reference frames with a common origin will see
+                        the same event at different points of the invariant hyperbolae.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        In class, we'll discuss how to set up x-t and x<prime/>-t<prime/> 
+                        axes corresponding to different inertial frames in the same graph,
+                        which will make the geometric picture a bit richer. Sections 5.2
+                        through 5.4 walk you through visualizing events with a spacetime diagram.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Sections 5.5 through 5.8 use spacetime diagrams to introduce a geometric
+                        analogy for the <term>wristwatch time</term> defined in chapter 1 as the
+                        equivalent to the arclength of a curve. With this understanding in hand,
+                        we can begin to understand the <q>twin paradox</q>, one of the most famous
+                        experiments in special relativity. And I do mean experiment: we haven't been
+                        able to send twins to deep space on a starship, but flying atomic clocks
+                        around Earth verified this effect remarkably well.
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </subsection>
+     <subsection xml:id="subsec-chap6">
+        <title>Spacetime Physics Chapter 6</title>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        Chapter 6 is a brief chapter on causality. It discusses the
+                        three types of intervals between pairs of events: timelike,
+                        spacelike, and lightlike. Timelike separated events are the
+                        ones that can influence each other, so the <term>light cone</term>
+                        is the new structure that defines <q>past</q> and <q>future</q>
+                        in special relativity.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Unlike in newtonian physics, where any event can influence any
+                        other event, spacelike separated events are a sort of <q>elsewhere</q>,
+                        only becoming accessible to an observer once the light-cone of that event
+                        crosses our own.
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </subsection>
+    <subsection xml:id="subsec-chap7">
+        <title>Spacetime Physics Chapter 7</title>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        This chapter introduces concept of <term>4-momentum</term> (note:
+                        no one call it <q>momenergy</q>). It gets us started on the road
+                        to <m>E=mc^2</m>, and the unification of momentum and energy
+                        is a very beautiful consequence of special relativity.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Section 7.2 is a beautiful geometric argument of what the
+                        equivalent of momentum should be in relativity. The geometric
+                        picture is new, so we will spend some time in class discussing
+                        thought experiments that give further support to this definition.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        The rest of the chapter then provides interpretations for the components
+                        of the 4-momentum vector, as well as that of the magnitude
+                        <m>E^2-p^2</m> or, in conventional units, <m>E^2-p^2c^2</m>. Note that just
+                        like the interval, the <q>magnitude</q> squared of a 4 vector in relativity 
+                        has a minus sign in its definition.
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </subsection>
+</section>

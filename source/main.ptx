@@ -18,6 +18,11 @@
 
       <!-- Course syllabus -->
       <xi:include href="./syllabus/syllabus.ptx" />
+      <xi:include href="./syllabus/course_schedule.ptx"/>
+      <xi:include href="./syllabus/advice.ptx"/>
+      <xi:include href="./syllabus/expectations.ptx"/>
+      <xi:include href="./syllabus/grading_chart.ptx"/>
+      <xi:include href="./syllabus/skills.ptx"/>
       <!-- Other documents could go here, like a schedule, project description, etc. -->
     </chapter>
 
@@ -26,6 +31,18 @@
 
       <xi:include href="./notes/week01.ptx"/>
       <xi:include href="./notes/week02.ptx"/>
+      <xi:include href="./notes/week03.ptx"/>
+      <xi:include href="./notes/week04.ptx"/>
+      <xi:include href="./notes/week05.ptx"/>
+      <xi:include href="./notes/week06.ptx"/>
+      <xi:include href="./notes/week07.ptx"/>
+      <xi:include href="./notes/week08.ptx"/>
+      <xi:include href="./notes/week09-10.ptx"/>
+      <xi:include href="./notes/week11.ptx"/>
+      <xi:include href="./notes/week12.ptx"/>
+      <xi:include href="./notes/week13-14.ptx"/>
+      <xi:include href="./notes/week15.ptx"/>
+
       <!-- etc. -->
 
     </chapter>
@@ -52,7 +69,7 @@
       <xi:include href="./handouts/reflection-no-midterm.ptx"/>
       <xi:include href="./handouts/post-exam-reflection.ptx"/>
 
-      <!--<xi:include href="./handouts/handout-filename.ptx"/>-->
+    <!-- <xi:include href="./handouts/handout-filename.ptx"/> -->
     </chapter>
 
     <chapter xml:id="homework">

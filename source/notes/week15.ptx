@@ -1,0 +1,71 @@
+<section xml:id="notes-week-15">
+    <title>Week 15</title>
+
+    <subsection xml:id="subsec-chap8">
+        <title>Spacetime Physics Chapter 8</title>
+
+        <p>
+            <alert>Reading Quiz 19 covers 8.1 through 8.5</alert>
+        </p>
+        <p>
+            <alert>Reading Quiz 20 covers 8.6 through 8.8</alert>
+        </p>
+
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        Chapter 8 is the relativity version of chapter 4
+                        of K&amp;K: we're choosing systems, drawing
+                        before and after pictures, and using conservation
+                        of 4-momentum. Our examples here will be photons,
+                        atomic nuclei, and other high energy particles
+                        instead of rockets. It's at that scale where
+                        using the relativistic notion of 4-momentum is
+                        crucial for the proper description of collisions.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Conceptually, sections 8.3 and 8.4 are the most important
+                        ones. Section 8.3 and the Dialog at the end of the chapter
+                        have very thorough discussions on the concepts of system
+                        mass, and what we mean when we say things like 
+                        <q>mass can be converted into energy</q>, which is a
+                        very subtle statement.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Section 8.4 then shows us that special relativity has
+                        no issue with the concept of a massless particle, but
+                        it does require some care to describe the 4-momentum
+                        of something like a photon. Sections 8.5 and 8.6
+                        show you how to apply conservation of 4-momentum
+                        to some exciting atomic processes.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Sections 8.7 and 8.8 are about nuclear physics. This is
+                        <em>the</em> application of <m>E=mc^2</m>, and one of the
+                        lessons here is that we can learn a good amount nuclei
+                        by measuring their masses. In particular, the 
+                        <q>mass per nucleon</q> of a nucleus is an important
+                        quantity that helps characterize its stability.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        One thing to note is that explaining <em>why</em> the
+                        masses of nuclei are what they are is not something
+                        the textbook is interested in, as that is firmly in
+                        the realm of quantum mechanics/field theory, and 
+                        modeling nuclei is still an active area of research.
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </subsection>
+ 
+</section>

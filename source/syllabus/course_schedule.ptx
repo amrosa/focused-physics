@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="advice" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Standalone Course Schedule</title>
+
+    <p>
+        <dl>
+            <li>
+                <title>Week 1 (08/24)</title>
+
+                <p>
+                    Monday: Introduction and Logistics
+                </p>
+
+                <p>
+                    Tuesday: Reading Quiz 1
+                </p>
+
+                <p>
+                    Wednesday: Kinematics and Rotating Vectors
+                </p>
+
+                <p>
+                    Friday: Using Calculus in Kinematics
+                </p>
+            </li>
+
+            <li>
+                <title>Week 2 (08/31)</title>
+
+                <p>
+                    Monday: Reference frames and intro to Newton's laws,
+                    Homework 1 Due
+                </p>
+
+                <p>
+                    Tuesday: Reading Quiz 2
+                </p>
+
+                <p>
+                    Wednesday: Newton's 3rd law, applying the 2nd law
+                </p>
+
+                <p>
+                    Thursday: Reading Quiz 3
+                </p>
+
+                <p>
+                    Friday: More applications of Newton's laws.
+                    <alert>Challenge 1 Due.</alert>
+                </p>
+            </li>
+
+            <li>
+                <title>Week 3 (9/7)</title>
+
+                <p>
+                    <alert>Monday: Labor Day</alert>
+                </p>
+
+                <p>
+                    Tuesday: Reading Quiz 4, Homework 2 Due
+                </p>
+
+                <p>
+                    Wednesday: Ropes and cables, friction
+                </p>
+
+                <p>
+                    Friday: Finishing up Newton's laws,
+                    <alert>Challenge 1 Revisions Due</alert>
+                </p>
+            </li>
+
+            <li>
+                <title>Week 4 (9/14)</title>
+
+                <p>
+                    Monday: Differential Equations and Oscillations, Homework 3
+                    due
+                </p>
+
+                <p>
+                    Tuesday: Reading Quiz 5
+                </p>
+
+                <p>
+                    Wednesday: Center of Mass
+                </p>
+
+                <p>
+                    Thursday: Reading Quiz 6
+                </p>
+
+                <p>
+                    Friday: Conservation of Momentum,
+                    <alert>Challenge 2 Due</alert>
+                </p>
+            </li>
+
+            <li>
+                <title>Week 5 (9/21)</title>
+
+                <p>
+                    Sunday: Reading Quiz 7
+                </p>
+
+                <p>
+                    Monday: Mass and momentum flow, Homework 4 due
+                </p>
+
+                <p>
+                    Wednesday: More mass and momentum flow
+                </p>
+
+                <p>
+                    Friday: Catch-up day for exam 1, Homework 5 due
+                </p>
+            </li>
+
+            <li>
+                <title>Week 6 (9/28)</title>
+
+                <p>
+                    Monday: <alert>Exam 1</alert>
+                </p>
+
+                <p>
+                    Tuesday: Reading Quiz 8
+                </p>
+
+                <p>
+                    Wednesday: Introduction to Work and Energy
+                </p>
+
+                <p>
+                    Thursday: Reading Quiz 9
+                </p>
+
+                <p>
+                    Friday: Energy Diagrams, <alert>C2 Revisions Due</alert>
+                </p>
+            </li>
+
+            <li>
+                <title>Week 7(10/5)</title>
+
+                <p>
+                    <alert>Monday and Tuesday: Fall Break</alert>
+                </p>
+
+                <p>
+                    Wednesday: Reading Quiz 10 (due before class), Work and
+                    Energy in 3D
+                </p>
+
+                <p>
+                    Thursday: HW6 Due
+                </p>
+
+                <p>
+                    Friday: Inelastic Processes
+                </p>
+            </li>
+
+            <li>
+                <title>Week 8(10/12)</title>
+
+                <p>
+                    Sunday: Reading Quiz 11
+                </p>
+
+                <p>
+                    Monday: Catch-up on energy, intro to complex numbers
+                </p>
+
+                <p>
+                    Tuesday: Reading Quiz 12, Homework 7 Due
+                </p>
+
+                <p>
+                    Wednesday: Damped Harmonic Motion
+                </p>
+
+                <p>
+                    Friday: Driven Oscillations, <alert>Challenge 3 due</alert>
+                </p>
+            </li>
+
+            <li>
+                <title>Week 9 (10/19)</title>
+
+                <p>
+                    Sunday: Reading Quiz 13
+                </p>
+
+                <p>
+                    Monday: Angular Momentum and Moment of Inertia, HW 8 Due
+                </p>
+
+                <p>
+                    Tuesday: Reading Quiz 14
+                </p>
+
+                <p>
+                    Wednesday: Angular Momentum and Fixed-axis Rotation
+                </p>
+
+                <p>
+                    Friday: Planar Motion,
+                    <alert>Challenge 3 revisions due</alert>
+                </p>
+            </li>
+
+            <li>
+                <title>Week 10 (10/26)</title>
+
+                <p>
+                    Monday: Planar Motion and Statics, Homework 9 Due
+                </p>
+
+                <p>
+                    Wednesday: Statics and problem-solving
+                </p>
+
+                <p>
+                    Friday: Precession, <alert>Challenge 4 Due</alert>
+                </p>
+            </li>
+
+            <li>
+                <title>Week 11 (11/2)</title>
+
+                <p>
+                    Monday: Catch-up day for exam 2, Homework 10 Due
+                </p>
+
+                <p>
+                    Wednesday: Exam 2
+                </p>
+
+                <p>
+                    Thursday: Reading Quiz 15
+                </p>
+
+                <p>
+                    Friday: Introduction to Special Relativity
+                </p>
+            </li>
+
+            <li>
+                <title>Week 12 (11/9)</title>
+
+                <p>
+                    Sunday: Reading Quiz 16
+                </p>
+
+                <p>
+                    Monday: Simultaneity, Time Dilation, Length Contraction
+                </p>
+
+                <p>
+                    Wednesday: Relativistic Kinematics continued
+                </p>
+
+                <p>
+                    Friday: Lorentz Transformations, Velocity Addition,
+                    <alert>Challenge 4 revisions due</alert>
+                </p>
+            </li>
+
+            <li>
+                <title>Week 13 (11/16)</title>
+
+                <p>
+                    Sunday: Reading Quiz 17
+                </p>
+
+                <p>
+                    Monday: Spacetime diagrams, barn and pole, Homework 11 due
+                </p>
+
+                <p>
+                    Wednesday: The twin paradox
+                </p>
+
+                <p>
+                    Thursday: Reading Quiz 18
+                </p>
+
+                <p>
+                    Friday: Introduction to 4-momentum,
+                    <alert>Challenge 5 due</alert>
+                </p>
+            </li>
+
+            <li>
+                <title>Week 14 (11/23)</title>
+
+                <p>
+                    Monday: More on 4-momentum, Homework 12 Due
+                </p>
+
+                <p>
+                    <alert>Thanksgiving break starts Wednesday!</alert>
+                </p>
+            </li>
+
+            <li>
+                <title>Week 15(11/30)</title>
+
+                <p>
+                    Monday: Reading Quiz 19, Conservation of 4 momentum
+                </p>
+
+                <p>
+                    Tuesday: Reading Quiz 20
+                </p>
+
+                <p>
+                    Wednesday:Decays, Collisions, and Nuclear Physics
+                </p>
+
+                <p>
+                    Friday: Problem-solving, Homework 13 Due
+                </p>
+            </li>
+
+            <li>
+                <title>Week 16 (12/06)  </title>
+
+                <p>
+                    Sunday: <alert>Challenge 5 revisions due</alert>
+                </p>
+
+                <p>
+                    Monday: <alert>Exam 3</alert>
+                </p>
+            </li>
+
+            <li>
+                <title>Week 17 (12/13)</title>
+
+                <p>
+                    <alert>Final Exam Date TBD.</alert>
+                </p>
+
+                <p>
+                    Note: if the final falls on the same date as last year, it
+                    will be on Wednesday, 12/16.
+                    Please do not make plans to leave campus before then.
+                </p>
+            </li>
+        </dl>
+    </p>
+</section>

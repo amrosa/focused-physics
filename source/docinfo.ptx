@@ -19,7 +19,7 @@
   <!-- for those in the next element. -->
   <latex-image-preamble>
     \usepackage{amsmath}  
-    \usepackage{tikz, pgfplots}
+    \usepackage{tikz,pgfplots}
     \usetikzlibrary{positioning,matrix,arrows}
     \usetikzlibrary{shapes,decorations,shadows,fadings,patterns}
     \usetikzlibrary{decorations.markings} 

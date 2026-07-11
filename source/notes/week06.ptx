@@ -2,15 +2,19 @@
 
 <section xml:id="notes-week-06">
     <title>Week 6</title>
-
-    <subsection xml:id="subsec-energy-intro">
-        <title>Chapters 5 and 6</title>
+    <introduction> 
+        <p>
+            <alert>Reading Covers 5.1 through 5.3.1, 5.6, 5.7, and 6.1 through 6.3</alert>
+        </p>   
         <p>
             <alert>Reading Quiz 8 Covers 5.1 through 5.3.1</alert>
         </p>
         <p>
             <alert>Reading Quiz 9 Covers 5.6, 5,7, and 6.1 through 6.3</alert>
         </p>
+    </introduction>
+    <subsection xml:id="subsec-energy-intro">
+        <title>Chapters 5 and 6</title>
 
         <p>
             Note: we are taking a winding path through the textbook because the 

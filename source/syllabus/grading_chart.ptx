@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+  <worksheet>
+    <title>Grading Chart</title>    
+  <p>
+    <alert>Instructions:</alert> As you complete assignments in the course, check off the boxes here, 
+    starting from below. Once you've checked all the boxes in a row for the course, you've earned the
+    grade corresponding to the row. 
+  </p>
+
+        <p>
+        <alert>Grade modifiers:</alert> If you earned over 90 engagement credits
+        and satisfied the requirements for a <q>base grade</q>, you will get a +
+        grade.
+        For example: 9 learning targets, 3 challenge problems, and 10 homework
+        assignments, along with 100 engagement credits is a B+.
+        If you have at least one learning target and one challenge problem above
+        the requirement for a particular grade you will earn the next highest
+        minus grade.
+        Example: 10 learning targets, 4 challenge problems, and 10 homework
+        assignments is an A <minus/>
+      </p>
+
+
+      <tabular left="minor" right="minor" top="minor" bottom="minor" valign="top" halign="center">
+        <row header="yes">
+          <cell>Grade</cell>
+          <cell>Learning Targets</cell>
+          <cell>Challenge Problems</cell>
+          <cell>Homework Assignments</cell>
+          <cell>Engagement Credits (+)</cell>
+        </row>
+
+        <row>
+          <cell>A</cell>
+          <cell>&#x2610; &#x2610; &#x2610; &#x2610;</cell>
+          <cell>&#x2610; &#x2610;</cell>
+          <cell>&#x2610;</cell>
+          <cell>70+ &#x2610; </cell>
+        </row>
+
+        <row>
+          <cell>B</cell>
+          <cell>&#x2610; &#x2610; &#x2610;</cell>
+          <cell>&#x2610; &#x2610;</cell>
+          <cell>&#x2610; &#x2610; &#x2610; &#x2610;</cell>
+          <cell>N/A</cell>
+        </row>
+
+        <row>
+          <cell>C</cell>
+          <cell>&#x2610; &#x2610; &#x2610;</cell>
+          <cell>&#x2610;</cell>
+          <cell>&#x2610; &#x2610; &#x2610;</cell>
+          <cell>N/A</cell>
+        </row>
+
+        <row>
+          <cell>D</cell>
+          <cell>&#x2610; &#x2610; &#x2610;</cell>
+          <cell>N/A</cell>
+          <cell>&#x2610; &#x2610; &#x2610;</cell>
+          <cell>N/A</cell>
+        </row>
+      </tabular>
+    </worksheet>

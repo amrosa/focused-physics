@@ -100,7 +100,7 @@
             Claim: the chain will start moving, and will eventually reach a certain steady-state speed
             <m>v</m>. Your task is to find this <m>v</m>.
         </p>
-        <image source="images/challenge/c3chain/heavy_chain.png" width="40%">
+        <image source="images/challenge/c3chain/heavy_chain_rope.svg" width="40%">
             <shortdescription>Add a description</shortdescription>
         </image>
         <p>

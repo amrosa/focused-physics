@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="notes-week-09">
+    <title>Weeks 9 and 10</title>
+    <introduction>
+        <p>
+            <alert>Week 9 Reading covers 1.4.2, 1.6, 8.2, and 7.1 through 7.5</alert>
+        </p>
+        <p>
+            <alert>Week 10 reading covers 7.6 through 7.10 and 8.3</alert>
+        </p>
+        <p>
+            <alert>Reading Quiz 13 covers 1.4.2, 1.6 (components of cross products), section 8.2 (up to example 8.3), and sections 7.1 and 7.2. </alert>
+        </p>
+        <p>
+            <alert>Reading Quiz 14 Covers 7.3 through 7.5.</alert>
+        </p>
+        <p>
+            Note: part of the goal for this week is to finish chapter 7 in class. Sections 7.6 and 7.8,
+            as well as note 7.2, will be helpful for the homework.
+        </p>
+    </introduction>
+    <subsection xml:id="subsec-torque">
+        <title>Chapters 7 and 8: Week 9</title>
+        <p>
+            <alert>Reading Quiz 13 covers 1.4.2, 1.6 (components of cross products), section 8.2 (up to example 8.3), and sections 7.1 and 7.2. </alert>
+        </p>
+        <p>
+            <alert>Reading Quiz 14 Covers 7.3 through 7.5.</alert>
+        </p>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        Start by going over the definition of the cross product. Besides knowing
+                        the definition, decide how you want to learn the right hand rule to find
+                        the direction of the cross-product. Pick a method and stick with it.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        K&amp;K delay the definition of the angular velocity vector until chapter 8,
+                        but knowing the definition know let's us tackle some conceptual subtleties
+                        head-on. First, we can't really describe a rotational position as vectors,
+                        but angular velocities are regular vectors, and finally we have a vector
+                        relation ship between velocity and angular velocity <m>~{\vec{v}=\vec{\omega}\times\vec{r}}</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Section 7.2 defines the angular momentum of a point particle, introducing
+                        a geometrical interpretation and makes two important points: the angular momentum
+                        depends on a choice of origin, and it is not, in general, parallel to the
+                        angular velocity. We'll have to learn to live with that.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                       Section 7.3 starts setting up the math for what we'll study this week: fixed-axis rotation.
+                       The moment of inertia, the rotational analog of mass, makes its first appearance. Note, however,
+                       that the moment of inertia depends on the axis of rotation, so it's a fairly different quantity.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Sections 7.4 and 7.5 define the concept of torque and show the relationship
+                        <m>\vec{\tau}=\dfrac{d\vec{L}}{dt}</m> for a particle. K&amp;K set up the discussion
+                        so you'd expect that this relationship also applies for a rigid body, but the
+                        proof doesn't come until section 7.8.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Sections 7.6 and 7.7 are applications of <m>\vec{\tau}=\dfrac{d\vec{L}}{dt}</m> to
+                        a variety of problems. Examples 7.10 and 7.12 are fairly typical types of problems.
+                        Note that K&amp;K don't really explain why the tension in the string is no longer constant
+                        in example 7.10. Can you figure out a physical reason?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Section 7.8 finally establishes <m>\vec{\tau}=\dfrac{d\vec{L}}{dt}</m> for a rigid body, by
+                        using an important decomposition of the angular momentum of the rigid body,
+                        equation 7.16. K&amp;K don't emphasize this point too much, but it is important to note that this
+                        relationship holds not only when you take your origin to be a fixed point in the lab, but also
+                        when you take the origin to be the center of mass, even when it is accelerated! This is particularly
+                        helpful when solving rotational statics problems for an accelerated object: the regular algorithm
+                        works provided you take the origin of torques to be the CM.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Section 7.9 shows some of the weaknesses of the energy treatment of 
+                        K&amp;K: since the work-energy theorem only deals with the concept
+                        of <q>center-of-mass work</q>, a new work-energy theorem has to
+                        be invented for <q>rotational work</q>, and example 7.16 is quite clunky. 
+                        Example 7.17 shows this clearly. The total kinetic energy has two terms,
+                        and mechanical energy is conserved. Similarly for example 7.16: since
+                        the drum rolls without slipping, the friction force does no work, and
+                        conservation of energy applies.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        That said, knowing that the work <m>\vec{F}\cdot d\vec{r}</m> reduces
+                        to <m>\tau d\theta</m> when the point of application of a force is undergoing
+                        pure rotation is useful. The constraint that <m>\tau d\theta=d(\frac{1}{2}I\omega^2)</m>
+                        can be sometimes easier to apply than the full torque-angular momentum relationship,
+                        but it's just a convenience.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        You probably want to spend some time with note 7.2 since this chapter has a lot 
+                        of content.
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </subsection>
+    <subsection xml:id="subsec-week10">
+        <title>Chapters 7 and 8: Week 10</title>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        The previous week was theoretically very dense, and we mostly spent it
+                        defining new concepts: torque, angular momentum, and moment of inertia.
+                        We also established useful relationships between these for what is called
+                        <term>planar motion</term> or <term>fixed-axis rotation</term>. A good place
+                        to start this week is Note 7.2 to make sure you understand the definitions
+                        and what the relationships mean.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        One thing to keep in mind is that, although I will often use terms like
+                        <q>rotational kinetic energy</q> or <q>angular momentum of the center of
+                        mass</q>, which references equations (7.23) and (7.18), keep in mind
+                        that ultimately, the kinetic energy of a body is just the sum of the kinetic
+                        energies of the individual particles, and the angular momentum is just the
+                        sum of the angular momenta of the individual particles.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        That said, (7.4), (7.23), and (7.18) are very useful, so you should understand 
+                        what they are telling you. When you can describe the motion of a rigid body as
+                        a fixed axis rotation, then you can say that <m>~{K=\frac{1}{2}I\omega^2}</m> and
+                        <m>~{L_z=I\omega}</m>, with a suitably defined moment of inertia, which may
+                        require using the parallel axis theorem.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        If the motion of the CM is not a pure rotation (simplest example: ball rolling
+                        down a hill), then (7.18) tells you what to differentiate with respect to time
+                        when you use <m>\vec{\tau}=\dfrac{d\vec{L}}{dt}</m>. Similarly, (7.23)
+                        tells you what to use when applying the work-energy principle.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        With the theory out of the way, we will spend time solving planar motion problems,
+                        as well as rotational statics problems. Really practical stuff to help you see
+                        how the concepts come together. Statics in particular is interesting because
+                        we can use the results of homework problem 7.1: in static equilibrium, the net
+                        torque is independent of the origin, and this freedom allows you to be creative
+                        in problem solving.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        We will also see some examples of rotational statics for an accelerating object.
+                        Here, the results of section 7.8 are crucial: even though the CM is accelerated,
+                        you can still set the net torque to zero, provided you use the CM as the origin.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        We will end the week with an example of non-fixed axis rotation, the regular
+                        precession of the gyroscope, discussed in section 8.3. This is a type of motion
+                        for which your intuition may fail you, as identifying all the forces involved
+                        can be quite difficult. That said, the mathematical description is rock solid,
+                        and it will be our first step towards growing <em>new intuition</em>, which
+                        will serve you well when you study the general motion of a rigid body in 
+                        Phys 4011.
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </subsection>
+</section>

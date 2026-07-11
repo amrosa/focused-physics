@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="notes-week-12">
+    <title>Week 12</title>
+    <introduction>
+        <p>
+            <alert>Reading covers chapter 3 and L</alert>
+        </p>
+        <p>
+            <alert>Reading Quiz 16 Covers 3.1 through 3.6</alert>
+        </p>
+    </introduction>
+    <subsection xml:id="subsec-chap3">
+        <title>Spacetime Physics Chapter 3</title>
+
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        Section 3.1 describes the principle of relativity formally. This
+                        is already present in mechanics, and Einstein's realization is that
+                        it should be extended to all laws of physics
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Section 3.2 reminds us that many things are not the same in different
+                        inertial reference frames. Even in Newtonian mechanics something like
+                        the kinetic energy depends on your choice of reference frame, but the
+                        <em>work-energy theorem</em> is valid in every frame. Special relativity
+                        will take some getting used to, but in a sense it's just slightly
+                        extending the list of things that aren't the same.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Section 3.3 tells us about a few things that should be the same in
+                        every reference frame, and sections 3.4 through 3.6 begin exploring
+                        the consequences of the invariance of the speed of light. Loss of
+                        simultaneity turns out to be the most difficult concept to get used to.
+                        As you'll see in your study, most of the paradoxes that you find in your
+                        head usually involve forgetting about the relativity of simultaneity.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        We will cover the quantitative form of the effects, so for now the
+                        thing to pay attention is how carefully the textbook crafts its
+                        arguments. Since our intuition is not prepared for some of the
+                        consequences of special relativity, we must be very thorough when
+                        using the postulates to analyze a physical situation.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Sections 3.7 and 3.8 then establish the invariance of the interval,
+                        which the textbook uses as a guiding principle to understand special
+                        relativity. The mathematical form of the interval is strange with its
+                        minus sign, but it does allow for a very geometric way of visualizing
+                        relativity.
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </subsection>
+    <subsection xml:id="subsec-chapL">
+        <title>Spacetime Physics Chapter L</title>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        Chapter L is focused on deriving the <term>Lorentz transformations</term>,
+                        which tell us how to relate measurements made in two reference frames. The
+                        textbook correctly points out that the geometric view of relativity is more
+                        fundamental, but when you're trying to solve a physics problem, you're
+                        usually using a coordinate system, so understanding how to relate coordinates
+                        is useful and worthwhile.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        We'll go through the derivation in a slightly different way than the text,
+                        but the key ingredients are all there: the transformation is linear and
+                        keeps the interval invariant. Having the transformations allows you to be
+                        very systematic in problem solving. Once you set up a list of <term>events</term>
+                        and their coordinates in a particular frame, the Lorentz transformations
+                        tell you the coordinates in any other frame, so you can use this to make
+                        sense of another observer's measurements.
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </subsection>
+</section>

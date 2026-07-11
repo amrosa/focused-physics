@@ -15,7 +15,6 @@
   <page>
     <exercise>
       <statement>
-        <sidebyside widths = "70% 20%">
           <p>
           		K&amp;K calculate just the Z component of <m>\vec{L}</m> to get around the fact that,
               in general, <m>\vec{L}</m> is not parallel to <m>\vec{\omega}</m>. Show, however, that if a
@@ -24,10 +23,10 @@
               should cancel in pairs.
           </p>
 
-          <image source="images/quiz-images/quiz14/symmetric-top.png">
+          <image source="images/quiz-images/quiz14/symmetric-top.svg" width="40%">
             <shortdescription>Update Description</shortdescription>
           </image>
-        </sidebyside>
+
       </statement>
     </exercise>
 
@@ -48,16 +47,9 @@
         </p>
       </statement>
     </exercise>
+  </page>
 
-    <exercise>
-      <statement>
-        <p>
-          	In example 5.12, what does the book mean when it says that the boundary conditions are 
-            <q>built in</q> to the energy solution? 
-        </p>
-      </statement>
-    </exercise>
-
+  <page>
     <exercise>
       <statement>
         <p>
@@ -65,7 +57,7 @@
           the different axes of rotation shown.
         </p>
 
-        <image source="images/quiz-images/quiz14/moment-of-inertia.png" width="50%">
+        <image source="images/quiz-images/quiz14/moment-of-inertia.svg" width="70%">
           <shortdescription></shortdescription>
         </image>
       </statement>
@@ -80,7 +72,7 @@
           least to most effective
         </p>
 
-        <image source="images/quiz-images/quiz14/wrench-conceptest.png" width="50%">
+        <image source="images/quiz-images/quiz14/wrench-try2.svg" width="100%">
           <shortdescription></shortdescription>
         </image>
       </statement>

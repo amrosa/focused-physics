@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <worksheet>
-  <title>Homework 10</title>
+  <title>Homework 11</title>
 
   <objectives>
     <introduction>
@@ -210,7 +210,7 @@
         (See the figure below).
         </p>
 
-        <image source="images/hwimg/hw10/doppler_sketch.png" width="80%">
+        <image source="images/hwimg/hw10/doppler_sketch.svg" width="80%">
             <shortdescription>Add a description</shortdescription>
         </image>
 

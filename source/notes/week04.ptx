@@ -2,7 +2,18 @@
 
 <section xml:id="notes-week-04">
     <title>Week 4</title>
-
+    <introduction>
+        <p>
+            <alert>Reading Covers 3.6,3.7, and 4.1 through 4.6</alert>
+        </p>
+        <p>
+            <alert>Reading Quiz 5 Covers 4.1 through 4.3</alert>
+        </p>
+        <p>
+            <alert>Reading Quiz 6 Covers 4.5 and 4.6 </alert>
+        </p>
+        
+    </introduction>
     <subsection>
         <title>Chapter 3</title>
 
@@ -70,12 +81,6 @@
 
     <subsection xml:id="subsec-chap4">
         <title>Chapter 4</title>
-        <p>
-            <alert>Reading Quiz 5 Covers 4.1 through 4.3</alert>
-        </p>
-        <p>
-            <alert>Reading Quiz 6 Covers 4.5 and 4.6 </alert>
-        </p>
         <p>
             <ul>
                 <li>

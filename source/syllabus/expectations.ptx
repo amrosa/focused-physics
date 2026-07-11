@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="expectations">
+  <title>Expectations For Assignments</title>
+  <introduction>
+    <p>
+      This section outlines the basic expectations for the different
+      types of assignments in the class. I will describe these expectations
+      to the <em>highest standard</em>, and provide some advice on what to do
+      when you don't think you're quite there.
+    </p>
+  </introduction>
+
+  <subsection xml:id="subsec-engagement">
+    <title>Engagement Credits</title>
+    <p>
+      Every assignment in this category is grade for <alert>completion and effort.</alert> Stick around
+      for most of class and work with another student on the group activities. Ask a question in office
+      hours, or be part of a discussion.
+    </p>
+    <p>
+      For reading quizzes and self-reflections, don't just write single line answers. Briefly
+      explain your reasoning for reading questions, and be explicit about what you need to improve
+      on self-reflections (e.g <q>I'm having trouble visualizing variable mass problems so I'm going
+        to (<ellipsis/>)</q>). I'm just looking for your honest effort here.
+    </p>
+  </subsection>
+
+  <subsection xml:id="subsec-homework">
+    <title>Homework</title>
+    <p>
+      Homework is graded on <em>completion</em> and <em>effort.</em> The goal of having you turn
+      in homework is so you can get feedback on your work from the course graders. The expectations
+      outlined here are a combination of good problem-solving strategy (i.e, what experts do when they
+      solve problems) and presentation tips. The presentation part is so your work is readable by
+      the grader so you can get accurate and actionable feedback.
+    </p>
+    <p>
+      <ul>
+        <li>
+          <p>
+            Draw clear (large, if you can) pictures which sketch the basic features of the problem and
+            make sure that relevant variables are defined. Yes, the <m>x</m> coordinate is usually
+            horizontal and positive to the right; <m>T</m> usually means tension and is oriented along
+            a rope. We also don't always use the standard axes, so if you are using a different
+            convention the grader will have to read your mind. In my experience, not having a diagram
+            is the source of <em>most</em> errors that are difficult to track down (e.g <q>oh, this
+            tension here is not the same as the tension there!</q>), so you will help yourself
+            by having pictures. Make them <alert>as complete as you can.</alert>
+          </p>
+        </li>
+        <li>
+          <p>
+            Explain your reasoning in words: someone might have told you that equations speak for
+            themselves. I regret to inform you that they were not being truthful. Chains of equations
+            without explanation of where they came from are not easy to read, and the grader has to
+            guess what you were thinking.
+          </p>
+          <p>
+            You don't have to write an essay before every equation, but a brief explanation of where
+            the equation is coming from and why you can use it is key for the grader to interpret
+            your reasoning and give you good feedback. Please include this. Doing this will likely
+            also help you: often, saying something out loud or writing it down might help you
+            find a mistake before you commit to it.
+          </p>
+          <p>
+            If you can't explain a step, this indicates that there's something to learn from it. If
+            you tag a piece of the homework with a star or question mark or some other symbol, this
+            alerts the grader to give you qualitative feedback on that particular part of a problem.
+          </p>
+        </li>
+        <li>
+          <p>
+            Sanity Checks: I won't force you to sanity check every algebraic expression of every problem,
+            but the graders should see that you tried to do this for at least a few of the problems. If
+            you sanity check a solution and find an error, that's a sign for you to fix it! If you can't
+            find the fix, then you can use your sanity check to ask for more feedback.
+          </p>
+        </li>
+        <li>
+          <p>
+            Evaluating completeness: A complete solution is self-contained, meaning that
+            a reader who has the background of a student in the course should be able to
+            follow the solution completely from start to finish without doing any extra
+            work.
+          </p>
+          <p>
+            Issues with completeness usually arise from gaps in the solution or reasoning.
+            Ask yourself: If I got this solution to me as lecture notes, would I have to
+            do a lot of extra work to understand it?
+            If the answer is <q>yes</q> then you should try to add more detail to your
+            solution.
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Getting stuck: if you genuinely get stuck on a problem and cannot complete it before
+            the deadline, do not turn it in blank. Use the principles above to do as much as you
+            are able of the problem and try to identify what is it that is getting you stuck. For
+            instance, maybe you realize you don't know what are all the forces that are acting
+            on an object. Now you've identified a problem and the graders can be more helpful. Or
+            maybe you're having trouble writing a particular condition mathematically. The more
+            information you give the graders, the more they can help.
+          </p>
+        </li>
+
+        <li>
+          <p>
+            If a significant fraction of your work is incomplete or contains significant errors, 
+            you will be asked to meet with an instructor/teaching assistant to discuss your homework
+            before you earn credit for it.
+          </p>
+        </li>
+      </ul>
+    </p>
+  </subsection>
+  <subsection xml:id="subsec-challenge-expec">
+    <title>Challenge Problems</title>
+    <p>
+      The most important expectation of challenge problems is that <alert>individual work
+      will not be accepted.</alert> Collaboration is an important part of science and
+      engineering, and working in a team requires practice. This is also an explicit
+      learning goal for the course.
+    </p>
+    <p>
+      I will have an online sign-in sheet available on Canvas so you can see which students
+      do not have partners. I recommend creating a class-wide chat using a platform like
+      GroupMe or Teams (yes, this was done in the past) so you don't have to message each
+      other using Canvas, which can be difficult. The best way to find a partner is to check
+      in with people right before or right after class. I recommend that you find a partner
+      ahead of time. You are responsible for finding a partner and arranging time to work
+      on challenge problems ahead of time.
+    </p>
+    <p>
+      Problem-solving wise, a first challenge problem attempt will be successful if it is 
+      complete, clearly communicated, and also correct with any relevant sanity checks. 
+      Think of the challenges as the equivalent of an essay or research paper. If your first 
+      submission doesn't meet these criteria, you will get an opportunity to revise it.
+    </p>
+    <p>
+      The revised submission to the challenge problem is expected to be complete, clearly
+      communicated, and correct. That said, these problems are hard. On a case-by-case basis,
+      your group may earn a mark for a challenge problem if it is clear that the revised version
+      has clearly incorporated the feedback from the grader and improved significantly from the
+      first version. We will count significant growth as having engaged productively with the 
+      challenge problems, so please keep that in mind if they make you nervous.
+    </p>
+  </subsection>
+
+  <subsection xml:id="subsec-exam-expec">
+    <title>Fundamental Skills</title>
+    <p>
+      Exams will follow the same completeness requirements as the homework, but your solutions should 
+      now clearly demonstrate that you have mastered the concepts and processes associated with a 
+      fundamental skill. Note that this goes beyond simply having right or wrong answers. Sometimes a 
+      wrong answer to a problem might be wrong for reasons unrelated to the core ideas of the problem, 
+      and your grasp of the core concepts is still evident. 
+    </p>
+    <p>
+      On the flip side, a solution might have a right answer but how you got that right answer does 
+      not show evidence of mastery of the core concepts. What this means that we will accept one or 
+      maybe two minor errors in your solution, but several minor errors, or any error that calls into 
+      question your understanding of the concepts, will lead to a grade of <q>Retry</q> on a problem.
+    </p>
+    <p>
+      A quick note on mathematics and understanding. Physics is a quantitative science, so being
+      able to go from conceptual understanding to algebraic representation and solution is what we
+      mean by mastering a skill. If you can only do math or only explain things conceptually, then
+      something is missing. Some problems may require you to obtain numerical solutions with units. In
+      that case, obtaining a numerical value and properly checking your units is considered a fundamental
+      part of the problem.
+    </p>
+    <p>
+      If you have any questions about this, please reach out. Do note that we are not looking for
+      perfection, since we understand that exams are time limited and that it is hard to be 100%
+      right about something when there is time pressure. What we are trying to gauge from your solutions
+      is that you can interpret a problem conceptually, represent the concepts mathematically, perform
+      the necessary algebra, and evaluate your solution (this last part is a <q>time permitting</q>
+      thing, but you should always try).
+    </p>
+    <p>
+      A note on exam strategy: exam 1 problems you show up on exam 2, and exam 2 problems will show up
+      on exam 3, etc. If you have to retry 2 exam 1 skills on exam 2, that would mean 7 problems to
+      complete in 3h. That's not reasonable and you are not expected to do that. Before the exam,
+      think about what your strengths are. On the day of the test, take a quick scan through the problems
+      to see which ones you feel the best about. If you shoot to do 5 problems per exam, this will give you
+      20 chances to try the 15 learning targets.
+    </p>
+  </subsection>
+</section>

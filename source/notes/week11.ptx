@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="notes-week-10">
+    <title>Week 11</title>
+    <introduction>
+        <p>
+            <alert>We are switching textbooks! Section numbers now
+                   refer to Taylor and Wheeler.
+            </alert>
+        </p>
+        <p>
+            <alert>Reading Quiz 15 Covers 1.1-1.4 and 2.1,2.2,2.6,2.7</alert>
+        </p>
+    </introduction>
+    <subsection xml:id="subsec-chap1">
+        <title>Spacetime Physics Chapter 1</title>
+
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        Chapter 1 is about getting acquainted with the idea of
+                        <term>spacetime.</term> In special relativity, rather than
+                        thinking of space and time as separate, they are merged in
+                        a single entity.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        The chapter starts with a geometric analogy to make the ideas
+                        a bit more palatable. Just like the angle between magnetic North
+                        and stellar North is small, the effects of special relativity are
+                        small because the speed of light is so large. Some of the
+                        consequences of special relativity seem bizarre at first sight,
+                        but we'll get used to them.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        An important thing for this chapter: although we will talk about
+                        things that are different for different observers, the unification
+                        of space and time in SR leads to the concept of the <term>spacetime
+                        interval</term>, a quantity all observers agree on.
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </subsection>
+    <subsection xml:id="subsec-chapt2">
+        <title>Spacetime Physics Chapter 2</title>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        Chapter 2 is about understanding what an inertial reference frames is. 
+                        Section 2.2 provides a definition, and section 2.3 emphasizes that
+                        inertial frames are actually local because of gravity.
+                        SR does not deal with gravity, so we won't have to worry
+                        about this: our inertial frames are still infinite.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        A new thing from special relativity, which we will explore
+                        next week, is that the speed of light is also an invariant
+                        quantity. This is impossible in Newtonian physics, and this
+                        descovery will require us updating our concepts of space and time.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Section 2.6 introduces a very concrete visualization for an
+                        inertial reference frame, and section 2.7 makes the distinction
+                        between seeing and observing. As we move forward, it is important
+                        to keep in mind that the effects of special relativity are real,
+                        not visual tricks or measurement error, but rather a consequence
+                        of the fact that how you <q>slice</q> spacetime into space and
+                        time turns out to depend on your state of motion.
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </subsection>
+</section>

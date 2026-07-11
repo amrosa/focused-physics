@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="advice-standalone" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>General Advice</title>
+
+  <p>
+    Learning is a messy process.
+    Research on cognitive science tells us that the most effective forms of
+    learning are the ones that require your active engagement and effort, as
+    well as those that confront misconceptions and mistakes head on.
+    As you likely have experienced, struggling through something is not a
+    comfortable process, but it can be very rewarding.
+    I want you to think and work hard on the problems and concepts we will
+    discuss so that you can construct your own understanding of the course
+    topics in your mind, that is there for you when you need it in the future.
+    Here's some advice from me to help you set yourself up for success.
+  </p>
+
+  <p>
+    <ul>
+      <li>
+        <alert>Perfectionism:</alert> I will often tell you to
+        <q>aim for flawless solutions</q>, but please don't think that
+        everything you submit needs to be perfect.
+        <q>Aim for flawless</q> means that once you have solved a problem, you
+        should be able to review your solution and understand its meaning
+        clearly.
+        Every step flows logically from the assumptions you made, there are no
+        guesses in your solution, the mathematics is clear, and your algebraic
+        solution passes basic sanity checks.
+        This is a high bar, and I want you to try and reach it because I believe
+        in you.
+        That said, you are also learning, and it is also my job to give you
+        feedback.
+        I prefer seeing a page full of questions than a blank page, or work that
+        isn't yours
+      </li>
+
+      <li>
+        <p>
+          <alert>Don't overcommit:</alert> I've seen first year students compete
+          to see who can take the most credits and sleep the fewest hours.
+          I recommend you use your first semester to adjust to being in college,
+          learn effective study strategies 
+          <url href="https://ctl.wustl.edu/learningcenter/resources/six-strategies-for-effective-learning/">
+            like the ones provided by the Learning Center
+          </url>, and try out new things.
+          This course is 4 credit units, and the university's general
+          expectation is that one credit unit should take you 2 to 3 hours of
+          work outside of class.
+          I want you to have time to think about physics and to talk to your
+          classmates about physics.
+          Note that I'm not asking you to not be ambitious, just to try and know
+          your limits.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          <alert>A personal anecdote on overcommitting:</alert> I took the
+          equivalent of 25 credits in my second semester of college, and between
+          classes and labs I was in a classroom for about 35h a week.
+          It did not go well for me, but it did get me to focus on physics
+          classes the following term.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          <alert>Ask for help early and often:</alert> If you need help with
+          something, let me know right away.
+          I am here to help you, and I want to help you.
+          If you need an exception with an assignment, or extra help, or
+          something came up, or ( <ellipsis/> ), let me know as soon as
+          possible.
+          From a practical perspective, physics builds on itself, so keeping
+          pace with the course is important, and if you wait to tell me that
+          there's something wrong, it gets harder to help you.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          <alert>Collaboration:</alert> I encourage you to work with other
+          students, form study groups, and collaborate as much as you can.
+          Challenge problems will also require collaboration: individual
+          submissions are not accepted.
+          Collaboration is an important part of how modern science and
+          engineering are done, so it is important to practice those skills from
+          the start.
+          We have also observed that students who work with others have more fun
+          and do better in the course.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          <alert>Pitfalls of collaboration:</alert> It is easy to join a study
+          group and not actively engage in discussing problems, instead just
+          listening to a classmate who is more confident or talkative.
+          You must make sure that everything you turn in represents your
+          understanding and your thoughts.
+          Otherwise, the feedback you will receive from the instructors will not
+          be useful and you might not understand how, for example, your homework
+          assignments translate into exam performance.
+          Start the homework assignment <em>before</em> you meet with other
+          students, so you have your own ideas on how to attempt the problems.
+          When you are working in a group, don't let one person take over every
+          discussion.
+          Rotate who starts discussion of a problem.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          <alert>WRITE NEATLY!</alert> The graders are instructed not to look
+          for deep meaning in random disorganized scribbles.
+          Clarity of presentation is clarity of thought.
+          You do not need to be verbose; but you do need to be neat and clear.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          <alert>Late assignments:</alert> Challenge problems and reading
+          quizzes have strict deadlines.
+          I will accept late homework if you email me 24h before the homework
+          assignment with a reasonable plan for when the homework will be
+          completed.
+          You don't have to explain why you're missing the deadline, but if this
+          is happening often, I reserve the right to ask for a meeting before
+          extending the deadline.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          <alert>Note-taking:</alert> I encourage you to take your notes on
+          paper, rather than on your computer.
+          There is some evidence that this is better for your long-term
+          retention and memory.
+          If you want to have electronic notes, something like a tablet is
+          recommended so you can write instead of type.
+          I will also try to keep the classroom environment as analog as
+          possible since I know screens are distracting and make it harder to
+          focus.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          <alert>ChatGPT and other LLMs</alert>:With all of the above advice in
+          mind, I will recommend that you not use ChatGPT or other LLMs to study
+          for this class.
+          In a sense, LLMs are like the ultimate version of the
+          <q>very confident classmate</q>.
+          Whatever input you give to them, they will generate text output that
+          answers the question
+          <q>What would an answer to this question sound like?</q>.
+          This is not the same thing as answering the question, and it's
+          important to know that LLMs make mistakes, and those mistakes can be
+          subtle and ultimately set you back.
+        </p>
+
+        <p>
+          More importantly for me, LLMs generate answers quickly, and as such
+          they short-circuit the learning process of thinking hard and
+          constructing understanding in your mind.
+          You read the LLM output, tell yourself <q>Yeah, that makes sense</q>,
+          and then you forget it.
+          Evidence on LLM usage in education is still in its early stages, but
+          the picture that seems to be emerging is that reliance on LLMs is
+          detrimental to learning and can lead to dependence on these systems.
+          This goes against the goal of this course of training you to think
+          critically.
+        </p>
+
+        <p>
+          All that said, I will not police your LLM usage beyond the basic
+          academic integrity requirements, since I'm not a cop.
+          Copying an assignment on an LLM and submitting the prompt counts as
+          plagiarism.
+          What I actually care about is if you do that, you miss an opportunity
+          to get feedback and grow by reflecting on the feedback.
+          If you do use an LLM, keep this in mind, as well as the effective
+          study strategies mentioned earlier in this document.
+        </p>
+      </li>
+    </ul>
+  </p>
+</section>

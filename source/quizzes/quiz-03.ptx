@@ -31,11 +31,11 @@
         </p>
 
         <sidebyside widths="40% 40%">
-            <image source="images/quiz-images/quiz3/wedge-conventional.png">
+            <image source="images/quiz-images/quiz3/wedge-conventional.svg">
                 <shortdescription>Update Description</shortdescription>
             </image>
 
-            <image source="images/quiz-images/quiz3/wedge-tilted.png">
+            <image source="images/quiz-images/quiz3/wedge-tilted.svg">
                 <shortdescription>Update Description</shortdescription>
             </image>
         </sidebyside>

@@ -148,7 +148,7 @@
     <css
         theme="denver"
         color-main="#BA0C2F"
-        primary-color="#BA0C2F"
+        primary-color="#FF6D6A"
         primary-color-dark="#FF6D6A"
         provide-dark-mode="yes"
     />

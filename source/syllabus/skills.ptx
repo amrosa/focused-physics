@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="skills" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>List of Fundamental Skills</title>
+    <p>
+        The following list contains a brief description of the 15
+        fundamental skills that will be tested in the class. Each one
+        of the skills requires proficiency in other subskills, but the
+        brief descriptions should give you an idea of what to expect
+        on exams.
+    </p>
+    <p>
+        <ol>
+            <li>
+                <p>
+                    I can use the concept of relative velocity to reason
+                    about kinematics problems using different frames
+                    of reference.
+                </p>
+            </li>
+            <li>
+                <p>
+                    I can apply Newton's second law in vector form for
+                    a single object, including kinematic constraints
+                    (e.g circuar motion).
+                </p>
+            </li>
+            <li>
+                <p>
+                    I can apply Newton's second law to a set of coupled
+                    objects constrained by ropes or pulleys.
+                </p>
+            </li>
+            <li>
+                <p>
+                    I can apply the impulse-momentum relationship to describe
+                    sudden processes like collisions.
+                </p>
+            </li>
+            <li>
+                <p>
+                    I can apply the impulse-momentum relationship to systems
+                    that have mass flow (e.g rockets) or momentum flow
+                    (e.g a chain falling on the ground)
+                </p>
+            </li>
+            <li>
+                <p>
+                    I can quantitatively describe physical processes using
+                    the work-energy theorem, and I can differentiate between
+                    real work and center-of-mass work, as defined in class.
+                </p>
+            </li>
+            <li>
+                <p>
+                    I can solve problems that include both
+                    work-energy and impulse-momentum arguments,
+                    like ellastic collisions.
+                </p>
+            </li>
+            <li>
+                <p>
+                    I can solve rotational statics problems, including
+                    cases when the center of mass is accelerated.
+                </p>
+            </li>
+            <li>
+                <p>
+                    I can solve planar motion problems that involve applying
+                    Newton's second law and the torque-angular momentum relationship
+                    in tandem.
+                </p>
+            </li>
+            <li>
+                <p>
+                    I can apply conservation of angular momentum to collisions of
+                    rigid bodies involving rotation or to single-particle problems
+                    involving a central force.
+                </p>
+            </li>
+            <li>
+                <p>
+                    I can use the concepts of time dilation and length contraction
+                    to describe observations made by two observers in different
+                    inertial reference frames
+                </p>
+            </li>
+            <li>
+                <p>
+                    I can use the Lorentz transformations to describe observations
+                    made by two observers in different reference frames, including
+                    the transformation of velocities.
+                </p>
+            </li>
+            <li>
+                <p>
+                    I can use a spacetime diagram to describe observations made
+                    by two observers in different reference frames.
+                </p>
+            </li>
+            <li>
+                <p>
+                    I can use conservation of 4-momentum to model relativistic
+                    collisions.
+                </p>
+            </li>
+            <li>
+                <p>
+                    I can use conservation of 4-momentum to model the decays
+                    of unstable particles.
+                </p>
+            </li>
+        </ol>
+    </p>
+    
+</section>

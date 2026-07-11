@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <worksheet>
-  <title>Homework 06</title>
+  <title>Homework 07</title>
 
  <objectives>
     <introduction>
@@ -106,7 +106,7 @@
             stacked on top of each other, all satisfying <m>m_1\gg m_2 \gg m_3 \gg \cdots \gg m_N</m> [this is optional].
         </p>
         
-        <image source="images/hwimg/hw6/astro-blaster.png" width="40%">
+        <image source="images/hwimg/hw6/astro-blaster.svg" width="40%">
             <shortdescription>add description</shortdescription>
         </image>
     </exercise>
@@ -120,7 +120,7 @@
             the maximum speed, where should it fire a brief impulse (i.e., blast its engines)?
         </p>
         
-        <image source="images/hwimg/hw6/rocket.png" width="50%">
+        <image source="images/hwimg/hw6/rocket_valley.svg" width="50%">
             <shortdescription>add description</shortdescription>
         </image>
 
