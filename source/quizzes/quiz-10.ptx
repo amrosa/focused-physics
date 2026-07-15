@@ -27,15 +27,6 @@
     <exercise>
       <statement>
         <p>
-          	On page 5, the book shows the projection of <m>\vec{B}</m> on <m>\vec{A}</m>. Draw a sketch of the projection of <m>\vec{A}</m> on <m>\vec{B}</m> 
-            and use that to establish the equations for <m>\vec{A} \cdot \vec{B}</m> in terms of projections.
-        </p>
-      </statement>
-    </exercise>
-
-    <exercise>
-      <statement>
-        <p>
           		In example 5.4 of the conical pendulum, even though the pendulum is swinging, its energy remains 
               constant. What is the role of the forces here? What about the pendulum are they changing?
         </p>

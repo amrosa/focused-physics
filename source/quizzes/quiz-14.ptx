@@ -17,10 +17,10 @@
       <statement>
           <p>
           		K&amp;K calculate just the Z component of <m>\vec{L}</m> to get around the fact that,
-              in general, <m>\vec{L}</m> is not parallel to <m>\vec{\omega}</m>. Show, however, that if a
-              rigid body is symmetrical about the rotation axis, like the one in the figure, then, <m>\vec{L}</m> 
-              is parallel to <m>\vec{\omega}</m>. The picture has a hint here: the <q>problematic components</q>
-              should cancel in pairs.
+              in general, <m>\vec{L}</m> is not parallel to <m>\vec{\omega}</m>. Show, however,that
+              <m>\vec{L}</m> is parallel to <m>\vec{\omega}</m> if the body is rotationally symmetric
+              about the direction of <m>\vec{\omega}</m>. 
+              The picture has a hint here: the <q>problematic components</q> should cancel in pairs.
           </p>
 
           <image source="images/quiz-images/quiz14/symmetric-top.svg" width="40%">

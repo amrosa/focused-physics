@@ -33,8 +33,10 @@
     <exercise>
       <statement>
         <p>
-            Go through the steps of multiplying and divinding by an appropriate complex conjugate to go from
-            the first expression of <m>z_0</m> to the second on given in the text.
+            Show that <m>z\bar{z}=|z|^2</m> using the cartesian form <m>z=a+ib</m>. Then use the results
+            you obtained on this quiz to explain how multiplying and divinding by an appropriate complex 
+            conjugate takes you from the first expression of <m>z_0</m> to the second on given in 
+            the text.
         </p>
       </statement>
     </exercise>

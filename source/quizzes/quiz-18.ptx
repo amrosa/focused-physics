@@ -16,8 +16,9 @@
     <exercise>
       <statement>
         <p>
-          	Let's use the procedure at the very end of page 191 to find the Newtonian momentum of a particle, 
-            using the diagram to the right. Explain in which sense two observers at rest with respect to one 
+          	Let's use the procedure at the very end of page 191 to find the Newtonian momentum
+            <m>m\vec{v}</m> of a particle, 
+            using the diagram in the figure. Explain in which sense two observers at rest with respect to one 
             another agree that the momentum they obtain using the events A and B and their time interval 
             <m>\Delta t</m> is <q>the same vector</q>, even though they clearly measure different components 
             for it.                
@@ -75,13 +76,14 @@
             <li>
                 <p>
                     Use the velocity addition formula to draw this before-and-after picture in the reference frame
-                    where the particle of mass <m>2m</m> blob is at rest <alert>after the collision</alert>. 
+                    where the particle of mass <m>2m</m> blob is at rest <alert>after the collision</alert>. If you
+                    find numbers instead of exact fractions, keep many significant figures.
                 </p>
             </li>
 
             <li>
                 <p>
-                    Use your new before-and-after picture to show that the Newtonian momentum is not conserved
+                    Use your new before-and-after picture to show that the Newtonian momentum <m>m\vec{v}</m> is not conserved
                     in the new reference frame. This is a general fact: if the Newtonian momentum remains constant
                     in one reference frame, it will <alert>not remain constant in every frame.</alert> Thus, 
                     conservation of momentum using the old definition cannot be a law of physics.

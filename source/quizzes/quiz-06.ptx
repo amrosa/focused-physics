@@ -26,7 +26,7 @@
       <statement>
         <p>
           Look at the paragraph at example 4.9 that says <q>Conservation of momentum is accurate here (<ellipsis/>)</q>.
-          This is still true when we include gravity. How does the result of example 4.10 help you justify that?
+          This is still true when we include friction. How does the result of example 4.10 help you justify that?
         </p>
       </statement>
     </exercise>
@@ -34,8 +34,8 @@
     <exercise>
       <statement>
         <p>
-          	Go back to example 4.8: what can you say about the momentum <m>P_y</m> in this example? 
-            Try to give your answer as the impulse of a specific force
+          	Find the impulse of the vertical external forces acting on the marble+gun system in
+            example 4.8
         </p>
       </statement>
     </exercise>

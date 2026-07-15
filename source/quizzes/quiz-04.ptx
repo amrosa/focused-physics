@@ -27,7 +27,8 @@
       <statement>
         <p>
           	 Expand on the result of example 3.2. While still taking the rope to be massive (but totally horizontal),
-             find the tension at both ends of the rope and at the rope's center.
+             find the tension at the rope's center. Don't start from scratch: use the results
+             from that problem.
         </p>
       </statement>
     </exercise>
