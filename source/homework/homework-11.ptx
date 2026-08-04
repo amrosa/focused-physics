@@ -211,7 +211,17 @@
         </p>
 
         <image source="images/hwimg/hw10/doppler_sketch.svg" width="80%">
-            <shortdescription>Add a description</shortdescription>
+            <shortdescription>A rocket moving to the right sends radio pulses to a stationary receiver on Earth</shortdescription>
+            <description>
+                <p>
+                    An antenna, labeled R, is fixed to the ground. A rocket labeled S' moves with speed <m>v</m> to the right.
+                    The rocket has a transmitter T emitting radio pulses towards the antenna, which is to its left.
+                </p>
+                <p>
+                    Two points on the ground, A and B, are also marked. B is to the right of A, and they are
+                    separated by a distance <m>v\tau_E</m> 
+                </p>
+            </description>
         </image>
 
         <p>

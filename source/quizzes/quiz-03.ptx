@@ -34,11 +34,43 @@
 
         <sidebyside widths="40% 40%">
             <image source="images/quiz-images/quiz3/wedge-conventional.svg">
-                <shortdescription>Update Description</shortdescription>
+                <shortdescription>
+                  A triangular wedge lies on a horizontal surface. A block
+                  lies on top of the wedge.
+                </shortdescription>
+                <description>
+                  <p>
+                    A triangular wedge lies on a horizontal surface. Its position is
+                    described by the distance <m>X</m> between the wedge and a vertical wall.
+                    The height <m>h</m> of the wedge is also labeled.
+                  </p>
+                  <p>
+                    A block lies on top of the wedge. Its position is described by the distance
+                    <m>x'</m> between the block and the vertical wall, as well as its height
+                    <m>y'</m> above the ground.
+                  </p>
+                </description>
             </image>
 
             <image source="images/quiz-images/quiz3/wedge-tilted.svg">
-                <shortdescription>Update Description</shortdescription>
+                <shortdescription>Same image as the one on the left,
+                  using a different coordinate system.
+                </shortdescription>
+                  <description>
+                  <p>
+                    A triangular wedge lies on a horizontal surface. Its position is
+                    described by the distance <m>X</m> between the wedge and a vertical wall.
+                  </p>
+                  <p>
+                    A block lies on top of the wedge. Its position is described using coordinates
+                    <m>x',y'</m>. The coordinate <m>x'</m> is the distance between the block and the top of the 
+                    wedge, measured along the wedge.
+                  </p>
+                  <p>
+                    The coordinate <m>y'</m> is the distance between the block and the surface of the
+                    wedge, measured perpendicularly to the wedge.
+                  </p>
+                </description>
             </image>
         </sidebyside>
       </statement>

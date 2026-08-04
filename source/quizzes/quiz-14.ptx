@@ -25,7 +25,25 @@
           </p>
 
           <image source="images/quiz-images/quiz14/symmetric-top.svg" width="40%">
-            <shortdescription>Update Description</shortdescription>
+            <shortdescription>
+              A spinning top in the shape of a solid of revolution turns
+              about the revolution axis.
+            </shortdescription>
+            <description>
+              <p>
+                A spinning to has the shape of a solid of revolution. The axis of revolution
+                is vertical, and the bottom of the top has a sharp tip.
+              </p>
+              <p>
+                The angular velocity vector <m>\vec{\omega}</m> is vertical, and the direction
+                of rotation is counterclockwise as seen from above.
+              </p>
+              <p>
+                Two masses symmetrically placed with respect to the axis of revolution are shown,
+                one to the right and one to the left of the axis. They have the same mass <m>m</m>
+                and move on a common circle of radius <m>r</m>.
+              </p>
+            </description>
           </image>
 
       </statement>
@@ -59,7 +77,38 @@
         </p>
 
         <image source="images/quiz-images/quiz14/moment-of-inertia.svg" width="70%">
-          <shortdescription></shortdescription>
+          <shortdescription>4 structures shaped like the letter H are shown. They
+            rotate about different axes.
+          </shortdescription>
+          <description>
+            <p>
+              A structure is made with two vertical bars linked at their centers by
+              a horizontal bar. The bars have the same height. 
+              Different axes of rotation for this structure are shown.
+            </p>
+            <p>
+              <ul>
+                <li>
+                  <p>
+                    Rotation axis (a) is a horizontal axis going through
+                    the bottom of the vertical bars.
+                  </p>
+                  <p>
+                    Rotation axis (b) is a vertical axis going through the center of one
+                    the vertical bars.
+                  </p>
+                  <p>
+                    Rotation axis (c) is a horizontal axis going through the center of the
+                    horizontal bar.
+                  </p>
+                  <p>
+                    Rotation axis (d) is a vertical axis going through the center of the horizontal
+                    bar.
+                  </p>
+                </li>
+              </ul>
+            </p>
+          </description>
         </image>
       </statement>
     </exercise>
@@ -74,7 +123,43 @@
         </p>
 
         <image source="images/quiz-images/quiz14/wrench-try2.svg" width="100%">
-          <shortdescription></shortdescription>
+          <shortdescription>Four different ways of turning a wrench, with or without the help
+            of a rod (cheater bar).
+          </shortdescription>
+          <description>
+            <p>
+              The image shows four different ways of turning a wrench using a horizontal force
+              <m>\vec{F}</m> which is identical in all four situations.
+            </p>
+            <p>
+              <ul>
+                <li>
+                  <p>
+                    Option (a): the wrench is oriented vertically and the force is applied at the
+                    edge of the wrench.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Option (b): the wrench is oriented vertically and the rod is attached vertically
+                    to the end of the wrench. The force is applied at the top end of the rod.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Option (c): The wrench is oriented at an angle to the vertical, and the force is applied
+                    at the edge of the wrench. The force is still horizontal. 
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Option (d): The wrench is oriented vertically, and the rod is attached to it horizontally.
+                    The force is applied horizontally at the far end of the rod.
+                  </p>
+                </li>
+              </ul>
+            </p>
+          </description>
         </image>
       </statement>
     </exercise>

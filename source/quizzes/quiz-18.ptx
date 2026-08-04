@@ -26,18 +26,29 @@
         </p>
 
         <image width="50%">
-            <shortdescription>something to say here</shortdescription>
+            <shortdescription>Components of a vector using two coordinate systems</shortdescription>
+            <description>
+              <p>
+                Two coordinate systems xy and x<prime/>y<prime/> that share a common origin, point A,are shown. 
+                The x y coordinate system has the x axis pointing to the right and the y axis pointing upwards. 
+                The primed coordinate system has perpendicular axes rotated counterclockwise with respect to the x y coordinates.
+              </p>
+              <p>
+                Another point in the plane, labeled B, is shown. The vector <m>\Delta \vector{x}</m> that connects A and B
+                is also labeled.
+              </p>
+            </description>
             <latex-image>
                 \begin{tikzpicture}
-                     \draw[very thick,->,>=stealth] (0,0)--(0,3) node[above] {$y$};
-                     \draw[very thick,->,>=stealth] (0,0)--(3,0) node[right] {$x$};
+                     \draw[very thick,-&gt;,&gt;=stealth] (0,0)--(0,3) node[above] {$y$};
+                     \draw[very thick,-&gt;,&gt;=stealth] (0,0)--(3,0) node[right] {$x$};
 
-                     \draw[very thick,->,>=stealth] (0,0)--(20:3) node[above] {$x'$};
-                     \draw[very thick,->,>=stealth] (0,0)--(110:3) node[right] {$y'$};
+                     \draw[very thick,-&gt;,&gt;=stealth] (0,0)--(20:3) node[above] {$x'$};
+                     \draw[very thick,-&gt;,&gt;=stealth] (0,0)--(110:3) node[right] {$y'$};
                      \draw[fill=black] (0,0) circle (0.05) node[below] {$A$};
 
                      \draw[fill=black] (50:3) circle (0.05) node[above] {$B$};
-                     \draw[color={rgb,255:red,221; green,34; blue,119},->,>=stealth,ultra thick] (0,0)--(50:3) node[midway,left] {$\Delta \vec{x}$};
+                     \draw[color={rgb,255:red,221; green,34; blue,119},-&gt;,&gt;=stealth,ultra thick] (0,0)--(50:3) node[midway,left] {$\Delta \vec{x}$};
 
                      \draw[dashed,thick] (50:3)--++(-1.92836,0);
                      \draw[dashed,thick] (50:3)--++(0,-2.298133);
@@ -70,8 +81,20 @@
                 <m>m\vec{v}</m>
         </p>
 
-        <image source="images/quiz-images/quiz18/before-after.png" width="70%">
-            <shortdescription></shortdescription>
+        <image source="images/quiz-images/quiz18/before-after.svg" width="80%">
+            <shortdescription>A before and after picture of an elastic collision</shortdescription>
+            <description>
+              <p>
+                Top frame: Before a collision, a particle of mass <m>2m</m> is moving at speed <m>c/5</m> to the right.
+                A particle of mass <m>m</m>, to its right, is at rest.
+              </p>
+              <p>
+                Bottom frame: after the collision, the particle of mass <m>2m</m> moves at speed
+                <m>c/15</m> to the right. The particle of mass <m>m</m> moves at speed
+                <m>4c/15</m> to the right.
+              </p>
+            </description>
+        
         </image>
         <ol>
             <li>
@@ -91,6 +114,7 @@
                 </p>
             </li>
         </ol>
+
       </statement>
     </exercise>
 

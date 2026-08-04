@@ -100,7 +100,17 @@
              </p>
 
              <image source="images/hwimg/hw2/wheel.svg" width="50%">
-                <shortdescription>Add descriptions</shortdescription>
+                <shortdescription>Image of a wheel rotating in the x y plane.</shortdescription>
+                <description>
+                    <p>
+                        A cross section of a circular wheel in the x y plane. The center of the wheel
+                        lies along the x axis, and it is moving to the right with speed <m>V_0</m>
+                    </p>
+                    <p>
+                        A clockwise curved arrow labels the angular speed <m>\omega</m>, and a point
+                        on the wheel is shown as a full circle.
+                    </p>
+                </description>
              </image>
 
         </introduction>

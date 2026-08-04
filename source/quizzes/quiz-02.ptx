@@ -94,8 +94,17 @@
             </p>
 
             <image source="images/quiz-images/quiz2/conical_pendulum.svg" width="95%">
-                <shortdescription>(update, add long description)</shortdescription>
-                
+                <shortdescription>
+                  A ball tied to a string going on a circle. The top
+                  of the string is attached to the ceiling.
+                </shortdescription>
+                <description>
+                  <p>
+                    The top end of a string is attached to the ceiling, and the bottom end
+                    is attached to a ball. The string is titled, and the ball moves in a circle
+                    along a horizontal plane, not changing its height.
+                  </p>
+                </description>
             </image>
         </sidebyside>
       </statement>

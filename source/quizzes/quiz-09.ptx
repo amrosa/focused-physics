@@ -51,8 +51,23 @@
         </p>
 
           <image source="images/quiz-images/quiz9/energy_diagram.svg" width="60%">
-                <shortdescription>(update, add long description)</shortdescription>
-                
+                <shortdescription>Potential energy as a function of distance. The function
+                  U of r is decreasing.
+                </shortdescription>
+                <description>
+                  <p>
+                    A diagram of potential energy as a function of distance. The potential energy
+                    is monotonically decreasing with distance <m>x</m>.
+                  </p>
+                  <p>
+                    At low values of <m>x</m>, the potential energy is very high and positive. It
+                    drops abruptly, crossing the positive axis some distance away from the origin.
+                  </p>
+                  <p>
+                    At higher values of <m>x</m>, the potential energy continues decreasing but not
+                    as quickly, with the slope of the graph levelling off.
+                  </p>
+                </description>
           </image>
       </statement>
     </exercise>
@@ -66,8 +81,27 @@
         </p>
 
           <image source="images/quiz-images/quiz9/energy_diagram_2.svg" width="100%">
-                <shortdescription>(update, add long description)</shortdescription>
-                
+            <shortdescription>A potential energy diagram for two atoms.</shortdescription>
+            <description>
+              <p>
+                A potential energy diagram for the interaction of two atoms. The x axis is in units
+                of nm, going from 0 to 0.8. The y axis is in units of <m>10^{-21}</m> joules, going from
+                -12 to 15.
+              </p>
+              <p>
+                At low values of <m>x</m>, the potential energy is positive and very high, dropping abruptly.
+                The potential energy is 0 at <m>x=0.1 nm</m>. It reaches a minimum of roughly -11 at roughly
+                <m>x=0.12 nm</m>. 
+              </p>
+              <p>
+                The potential energy grows between <m>x=0.12 nm</m> and <m>x=0.35 nm</m>, reaching 0 at
+                <m>x=0.2 nm</m> and a positive maximum of roughly 5.
+              </p>
+              <p>
+                For <m>x &gt; 0.35nm</m>, the potential energy is positive and decreasing, seeming to reach
+                a horizontal asymptote at 0 energy.
+              </p>
+            </description>    
           </image>
       </statement>
     </exercise>

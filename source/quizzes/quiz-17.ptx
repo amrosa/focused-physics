@@ -34,7 +34,42 @@
         </p>
 
         <image source="images/quiz-images/quiz17/SpacetimeDiagramWithFiveWorldlines.svg" width="80%">
-            <shortdescription>Convert these pdf images to a different format man</shortdescription>
+            <shortdescription>Spacetime diagram showing five different worldlines.</shortdescription>
+            <description>
+              <p>
+                <ol>
+                  <li>
+                    <p>
+                      Worldline 1 is a vertical line. It is oriented bottom to top.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Worldline 2 is a straight line going through points (3,0) and (5,6), oriented from the first point to the second.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Worldline 3 is a straight line going through points (8,0) and (6,3), oriented
+                      from the first point to the second.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Worldline 4 is curved. It starts with a positive slope that gets steeper, with the tangent
+                      line eventually becoming vertical. The tangent line then slopes to the left, with a negative
+                      but decreasing slope.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Worldline 5 is a straight line going through (10,0) making a 45<degree/> angle
+                      with the positive x axis, oriented towards increasing time.
+                    </p>
+                  </li>
+                </ol>
+              </p>
+            </description>
         </image>
       </statement>
     </exercise>
@@ -61,7 +96,25 @@
         </p>
 
         <image source="images\quiz-images\quiz17\BouncingLightPulse1.svg" width="50%">
-            <shortdescription></shortdescription>
+            <shortdescription>Spacetime diagram of a light ray going to  from the origin
+              to a mirror on its right and back.
+            </shortdescription>
+            <description>
+              <p>
+                A spacetime diagram using a primed coordinate system x<prime/> t<prime/>. The
+                origin event O is labeled. The vertical world line of a stationary mirror
+                to the right of the origin is also shown.
+              </p>
+              <p>
+                A light ray traveling to the right is created at <m>x'=0</m> at a time <m>t' &lt; 0</m>. 
+                The worldline of the light pulse has a 45<degree/> slope and it goes up and to the right.
+                The light pulse reaches the mirror when <m>t'=0</m>, and this is labeled event B.
+              </p>
+              <p>
+                After reflection, the light pulse travels to the left until eventually reaching the origin
+                at a later time. This reception event is labeled S.
+              </p>
+            </description>
         </image>
       </statement>
     </exercise>

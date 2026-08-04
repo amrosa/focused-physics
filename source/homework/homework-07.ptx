@@ -107,7 +107,9 @@
         </p>
         
         <image source="images/hwimg/hw6/astro-blaster.svg" width="40%">
-            <shortdescription>add description</shortdescription>
+            <shortdescription>A small ball is on top of a large ball. The large ball is at
+                a certain height above the ground.
+            </shortdescription>
         </image>
     </exercise>
   </page>
@@ -121,7 +123,19 @@
         </p>
         
         <image source="images/hwimg/hw6/rocket_valley.svg" width="50%">
-            <shortdescription>add description</shortdescription>
+            <shortdescription>
+                A rocket on level ground ahead of a depression that ends at a hill.
+            </shortdescription>
+            <description>
+                <p>
+                    A rocket is on level ground ahead of a depression to its right. The depression
+                    leads to a hill at higher altitude than the one the rocket starts.
+                </p>
+                <p>
+                    The lowest point at the depression is at heigth <m>H</m> below the top of the hill,
+                    and the rocket starts at height <m>h</m>, which is less than <m>H</m>, below the hill.
+                </p>
+            </description>
         </image>
 
         <p>
