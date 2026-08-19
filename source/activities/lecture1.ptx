@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- When creating a new activity, make a copy of this file with appropriate name -->
+<worksheet top="0.5in" left="0.5in" right="0.5in">
+  <title>Lecture Worksheet - Vectors and Kinematics</title>
+
+  <!-- Optional introduction -->
+
+  <!-- Exercises start here. -->
+  <exercise>
+    <statement>
+      <p>
+            Below are some common statements about vectors
+            that a student might make.
+            Mark each one as correct (C) or incorrect (I) as far as proper use of vector
+            language is concerned.
+      </p>
+      <p>
+        <ol cols="2">
+          <li>
+            <p>
+              If a vector <m>\vec{A}=0</m>, then <m>~{A_{x}+A_{y}=0}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              If <m>\vec{A}=\vec{B}+\vec{C}</m>, then <m>~{|\vec{B}|=|\vec{A}|-|\vec{C}|}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              If <m>\vec{v}=5\text{m/s}</m> and <m>m=2.0\text{kg}</m>, then
+              <m>~{\vec{p}=m\vec{v}=10\text{kg}\,\text{m/s}}</m>
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise workspace="2in">
+    <statement>
+      <p>
+        A particle moves with constant speed along the parabola shown below. 
+      </p>
+      <image>
+        <shortdescription>An image of a parabola</shortdescription>
+        <latex-image>
+          \begin{tikzpicture}
+            \draw[blue, line width = 0.75mm]   plot[smooth,domain=-5:5] (\x, {0.1*\x*\x});
+            \draw[fill=black] (0,0) circle (0.1) node[below] {2};
+            \draw[fill=black] (-2,0.4) circle (0.1) node[below] {1};
+            \draw[fill=black] (2,0.4) circle (0.1) node[below] {3};
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+      <ol>
+        <li>
+          <p>
+            Draw approximate velocity vectors at the labeled points 1, 2, and 3.
+          </p>
+        </li>
+        <li>
+          <p>
+            Use the velocity vectors you drew to find the approximate direction of the 
+            acceleration at point 2. Draw the velocity vectors in the space below, 
+            and draw the vectors <alert>large</alert> so you can see what you're doing
+          </p>
+        </li>
+      </ol>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        A particle is going around a circle of radius <m>R</m> centered at the origin. 
+        At time <m>~{t=0}</m>, the particle is at <m>~{\vec{r}=(R,0)}</m>. The particle moves at 
+        constant speed, so the angle <m>\theta</m> that <m>\vec{r}</m> makes with the x 
+        axis changes at a steady rate <m>\omega</m> (measured in rad/s)
+      </p>
+      <ol>
+        <li>
+          <p>
+            Sketch this situation in the space below and write a mathematical expression 
+            for the vector <m>\vec{r}(t)</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            Add the velocity vector <m>\vec{v}(t)</m> to your drawing. 
+            Is it possible to have <m>\vec{v}=\omega \vec{r}</m>?
+          </p>
+        </li>
+        <li>
+          <p>
+            Calculate <m>\vec{v}(t)</m> and <m>\vec{a}(t)</m> (use the back of the page 
+            if you have to!)
+          </p>
+        </li>
+      </ol>
+    </statement>
+  </exercise>
+
+</worksheet>

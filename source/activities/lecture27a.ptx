@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- When creating a new activity, make a copy of this file with appropriate name -->
+<worksheet xml:id="activity-27a" top="0.5in" left="0.5in" right="0.5in" bottom="0.5in">
+  <title>Lecture Worksheet - 4-vectors</title>
+
+  <!-- Exercises start here. -->
+  <exercise workspace="2in">
+    <statement>
+      <p>
+        Consider two four-velocities
+        <m>
+            \underset{\sim}{V_1},\underset{\sim}{V_2}
+        </m>.
+        Their scalar product is
+        <md>
+            \underset{\sim}{V_1}\cdot\underset{\sim}{V_2}=\gamma_{1}\gamma_{2}(1-\vec{v}_{1}\bullet\vec{v}_{2})
+        </md>.
+        Physically, what does this represent?
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise>
+    <title>Asymmetric decay</title>
+    <p>
+        A pion (mass <m>M_{\pi}</m> ) decays into a muon (mass <m>M_{\mu}</m> ) and
+        a neutrino (approximate as massless): <m>\pi^{+}\to \mu^{+} +\nu</m>.
+        What are the energies of the muon and the neutrino?
+    </p>
+
+    <p>
+        <ol>
+            <li>
+                <p>
+                    Draw a before and after picture and a four-vector diagram that
+                    represents (in the lab frame) the conservation of momentum
+                    <m>\underset{\sim}{p_\pi}=\underset{\sim}{p_\mu}+\underset{\sim}{p_\nu}</m>
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    We know that <m>p_{\mu}^{2}=m_{\mu}^{2}</m>, so square the
+                    equation for <m>\underset{\sim}{p_\mu}</m> above.
+                    Hint: since we are in the lab frame, the dot product of
+                    <m>\underset{\sim}{p_\pi}</m> with another vector should be quite
+                    simple.
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    Use your expression to solve for <m>E_{\nu}</m>, the energy of
+                    the neutrino.
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    Now use the conservation laws (or really: your vector diagram
+                    from the first part!) to solve for the energy of the muon, the
+                    momentum of the muon (in magnitude), and the speed of the muon.
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    The pion has a mass of 139 MeV, and the muon has a mass of 103
+                    MeV (MeV is a unit of energy, what does this mean?).
+                    Find the energy of the muon (in MeV!) and its speed ( <m>v/c</m>
+                    ).
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    If you find the muon to be at rest after the decay, how fast was
+                    the pion moving?
+                    What neutrino energy would you observe (good luck with that!)
+                </p>
+            </li>
+        </ol>
+    </p>
+  </exercise>
+
+</worksheet>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- When creating a new activity, make a copy of this file with appropriate name -->
+<worksheet xml:id="activity-10a" top="0.5in" left="0.5in" right="0.5in" bottom="0.5in">
+  <title>Lecture Worksheet - Mass Flow</title>
+
+
+  <!-- Exercises start here. -->
+  <exercise>
+    <statement>
+        <p>
+            Material is blown into cart A from cart B at a rate of <m>R</m> kilograms
+            per second, as shown.
+            The material leaves the chute vertically downward, so that it has the same
+            horizontal velocity <m>\vec{u}</m> as cart B.
+            At the moment of interest, cart A has mass <m>M</m> and velocity <m>v</m>.
+            Find <m>\dfrac{dv}{dt}</m>, the instantaneous acceleration of A.
+            Note: <m>\vec{v}</m> and <m>\vec{u}</m> are both measured in the frame of
+            the tracks.
+        </p>
+
+        <image width="60%" source="images\activities\lec10\sand_cars.png">
+            <shortdescription>descr</shortdescription>
+        </image>
+    </statement>
+  </exercise>
+
+</worksheet>

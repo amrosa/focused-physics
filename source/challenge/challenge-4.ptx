@@ -3,9 +3,7 @@
 
 <handout>  
     <title>Challenge Problem 4: Tuned Mass Dampers</title>
-    <page>
     <objectives>
-        The purpose of the challenge problems is to practice:
                 <ul>
                     <li>
                         <p>
@@ -30,8 +28,8 @@
                 </li>
             </ul>
    </objectives>
-
-    <assemblage>
+  <page>
+    <paragraphs>
         <title>General Advice and Logistics</title>
         
             <p>
@@ -81,11 +79,11 @@
                 thinking until you get it right. If you need help, talk to one of your instructors, or 
                 collaborate with another group. You have two chances! Believe in yourself and take it slowly.
             </p>
-    </assemblage>
+        </paragraphs>
     </page>
 
     <page>
-        <introduction>
+        <paragraphs>
             <title>Context for the Problem</title>
             <p>
                 The resonance phenomenon can be harnessed for many useful applications <mdash/> 
@@ -118,12 +116,12 @@
                 <shortdescription>add a statement</shortdescription>
             </image>
 
-        </introduction>
+        </paragraphs>
     </page>
 
     
 <page>
-    <conclusion>
+    <paragraphs>
         <title>Challenge Problem Statement</title>
         
         <p>
@@ -185,15 +183,19 @@
                 </li>
             </ol>
         </p>
-        <project>
-            <p>
-                This problem has a lot of algebra: be patient. If you use complex numbers,
-                this will be a lot easier, but be sure you understand how to interpret your expressions.
-            </p>
-            <p>
-                I cannot emphasize this enough: be strategic in approaching the algebra.
-            </p>
-    </project>
-    </conclusion>
+ 
+    
+<project>
+    <p>
+        This problem has a lot of algebra: be patient.
+        If you use complex numbers, this will be a lot easier, but be sure you
+        understand how to interpret your expressions.
+    </p>
+
+    <p>
+        I cannot emphasize this enough: be strategic in approaching the algebra.
+    </p>
+</project>
+    </paragraphs>
     </page>
 </handout>

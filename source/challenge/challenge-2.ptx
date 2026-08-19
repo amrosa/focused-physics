@@ -3,9 +3,8 @@
 
 <handout>  
     <title>Challenge Problem 2: The Pedagogical Machine</title>
-    <page>
+ 
     <objectives>
-        The purpose of the challenge problems is to practice:
                 <ul>
                     <li>
                         <p>
@@ -30,8 +29,8 @@
                 </li>
             </ul>
    </objectives>
-
-    <assemblage>
+   <page>
+    <paragraphs>
         <title>General Advice and Logistics</title>
         
             <p>
@@ -81,12 +80,12 @@
                 thinking until you get it right. If you need help, talk to one of your instructors, or 
                 collaborate with another group. You have two chances! Believe in yourself and take it slowly.
             </p>
-    </assemblage>
+        </paragraphs>
 </page>
 
     
 <page>
-    <conclusion>
+    <paragraphs>
         <title>Challenge Problem Statement</title>
         
         <p>
@@ -113,22 +112,27 @@
             <shortdescription>Description</shortdescription>
         </image>
 
-        <project>
-            <p>
-                This is a problem from the textbook. You are allowed to consult the hints to check if your
-                final answer is correct, but you are not allowed to look up the solutions.
-            </p>
-            <p>
-                In principle, this problem is no different than the other Newton's laws problems we've
-                been doing. The complexity here is that there are lots of forces, so you might miss one,
-                or have some difficulty figuring out constraints. Be patient.
-            </p>
-            <p>
-                Make sure to sanity check your solution or intermediate steps. The goal of doing science is
-                not to never make mistakes, but rather to have a robust way of checking for mistakes so you
-                can correct them.
-            </p>
-    </project>
-    </conclusion>
+<project>
+    <p>
+        This is a problem from the textbook.
+        You are allowed to consult the hints to check if your final answer is
+        correct, but you are not allowed to look up the solutions.
+    </p>
+
+    <p>
+        In principle, this problem is no different than the other Newton's laws
+        problems we've been doing.
+        The complexity here is that there are lots of forces, so you might miss
+        one, or have some difficulty figuring out constraints.
+        Be patient.
+    </p>
+
+    <p>
+        Make sure to sanity check your solution or intermediate steps.
+        The goal of doing science is not to never make mistakes, but rather to
+        have a robust way of checking for mistakes so you can correct them.
+    </p>
+</project>
+        </paragraphs>
     </page>
 </handout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- When creating a new activity, make a copy of this file with appropriate name -->
+<worksheet xml:id="activity-13" top="0.5in" left="0.5in" right="0.5in" bottom="0.5in">
+  <title>Lecture Worksheet - Work and Energy in 3D</title>
+
+  <!-- Optional introduction -->
+  <!-- Exercises start here. -->
+
+  <exercise>
+    <statement>
+      <p>
+        When you jump, how much work is done on you by the ground? How much work is done on you by the Earth?
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise>
+    <p>
+        An escalator moves downward at constant speed. You walk up the escalator at this same speed, 
+        so that you remain at rest with respect to the Earth. Is work being done on you? Are you doing any work?
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+        Four identical balls of mass M and radius R are connected
+        by strings in a square arrangement whose side has
+        length L. Between each adjacent ball there is a spring that
+        has a relaxed length 2L and a spring constant <m>k_s</m> that is compressed
+        by the string tying the balls together. The diagram 
+        below shows the situation. The entire system floats in
+        space. Now suppose that we cut the strings simultaneously.
+        The springs will push the balls away from each
+        other. What final speed will each ball have?
+    </p>
+    <image width="50%" source="images\activities\lec13\ball_and_spring.png">
+        <shortdescription>descr</shortdescription>
+    </image>
+  </exercise>
+</worksheet>

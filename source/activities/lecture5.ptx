@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- When creating a new activity, make a copy of this file with appropriate name -->
+<worksheet xml:id="activity-05" top="0.5in" left="0.5in" right="0.5in" bottom="0.5in">
+  <title>Lecture Worksheet - Tension and Friction</title>
+
+
+  <!-- Exercises start here. -->
+  <exercise workspace="2in">
+    <statement>
+        <p>
+            A car enters a banked turn whose radius is
+            <m>R</m> (the picture below is seen from behind, the road is curved).
+            The road is banked at an angle <m>\theta</m>, and the friction coefficient
+            between the tires and the track is <m>\mu</m>.
+            There is a maximum and a minimum speed that the car can drive on this turn
+            without the tires slipping.
+        </p>
+
+        <image source="images\activities\lec5\banked.png">
+            <shortdescription></shortdescription>
+        </image>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        At the moment shown, what is the direction of the car's
+                        acceleration?
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Draw FBDs for when the car is going at its maximum and minimum
+                        speeds.
+                        Hint for the max speed diagram: think about how the car would
+                        skid if it's going too fast.
+                        It might be easier to think about a flat turn first.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Which coordinate system seems best suited to solving the
+                        problem: horizontal and vertical axes, or parallel and
+                        perpendicular to the turn?
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Write Newton's 2nd law for the car when the car is going at the
+                        maximum speed.
+                        Use <m>f_{s}=\mu N</m> to reduce the number of unknowns.
+                        You don't have to solve the equations, but check that you have
+                        only 2 unknowns.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </statement>
+  </exercise>
+
+  <exercise>
+    <p>
+        <alert>The whirling rope: differential equations and continuous systems.</alert>
+        Consider the rope shown in the picture below, which has mass <m>M</m>,
+        uniformly distributed through its length <m>L</m>.
+        It is pivoted at one end and it spins with constant angular velocity
+        <m>\omega</m>.
+        Neglecting gravity, how does the tension vary across the length of the rope?
+        That is, our goal is to find a function <m>T(r)</m> that gives the tension
+        at a distance <m>r</m> from the pivot.
+    </p>
+
+    <image source="images\activities\lec5\whirling_rope.png">
+        <shortdescription></shortdescription>
+    </image>
+    <p>
+        <ol>
+            <li>
+                <p>
+                    Draw the rope, and put on top of it a radial axis <m>r</m> that
+                    measures the distance from the pivot.
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    Slice up the rope into several pieces of length <m>dr</m> and
+                    consider the rope segment at some particular distance <m>r</m>
+                    from the origin.
+                    That is, the distance from the center of the two ends of the
+                    slice are <m>r</m> and <m>r+dr</m>.
+                    Draw the FBD for this piece of rope.
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    Discussion: From your FBD, does the tension increase or decrease
+                    as you get further from the pivot?
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    How much mass <m>dm</m> does your piece of rope have?
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    Write down Newton's second law for this rope segment and us it
+                    to find an expression for the change in tension,
+                    <m>T(r + dr) - T(r)</m>
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    Use the previous result and take <m>dr\to 0</m> to find
+                    <m>\frac{dT}{dr}</m>, the derivative of the tension.
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    Discussion: Do we know the tension at any point along the rope?
+                    Hint: there's a point at which the rope should be slack
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    Using your results from the two previous parts, write a definite
+                    integral expression which allows you find the value of
+                    <m>T(R)</m> at any point along the rope.
+                </p>
+            </li>
+        </ol>
+    </p>
+  </exercise>
+
+</worksheet>

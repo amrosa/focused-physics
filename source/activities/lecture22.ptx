@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- When creating a new activity, make a copy of this file with appropriate name -->
+<worksheet xml:id="activity-22" top="0.5in" left="0.5in" right="0.5in" bottom="0.5in">
+  <title>Lecture Worksheet - Time Dilation </title>
+
+  <!-- Exercises start here. -->
+  <exercise>
+    <statement>
+      <p>
+        For the time dilation result just derived,
+        <m>
+            ~{\Delta t_{g}=\gamma \Delta t_{s}}
+        </m>, how are we supposed to tell <q>who is moving</q>? Doesn't the 
+        principle of relativity tell us that being in motion and being at rest
+        is equivalent? What distinguishes
+        <m>
+            \Delta t_{g}
+        </m>
+        and
+        <m>
+            \Delta t_{s}
+        </m>
+        ?
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise>
+    <p>
+        Is there any situation when a proper time is equal to a coordinate time?
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+        The following problem uses data from the film <q>Time dilation - an 
+        experiment with mu mesons</q>. Muons, the electron's heavier cousins,
+        are often created in the upper atmosphere, moving at speeds close to 
+        the speed of light.
+    </p>
+    <p>
+    In this experiment, muons of a specific energy (therefore, moving at a 
+    specific speed with respect to Earth) were observed at the top of 
+    Mt. Washington, roughly 2000m above sea level. Roughly 565 muons were 
+    observed in the detector every hour.
+    </p>
+    <p> 
+    Muons are unstable, and this 
+    experiment also measured the muon half-life to be approximately 1.52
+        <m>
+            \mu\text{s}
+        </m>
+        . This means that if you have a bottle of muons, 1.52
+        <m>
+            \mu\text{s}
+        </m>
+        later, half of them will have decayed.
+    </p>
+
+    <ol>
+        <li>
+            <p>
+                The muon lifetime as defined above is an intrinsic property of the
+                particle.
+                If that's the case, does it refer to a measurement in a particular
+                reference frame?
+                Which one?
+            </p>
+        </li>
+
+        <li>
+            <p>
+                Muons move <m>\textbf{very close}</m> to the speed of light.
+                How long does it take for the muons at the top of Mt.
+                Washington to reach sea level?
+                How many half-lives have passed?
+            </p>
+        </li>
+
+        <li>
+            <p>
+                Estimate the number of muons per hour that this experiment would
+                observe when repeated at sea level (for this part, it's OK to round
+                the number of half-lives passed to the nearest integer, as you'll
+                see in just a moment).
+            </p>
+        </li>
+
+        <li>
+            <p>
+                When the experiment is repeated at sea level, you instead find 410
+                muons per hour!
+                Our expectation for the number of muons per hour should be, using
+                the radioactive decay law,
+                <m>N(t)=(565)\times\left(\frac{1}{2}\right)^{t/T}</m>, where
+                <m>T=1.52\mu\text{s}</m>.
+                Use this to find out how long the <q>trip</q> from the top of Mt.
+                Washington to sea level takes in the muon frame.
+            </p>
+        </li>
+
+        <li>
+            <p>
+                How fast were the muons moving?
+            </p>
+        </li>
+    </ol>
+
+  </exercise>
+</worksheet>

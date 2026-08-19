@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- When creating a new activity, make a copy of this file with appropriate name -->
+<worksheet xml:id="activity-17" top="0.5in" left="0.5in" right="0.5in" bottom="0.5in">
+  <title>Introduction Activity</title>
+
+  <!-- Optional introduction -->
+  <!-- Exercises start here. -->
+  <exercise>
+    <statement>
+<p>
+    A particle P of mass m can slide on a smooth horizontal table.
+    P is connected to a light inextensible string which passes through a small
+    smooth hole O in the table, so that the lower end of the string hangs 
+    vertically below the table while P moves on top with the string
+    taut (see figure)
+</p>
+
+<p>
+    Initially the lower end of the string is held fixed with P moving with speed
+    <m>u</m> on a circle of radius <m>a</m>.
+    The string is now pulled down from below in such a way that the length of
+    the string <m>r(t)</m> decreases at a constant rate <m>V</m>.
+</p>
+
+
+    <image source="images\activities\lect17\rope_hole.png">
+    <shortdescription></shortdescription>
+    </image>
+
+
+<p>
+    <ol>
+        <li>
+            <p>
+                Does the momentum of the particle stay constant?
+                If not, what external forces act on it?
+            </p>
+        </li>
+
+        <li>
+            <p>
+                Does the kinetic energy of the particle stay constant?
+                If not, what does work on it?
+            </p>
+        </li>
+
+        <li>
+            <p>
+                Does the angular momentum of the particle about the hole remain
+                constant?
+                If not, what is the net torque on the particle?
+            </p>
+        </li>
+
+        <li>
+            <p>
+                Find the speed of the particle as a function of time.
+                Reminder: <m>~{r(0)=a}</m>, <m>~{v(0)=u}</m>.
+            </p>
+        </li>
+    </ol>
+</p>
+    </statement>
+  </exercise>
+
+
+<exercise>
+<p>
+    We looked at a pendulum some time ago using energy methods, and that's still
+    the best way to look at it, but we can use the pendulum to get some practice
+    using angular momentum.
+    To fix our coordinates, let's take the angle <m>\phi</m> to be positive when
+    the string is rotated counterclockwise with respect to the vertical.
+    This corresponds to taking the positive direction for angular velocity and
+    angular momentum to be <alert>out of the page</alert> (check with your right
+    hand).
+    We'll call this the <m>z</m> direction.
+</p>
+
+<image width="50%" source="images\activities\lect17\pendulum.png">
+<shortdescription>descr</shortdescription>
+</image>
+<p>
+    <ol>
+        <li>
+            <p>
+                Find the vector component <m>\tau_{z}</m> of the net torque on
+                the particle about the pivot point (a in the figure) as a
+                function of the angle <m>\phi</m>.
+                Note: I'm asking for a vector component, so signs are important.
+            </p>
+        </li>
+
+        <li>
+            <p>
+                Check that your equation also gives the correct vector component
+                when <m>~{\phi &lt; 0}</m>, that is, if the string is swinging to
+                the left instead of to the right as shown here.
+            </p>
+        </li>
+
+        <li>
+            <p>
+                Since your solution works for all <m>\phi</m>, we can use
+                <m>\tau_{z} = \dfrac{dL_z}{dt}</m> without fear.
+                Use this to find <m>\ddot{\phi}</m>.
+            </p>
+        </li>
+    </ol>
+</p>
+</exercise>
+
+</worksheet>

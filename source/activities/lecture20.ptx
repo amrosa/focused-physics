@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- When creating a new activity, make a copy of this file with appropriate name -->
+<worksheet xml:id="activity-20" top="0.5in" left="0.5in" right="0.5in" bottom="0.5in">
+  <title>Lecture Worksheet - Precession</title>
+
+  <!-- Exercises start here. -->
+  <exercise>
+    <statement>
+        <p>
+            Consider a gyroscope that is tilted at an angle <m>\phi</m> with respect to
+            the vertical (figure).
+            How does its precession frequency <m>\Omega</m> depend on the angle?
+            Hint: <m>\vec{\tau}=\dfrac{d\vec{L}}{dt}</m>. Take your time and follow the algorithm
+        </p>
+
+        <image width="50%" source="images\activities\lec20\tilted_gyro.png"/>
+    </statement>
+  </exercise>
+
+  <exercise>
+    <p>
+        The figure above, which is from the textbook, is missing one of the forces
+        acting on the gyroscope. What is it, and in what direction does it point?
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+        Consider the gyroscopes shown below. How will each of them precess? 
+        Find the precession direction, and talk through how to find the 
+        frequency. No need to do any calculations.
+    </p>
+    <sidebyside widths="45% 45%">
+        <image source="images\activities\lec20\gyroscope_1.png">
+            <shortdescription>descr</shortdescription>
+        </image>
+        <image source="images\activities\lec20\gyroscope_2.png">
+            <shortdescription>descr</shortdescription>
+        </image>
+
+    </sidebyside>
+        
+    <sidebyside widths="45% 45%">
+        <image source="images\activities\lec20\gyroscope_3.png">
+            <shortdescription>descr</shortdescription>
+        </image>
+        <image source="images\activities\lec20\gyroscope_4.png">
+            <shortdescription>descr</shortdescription>
+        </image>
+
+    </sidebyside>
+    
+  </exercise>
+</worksheet>

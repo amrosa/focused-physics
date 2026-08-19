@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- When creating a new activity, make a copy of this file with appropriate name -->
+<worksheet xml:id="activity-02" top="0.5in" left="0.5in" right="0.5in">
+  <title>Lecture Worksheet - Calculus and Kinematics</title>
+
+
+<exercise>
+    <p>
+        A mass attached to a spring oscillates from
+        left to right.
+        When the particle is at the rightmost point of its motion, its
+        acceleration
+    </p>
+
+    <p>
+        <ol cols="3">
+            <li>
+                <p>
+                    is to the right
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    is to the left
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    is zero
+                </p>
+            </li>
+        </ol>
+    </p>
+</exercise>
+
+
+<exercise>
+    <p>
+        The graph below shows a particle's acceleration <m>a_{x}(t)</m>.
+        Sketch a graph for the velocity <m>v_{x}(t)</m> that has a negative
+        initial velocity.
+    </p>
+
+    <image width="40%" margins="0% 60%">
+        <shortdescription>description</shortdescription>
+        <latex-image>
+        \begin{tikzpicture}
+            \draw[blue, line width = 0.75mm]   plot[smooth,domain=0:2] (\x, {2-\x});
+            \draw[blue, line width = 0.75mm]   plot[smooth,domain=2:3] (\x, {0});
+            \draw[thick,-&gt;,&gt;=stealth] (0,0)--(4,0) node[right] {$t$};
+            \draw[thick,-&gt;,&gt;=stealth] (0,0)--(0,3) node[right] {$a_x$};
+        \end{tikzpicture}
+        </latex-image>
+    </image>
+</exercise>
+
+<exercise>
+    <p>
+        The graph below shows a particle's acceleration <m>a_{x}(t)</m>.
+        Sketch a graph of the particle's position <m>x(t)</m>.
+    </p>
+
+    <image width="40%" margins="0% 60%">
+        <shortdescription>descr</shortdescription>
+        <!--todo: unknown environment "tikzpicture"-->
+    <latex-image>
+        \begin{tikzpicture}
+        \draw[blue, line width = 0.75mm]   plot[smooth,domain=0:2] (\x, {2});
+        \draw[blue, line width = 0.75mm]   plot[smooth,domain=2:3] (\x, {0});
+        \draw[thick,-&gt;,&gt;=stealth] (0,0)--(4,0) node[right] {$t$};
+        \draw[thick,-&gt;,&gt;=stealth] (0,0)--(0,3) node[right] {$a_x$};
+        \end{tikzpicture}
+    </latex-image>
+    </image>
+</exercise>
+
+
+<exercise>
+    <p>
+        The graph below shows a particle's velocity <m>v_{x}(t)</m>.
+        Sketch a graph of the particle's acceleration <m>a_{x}(t)</m>.
+    </p>
+
+    <image width="40%" margins="0% 60%">
+        <shortdescription>descr</shortdescription>
+        <!--todo: unknown environment "tikzpicture"-->
+        <latex-image>
+        \begin{tikzpicture}
+        \draw[blue, line width = 0.75mm]   plot[smooth,domain=0:5] (\x,{2-2*exp(-\x)});
+        \draw[thick,-&gt;,&gt;=stealth] (0,0)--(5.5,0) node[right] {$t$};
+        \draw[thick,-&gt;,&gt;=stealth] (0,0)--(0,3) node[right] {$v_x$};
+        \end{tikzpicture}
+        </latex-image>
+    </image>
+</exercise>
+
+<exercise>
+    <p>
+    The graph below shows a particle's velocity
+    <m>x(t)</m>.
+    Sketch a graph of the particle's velocity <m>v_{x}(t)</m>.
+    </p>
+<image width="40%" margins="0% 60%"> 
+    <!--todo: unknown environment "tikzpicture"-->
+    <shortdescription>descr</shortdescription>
+    <latex-image>\begin{tikzpicture}
+    \draw[blue, line width = 0.75mm]   plot[smooth,domain=0:5] (\x,{2-2*exp(-0.15*\x*\x*\x)});
+    \draw[thick,-&gt;,&gt;=stealth] (0,0)--(5.5,0) node[right] {$t$};
+    \draw[thick,-&gt;,&gt;=stealth] (0,0)--(0,3) node[right] {$v_x$};
+    \end{tikzpicture}</latex-image>
+</image>
+</exercise>
+</worksheet>

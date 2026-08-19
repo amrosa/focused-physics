@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- When creating a new activity, make a copy of this file with appropriate name -->
+<worksheet xml:id="activity-10" top="0.5in" left="0.5in" right="0.5in" bottom="0.5in">
+    <title>Lecture Worksheet - Mass Flow</title>
+
+    <!-- Optional introduction -->
+    <introduction>
+        <p>
+            This is the introduction to the activity.
+        </p>
+    </introduction>
+    <!-- Exercises start here. -->
+     <exercise>
+        <sidebyside widths="70% 30%">
+            <p>
+                    A chain of total mass <m>M</m> and length <m>L</m> is suspended vertically
+                    with its lowest end touching a scale.
+                    The chain is released and falls onto the scale.
+                    What is the reading of the scale when a length of chain, <m>x</m>, has
+                    fallen? (Neglect the size of individual links.)
+            </p>
+            <image source="images\activities\lec10\Falling_Chain.png">
+                <shortdescription></shortdescription>
+            </image>
+        </sidebyside>
+     </exercise>
+    <exercise>
+        <statement>
+            <p>
+                A uniform rope of mass density <m>\lambda</m> per unit length is
+                coiled on a smooth horizontal table.
+                One end is pulled straight up with constant speed <m>v_{0}</m>,
+                as shown in the figure
+            </p>
+
+            <image width="30%" source="images\activities\lec10\rope.png">
+                <shortdescription>descr</shortdescription>
+            </image>
+
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            Pick your system to be
+                            <alert>the entire rope</alert>, which we'll say has
+                            a total mass <m>M</m>.
+                            Draw the FBD for the rope.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            <alert>Discussion:</alert> What is the role of the
+                            normal force in this problem?
+                            To be more specific: once a length of rope <m>y</m>
+                            has been pulled off the ground, what should the
+                            magnitude of <m>\vec{N}</m> be?
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Write an expression for the system's momentum at a
+                            time <m>t</m>.
+                            Using Newton's 2nd law, find the magnitude of the
+                            force <m>F</m> you need to exert to keep the rope
+                            going at speed <m>v_{0}</m>.
+                            Rewrite your expression in terms of <m>y</m>.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Now let's make a different, time-dependent choice of
+                            system.
+                            Consider, at time t,
+                            <alert>only the part of the rope that is off the ground</alert>.
+                            Draw the FBD for this system.
+                            What is <m>\dfrac{d\vec{P}}{dt}</m> for this system?
+                            Note: when you take the derivative you
+                            <alert>do not</alert> take into account that the
+                            definition of the system changes with time - you
+                            look at the system at a fixed time t and find ITS
+                            time rate of change of <m>\vec{P}</m>
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Extra: The tension at the bottom at the rope needs
+                            to bring some amount of mass <m>dm</m> (how is
+                            <m>dm</m> related to <m>dy</m>?) from rest to speed
+                            <m>v_{0}</m> quickly.
+                            See if you can use this idea to explain the
+                            magnitude of the tension at the bottom of the rope
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+</worksheet>

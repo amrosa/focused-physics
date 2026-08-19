@@ -56,20 +56,28 @@
           These are copies of the in-class activities distributed during the semester.
         </p>
       </introduction>
-
       <!-- Remove the example and replace with your own activities -->
-      <xi:include href="./activities/01-intro-activity.ptx"/>
+      <!-- Activities here if you want to include them
+      <xi:include href="./activities/lecture1.ptx"/>
+      <xi:include href="./activities/lecture2.ptx"/>
+      <xi:include href="./activities/lecture3.ptx"/>
+      <xi:include href="./activities/lecture4.ptx"/>
+      <xi:include href="./activities/lecture5.ptx"/>
+      <xi:include href="./activities/lecture7.ptx"/>
+      <xi:include href="./activities/lecture10.ptx"/>
+      <xi:include href="./activities/lecture10-alt.ptx"/>
+      <xi:include href="./activities/lecture11.ptx"/>
+      <xi:include href="./activities/lecture12.ptx"/>
+      <xi:include href="./activities/lecture19.ptx"/>
+      -->
 
-      <!-- Add more xi:include files here to include them in the main course -->
     </chapter>
-
+    
     <chapter xml:id="self-reflections">
       <title>Reflection Assignments</title>
       <!-- Include handouts -->
       <xi:include href="./handouts/reflection-no-midterm.ptx"/>
       <xi:include href="./handouts/post-exam-reflection.ptx"/>
-
-    <!-- <xi:include href="./handouts/handout-filename.ptx"/> -->
     </chapter>
 
     <chapter xml:id="homework">

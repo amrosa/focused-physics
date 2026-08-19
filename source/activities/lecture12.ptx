@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- When creating a new activity, make a copy of this file with appropriate name -->
+<worksheet xml:id="activity-12" top="0.5in" left="0.5in" right="0.5in" bottom="0.5in">
+  <title>Lecture Worksheet - Energy Diagrams</title>
+
+
+  <!-- Exercises start here. -->
+  <exercise>
+    <statement>
+        <p>
+        The Morse Potential,
+        <m>
+            ~{U(x)= D(e^{-2a(x-x_0)}-2e^{-a(x-x_0)})}
+        </m>, is a useful model to describe the interaction between two atoms. 
+        Here, <m>x</m> represents the separation between the two atoms, which have a reduced mass
+        <m>\mu</m>. A graph of <m>U(x)</m> is shown below.
+        </p>
+        <image>
+            <shortdescription>descr</shortdescription>
+            <latex-image>
+                \begin{tikzpicture}
+                    \begin{axis}[
+                    axis y line = left,
+                    axis x line = middle,
+                    xtick = {0},
+                    xmin=0,xmax=6.2,
+                    ymin=-1.5,ymax=2.5,
+                    xlabel = \(x\),
+                    ylabel = {\(U/D\)},
+                    xlabel style={anchor=west},
+                    every axis plot/.append style={ultra thick}
+                ]
+
+                \addplot [
+                    domain=0:6, 
+                    samples=100, 
+                    color=red,
+                ]
+                {exp(-2*(x-1))-2*exp(-(x-1))};
+
+                \end{axis}
+                \end{tikzpicture}
+            </latex-image>
+        </image>
+        <ol>
+            <li>
+                <p>
+                    Find the location of the stable equilibrium point.
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    For small values of <m>x</m>,
+                    <m>e^{x}\simeq 1 + x + x^{2}/2 + (...)</m>.
+                    Use this approximation to find the <q>effective spring 
+                    constant</q> for this interaction.
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    What is the vibration frequency for small oscillations around the
+                    equilibrium point?
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    Using the graph, what is the <alert>dissociation energy</alert> of
+                    the molecule?
+                    This is the amount of energy you have to add to the 
+                    two-atom system, when it is at the stable equilibrium, 
+                    for the molecule to break apart. 
+                    <q>Break apart</q> here means that the atoms can be at 
+                    infinite separation from one another.
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    Note a limitation of this model, at least thinking of atoms as
+                    little hard spheres: if you give enough kinetic energy to the
+                    molecule, the molecular separation can go to 0.
+                    How much kinetic energy is necessary for that to happen, assuming
+                    the atoms start off very far away from one another?
+                </p>
+            </li>
+        </ol>
+    </statement>
+  </exercise>
+
+</worksheet>

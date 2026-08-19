@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- When creating a new activity, make a copy of this file with appropriate name -->
+<worksheet xml:id="activity-27b" top="0.5in" left="0.5in" right="0.5in" bottom="0.5in">
+  <title>Lecture Worksheet - Relativistic Rocket</title>
+
+  <!-- Optional introduction -->
+  <introduction>
+    <p>
+      This is the introduction to the activity.
+    </p>
+  </introduction>
+  <!-- Exercises start here. -->
+  <exercise workspace="2in">
+    <statement>
+      <p>
+        The picture below shows a relativistic rocket!
+        The difference from a non-relativistic rocket is that the ''exhaust
+        speed'' <m>
+          \beta_{r}
+      </m> can be relativistic.
+        In particular, we could imagine a rocket driven by matter-antimatter
+        annihilation, shooting photons out of the back, for which
+        <m>
+          \beta_{r}=1
+      </m>.
+      </p>
+
+      <image source="images\activities\lect27\rocketsketch.png"/>
+      <p>
+        <ol>
+          <li>
+            <p>
+              In Newtonian mechanics, we can say that
+              <m>u_{x}=V+dV-\beta_{r}</m> (the fragments move with speed
+              <m>\beta_{r}</m> to the left of the rocket) and <m>dm=-dM</m> (the
+              mass flying out of the rocket = the mass lost by the rocket,
+              noting that <m>dM &lt; 0</m> here).
+              Is either of these statements true in relativity?
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Since <m>\beta_{r}</m> is defined in the rest frame of the rocket,
+              redraw the before-and-after picture in the instantaneous rest
+              frame of the rocket.
+              Be careful: is <m>dV'</m>, the velocity increment in this frame,
+              the same as <m>dV</m>?
+              No need to calculate anything (yet), just draw a picture.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              In this type of problem, we only keep ''first order''
+              infinitesimals like <m>dV',dm,dM</m>.
+              Any products like <m>(dV')^{2}, dmdV</m>, would be set to zero.
+              What is the <m>\gamma</m> of the rocket in this approximation?
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Using conservation of energy and conservation of momentum, solve
+              for <m>dV'</m> in terms of <m>dM</m>.
+              Note that there are three unknowns here: <m>dM, dm, dV'</m>, so
+              you need to eliminate <m>dm</m> first.
+              Notation: call <m>\dfrac{1}{\sqrt{1-\beta_{r}^{2}}}=\gamma_{r}</m>
+              so we can keep up with what's on the board.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Use the Einstein velocity addition formula to find what
+              <m>V+dV</m> is in the rocket frame.
+              Meaning: after shooting out mass <m>dm</m>, the rocket moves with
+              velocity <m>dV'</m> relative to the previous rest frame, which had
+              velocity <m>+V</m> relative to the ground.
+              Use the Taylor expansion <m>\dfrac{1}{1+x}\simeq 1-x</m> for
+              <m>x \ll 1</m>
+            </p>
+          </li>
+        </ol>
+      </p>
+
+      <p>
+        Integrating this rocket equation isn't as easy as the regular rocket
+        equation, so I'll just give you the answer, which is not totally
+        simplified but good enough if you wanted to solve a particular problem.
+      <md>
+        \frac{\xi_{f}}{\xi_{i}}=\left(\frac{M_{i}}{M_{f}}\right)^{\beta},\,\, \text{where}\,\, \xi=\sqrt{\dfrac{1+v}{1-v}}.
+      </md>
+      </p>
+
+
+      <p>
+        Challenge for you, if you are bored over break: show that if both
+        <m>\beta \ll 1</m> and <m>v \ll 1</m>, some Taylor expansion work gets
+        you back to the non-relativistic rocket equation:
+        <m>\Delta v = \beta \ln\left(\dfrac{M_i}{M_f}\right)</m>
+      </p>
+    </statement>
+  </exercise>
+
+
+</worksheet>

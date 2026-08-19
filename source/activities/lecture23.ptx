@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- When creating a new activity, make a copy of this file with appropriate name -->
+<worksheet xml:id="activity-23" top="0.5in" left="0.5in" right="0.5in" bottom="0.5in">
+  <title>Lecture Worksheet - Lorentz Transformations</title>
+
+  <!-- Optional introduction -->
+  <!-- Exercises start here. -->
+  <exercise>
+    <statement>
+        <p>
+            Two people are somehow running along a straight track at relativistic
+            speeds.
+            Runner 1 is moving to the right at speed <m>\beta_{1}</m> relative to you,
+            and runner 2 is moving to the left at speed <m>\beta_{2}</m> relative to
+            you.
+        </p>
+        <ol>
+            <li>
+                <p>
+                    What is the relative speed you measure between these two observers?
+                    This is, of course, something you do referencing the lattice clocks,
+                    so be precise about what this means and calculate it.
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    At what speed does one runner see the other one running towards
+                    them?
+                    Check that the <alert>speed</alert> of runner 1 relative to runner 2
+                    is the same as the speed of runner 2 relative to runner 1.
+                </p>
+            </li>
+        </ol>
+    </statement>
+  </exercise>
+
+  <exercise>
+    <p>
+        Consider the following situation, partially depicted below.
+        You have a 25m long pole, and on campus there is a 15m long barn.
+        Since you can run at speed 0.8c, one of your friends says: <q>If you run
+        towards the barn, because of Lorentz contraction, I should be able to close
+        the door and have the pole completely enclosed in the barn</q>.
+    </p>
+    <p>
+        You disagree: <q>In my reference frame, the barn is 9m long and I'm just
+        carrying a 25m long pole, so the pole will not fit in the barn.</q> This seems
+        like a paradox: either the pole fits in the barn or it doesn't.
+    </p>
+
+
+    <image width="50%" source="images\activities\lect23\barn_and_pole.png"/>
+
+
+    <p>
+        Your task is as follows:
+    </p>
+
+    <p>
+        <ol>
+            <li>
+                <p>
+                    Identify the root of the problem.
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    Figure out if someone is right or wrong
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    Starting from reasoning that is solid (either from you or your
+                    friend), use the Lorentz transformations to explain what the
+                    other person sees.
+                    You might be really worried about the ladder crashing into the
+                    back door of the barn.
+                    If you are, consider modifying the situation slightly so this is
+                    no longer an issue (it might help with step 1).
+                </p>
+            </li>
+        </ol>
+    </p>
+
+    <p>
+        Note: this problem will reappear in the homework, so you will have more time
+        to think about it.
+    </p>
+  </exercise>
+
+</worksheet>

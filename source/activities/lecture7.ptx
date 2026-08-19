@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- When creating a new activity, make a copy of this file with appropriate name -->
+<worksheet xml:id="activity-07" top="0.5in" left="0.5in" right="0.5in" bottom="0.5in">
+  <title>Lecture Worksheet - Differential Equations</title>
+
+  <!-- Optional introduction -->
+  <introduction>
+    <p>
+      This is the introduction to the activity.
+    </p>
+  </introduction>
+
+  <!-- Exercises start here. -->
+  <exercise workspace="2in">
+    <statement>
+        <p>
+            You throw a tennis ball directly upwards.
+            The magnitude of the drag force on the tennis ball is <m>F_{D} = Cv^{2}</m>
+        </p>
+
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        Find the differential equation for <m>\dfrac{dv}{dt}</m> when
+                        the ball is going upwards, and when its going downwards (they
+                        are different!)
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Find <m>v(t)</m> when the ball is thrown upwards with an initial
+                        speed <m>v_{0}</m>
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        How long does it take the projectile to get to the max height?
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Extra Challenge: how high does the projectile go?
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </statement>
+  </exercise>
+
+</worksheet>

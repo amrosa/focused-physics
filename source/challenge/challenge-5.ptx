@@ -3,9 +3,8 @@
 
 <handout>  
     <title>Challenge Problem 5: The Superball</title>
-    <page>
+   
     <objectives>
-        The purpose of the challenge problems is to practice:
                 <ul>
                     <li>
                         <p>
@@ -30,8 +29,8 @@
                 </li>
             </ul>
    </objectives>
-
-    <assemblage>
+  <page>
+    <paragraphs>
         <title>General Advice and Logistics</title>
         
             <p>
@@ -81,17 +80,17 @@
                 thinking until you get it right. If you need help, talk to one of your instructors, or 
                 collaborate with another group. You have two chances! Believe in yourself and take it slowly.
             </p>
-    </assemblage>
+        </paragraphs>
     </page>
 
     
 <page>
-    <conclusion>
+    <paragraphs>
         <title>Challenge Problem Statement</title>
         
         <p>
            A superball is a very <q>grippy</q> ball of mass <m>M</m>, radius <m>R</m>, and moment of 
-           inertia <m>I=_{CM}=\alpha MR^2</m>. When you throw a superball under a table, it will bounce
+           inertia <m>I_{CM}=\alpha MR^2</m>. When you throw a superball under a table, it will bounce
            back and return to you. Our goal is to explain this behavior by analyzing the three collisions
            between the ball and the ground or table. We will assume that the ball does not slip relative to the
            table in each collision, and we'll also ignore gravity (throw the ball really hard!).
@@ -108,25 +107,35 @@
             and then analyze the sequence of three collisions to check that the ball should roughly have reversed its
             direction of motion after the third impact, once you set <m>\alpha=2/5</m>.
         </p>
+
         <project>
             <p>
-                This problem has a lot of algebra. Conservation of energy makes it seem like you have to
-                solve a quadratic equation, but you really don't have to: there is a trick here, and reducing
-                the collision to two linear equations will make your life easier.
+                This problem has a lot of algebra.
+                Conservation of energy makes it seem like you have to solve a quadratic
+                equation, but you really don't have to: there is a trick here, and
+                reducing the collision to two linear equations will make your life
+                easier.
             </p>
+
             <p>
-                Since the algebra is complicated, do try to find sanity checks for your intermediate steps.
-                Patience is key for solving this problem. If you are 100% certain your equations are perfect,
-                you may use a tool like Mathematica to solve them, but that means you won't be able to get
+                Since the algebra is complicated, do try to find sanity checks for your
+                intermediate steps.
+                Patience is key for solving this problem.
+                If you are 100% certain your equations are perfect, you may use a tool
+                like Mathematica to solve them, but that means you won't be able to get
                 feedback on what the computer did!
             </p>
+
             <p>
-                It may seem as though you have to re-do the calculation for the collision of the ball with the table,
-                but there is a trick there involving a transformation of <m>\omega</m> and thinking about collisions
-                with <q>back-spin</q> (the piece of surface about to impact the ground is moving in the opposite 
-                direction as the CM) and <q>top-spin</q>. Just make sure to be very careful with signs.
+                It may seem as though you have to re-do the calculation for the
+                collision of the ball with the table, but there is a trick there
+                involving a transformation of <m>\omega</m> and thinking about
+                collisions with <q>back-spin</q> (the piece of surface about to impact
+                the ground is moving in the opposite direction as the CM) and
+                <q>top-spin</q>.
+                Just make sure to be very careful with signs.
             </p>
-    </project>
-    </conclusion>
+        </project>
+        </paragraphs>
     </page>
 </handout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- When creating a new activity, make a copy of this file with appropriate name -->
+<worksheet xml:id="activity-11" top="0.5in" left="0.5in" right="0.5in" bottom="0.5in">
+  <title>Lecture Worksheet - Intro to Energy</title>
+
+  <!-- Exercises start here. -->
+  <exercise>
+    <statement>
+        <p>
+            Two spherical asteroids of masses <m>m, M</m> somehow have no velocity
+            relative to one another, and their centers are separated a distance <m>r</m>
+            from one another.
+            They also happen to have the same radius <m>R</m>.
+        </p>
+
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        What is <alert>the system</alert> for which you can say the
+                        total energy <m>K+U</m> is conserved?
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Is energy the only conserved quantity in this system?
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Draw a picture of what the system looks like when the asteroids
+                        hit each other.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Use your picture + the conservation laws to set up a system of
+                        equations that lets you solve for their speeds when they
+                        collide.
+                        Note: to calculate the potential energy <m>U</m>, use the
+                        center-to-center distance between the asteroids.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </statement>
+  </exercise>
+
+  <exercise>
+    <p>
+        Consider a rock interacting gravitationally with the Earth, 
+        and choose the interaction potential energy to be zero if the rock is 
+        at the ground level. A person standing at the bottom of a well 
+        throws the rock vertically upward from 20 m below ground level. 
+        The rock makes it all the way up to 1 m below ground level before 
+        falling back into the well. What is the total energy of the 
+        rock-Earth system?
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+        Consider the Atwood machine shown in the figure below. 
+        Our system of interest will be the two masses and the Earth
+    </p>
+    <sidebyside widths="70% 30%">
+        <ol>
+            <li>
+                <p>
+                    The external interaction with our system in this case comes from the
+                    tension in the rope.
+                    Show that the tension does no net work on the system
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    Set the potential energy <m>U=0</m> in the figure and find the
+                    potential energy <m>U(z)</m>, where <m>z</m> is the displacement of
+                    the heavier mass, taken to be positive <alert>going down</alert>
+                    (use the constraint here, you don't have to be super rigorous about
+                    it).
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    <alert>Discussion:</alert> why can we say that the kinetic energy of
+                    this system is <m>K=\frac{1}{2}(m+M)\dot{z}^{2}</m>?
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    The energy <m>E=K+U</m> is constant.
+                    Show that setting <m>\dfrac{dE}{dt}= 0</m> let's you solve for the
+                    acceleration <m>~{\ddot{z}=\dfrac{M-m}{m+M}g}</m>.
+                    Lesson: conservation of energy fully determines the motion of a
+                    system that is effectively one-dimensional.
+                </p>
+            </li>
+        </ol>
+        <image source="images\activities\lec11\atwood.png">
+            <shortdescription>descr</shortdescription>
+        </image>
+    </sidebyside>
+  </exercise>
+</worksheet>

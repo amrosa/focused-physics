@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- When creating a new activity, make a copy of this file with appropriate name -->
+<worksheet xml:id="activity-26" top="0.5in" left="0.5in" right="0.5in" bottom="0.5in">
+  <title>Lecture Worksheet - 4-momentum</title>
+
+
+  <!-- Exercises start here. -->
+  <exercise>
+    <statement>
+        <p>
+            Let's consider the creation of the polyelectron as described in the text.
+            How do we find the photon energy required to create the electron-positron
+            pair?
+        </p>
+
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        We are looking for the <alert>minimum</alert> energy to create
+                        the pair.
+                        In the lab frame, not all of the energy is available for
+                        creation of the pair.
+                        In what frame is total energy = available energy?
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Draw a before-after picture of the collision in the frame of
+                        part a).
+                        What does this tell you about the magnitude of the system
+                        4-momentum?
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Now draw the 4-momenta of the particles in the lab frame.
+                        Use the known magnitude of the system 4-momentum to find the
+                        energy of the photon.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </statement>
+  </exercise>
+
+  <exercise>
+    <ol>
+        <li>
+            <p>
+                The total electrical energy generated on Earth in 2025 was roughly
+                31000 terawatt-hours.
+                To how much mass is this energy equivalent?
+                In the actual production of this electrical energy, is this much
+                mass converted to energy, more, or less?
+            </p>
+        </li>
+
+        <li>
+            <p>
+                Elite cyclists can output about 450W of power while pedaling, but
+                the efficiency of the human body is about 25%, so this useful work
+                is only a quarter of the total power output.
+                At this rate, how long will it take for a cyclist to convert 1kg of
+                mass into energy?
+            </p>
+        </li>
+
+        <li>
+            <p>
+                How do people ever lose weight?
+            </p>
+        </li>
+    </ol>
+  </exercise>
+
+  <exercise>
+    <p>
+        In a circular particle collider (like the LHC), two particles of mass
+        <m>
+            m
+        </m>
+        and total energy
+        <m>
+            E
+        </m>
+        and are shot toward one another and collide head-on, so the system 4-momentum is
+        <m>
+            (2E,0)
+        </m>
+        . This means that the energy
+        <m>
+            2E
+        </m>
+        is available to be converted to whatever form. In a linear particle accelerator, a particle of mass
+        <m>
+            m
+        </m>
+        and energy
+        <m>
+            E'
+        </m>
+        hits a fixed target of mass
+        <m>
+            m
+        </m>
+        . How large should
+        <m>
+            E'
+        </m>
+        be so that the collision is equivalent to the one in the circular collider?
+    </p>
+  </exercise>
+</worksheet>

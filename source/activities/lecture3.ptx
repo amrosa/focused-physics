@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- When creating a new activity, make a copy of this file with appropriate name -->
+<worksheet xml:id="activity-03" top="0.5in" left="0.5in" right="0.5in" bottom="0.5in">
+  <title>Lecture Worksheet - Reference Frames</title>
+
+  <!-- Exercises start here. -->
+  <exercise workspace="0.5in">
+    <statement>
+      <sidebyside widths="60% 40%">
+        <p>
+            A factory conveyor belt rolls at 3 m/s. A mouse sees a piece of cheese directly 
+            across the belt and heads straight for the cheese at 4 m/s.
+             What is the mouse's speed relative to the factory floor?
+        </p>
+        <image source="images\activities\lec3\cheese.png">
+            <shortdescription>descr</shortdescription>
+        </image>
+      </sidebyside>
+    </statement>
+  </exercise>
+
+  <exercise workspace="2in">
+    <statement>
+        <p>
+            You and two friends are racing to swim from one bank of a river to the other, 
+            as shown in the figure. At the pool, all three of you can swim at the same 
+            speed <m>v</m>, but here there is a current flowing to the right at speed 
+            <m>u &lt; v</m>, so you use different strategies to cross (figure not to scale).
+        </p>
+        <image width="40%" margins="0% 60%">
+            <shortdescription>descr</shortdescription>
+            <latex-image>
+                \begin{tikzpicture}
+                \fill[lime!70!olive](0,0)rectangle(8,4);
+                \clip(0,0)rectangle(8,4);
+                \pgfmathsetseed{14159}
+                \draw[decorate, decoration={random steps, segment length=3mm, amplitude=1pt}, lime!70!black, line width=.5mm, double=cyan!60!white, double distance=3cm] (-1,2)--(9,2);
+                \draw[ultra thick,black,&gt;=stealth,-&gt;] (4,0.5)--++(0,1.5) node[above] {You};
+                \draw[ultra thick,black,&gt;=stealth,-&gt;] (4,0.5)--++(60:1.5) node[above] {F1};
+                \draw[ultra thick,black,&gt;=stealth,-&gt;] (4,0.5)--++(120:1.5) node[above] {F2};
+                \draw[ultra thick,blue,&gt;=stealth,-&gt;]  (0,3)--++(2,0) node[above] {$\vec{u}$};
+                \draw[ultra thick,blue,&gt;=stealth,-&gt;]  (0,2)--++(2,0) node[above] {$\vec{u}$};
+                \draw[ultra thick,blue,&gt;=stealth,-&gt;]  (0,1)--++(2,0) node[above] {$\vec{u}$};
+                \end{tikzpicture}
+            </latex-image>
+        </image>
+        <ol>
+            <li>
+                <p>
+                    Who wins the race?
+                </p>
+            </li>
+            <li>
+                <p>
+                    If you want to get to the other bank at a point exactly opposite to 
+                    where you started, in which direction should you swim? 
+                    Draw a picture with all the relevant velocity vectors and how they 
+                    relate to one another to solve the problem geometrically.
+                </p>
+            </li>
+        </ol>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+        <p>
+            It's time for a monkey to have its teeth cleaned. A zookeeper spies the monkey 
+            sitting in a tree and takes aim directly at it with a tranquilizer dart. 
+            However, the clever monkey drops down from the tree at the exact moment when the 
+            bullet fires. How should the zookeper aim their dart to hit the monkey?
+        </p>
+        <sidebyside widths="30% 60%">
+            <ol>
+                <li>
+                    <p>
+                        Above the monkey
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Toward the monkey
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Below the monkey
+                    </p>
+                </li>
+            </ol>
+            <image source="images\activities\lec3\hunter_monkey.png">
+                <shortdescription></shortdescription>
+            </image>
+        </sidebyside>
+    </statement>
+  </exercise>
+
+</worksheet>

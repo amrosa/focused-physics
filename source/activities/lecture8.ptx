@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- When creating a new activity, make a copy of this file with appropriate name -->
+<worksheet xml:id="activity-08" top="0.5in" left="0.5in" right="0.5in" bottom="0.5in">
+  <title>Lecture Worksheet - Center of Mass</title>
+
+  <!-- Exercises start here. -->
+  <exercise>
+    <statement>
+      <sidebyside widths="70% 30%">
+        <p>
+          A block of mass <m>M</m> lies on a frictionless surface, and a 
+          particle of mass <m>m</m> is attached to it with a string that is 
+          initially held horizontally. A long time after the string is 
+          released, the system stops oscillating and the string hangs 
+          vertically. At this time, the mass <m>M</m> is
+
+          <ol>
+            <li>
+              <p>
+                Moving to the left/right (specify which)
+              </p>
+            </li>
+            <li>
+              <p>
+                Static, to the left/right of where it started (specify which)
+              </p>
+            </li>
+            <li>
+              <p>
+                Exactly where it started
+              </p>
+            </li>
+            <li>
+              <p>
+                Depends on unstated assumptions (such as...)
+              </p>
+            </li>
+          </ol>
+
+        </p>
+        <image>
+          <shortdescription>descr</shortdescription>
+          <latex-image>
+            \begin{tikzpicture}
+              		\draw[very thick] (0,0)--(3,0)--(3,3)--(2,3)--(2,1)--(0,1)--(0,0);
+		              \draw[ultra thick] (2,3)--(0.5,3);
+                  \draw[fill=black] (0.5,3) circle (0.1) node[above] {$m$};
+                  \node at (2.5,0.5) {$M$};
+            \end{tikzpicture}
+          </latex-image>
+        </image>
+      </sidebyside>
+    </statement>
+  </exercise>
+
+   <exercise>
+    <p>
+      An hourglass is made by dividing a cylinder into two identical halves, 
+      separated by a small orifice. Initially, the top half is full of sand 
+      and the bottom half is empty. The hourglass is placed on a scale, and 
+      then the orifice is opened. The total weight of the hourglass and sand 
+      is W. How does the scale reading compare to W right after the sand 
+      starts falling, and right before the sand stops moving?   
+    </p>
+   </exercise>
+
+   <exercise>
+    <p>Find the position
+    <m>
+        (X_{CM},Y_{CM})
+    </m>
+    of the half-disk shown below, which has a total mass
+    <m>
+        M
+    </m>
+    and radius
+    <m>
+        R
+    </m>
+    . Its mass is uniformly distributed over the surface area. 
+    If you are in Calc 3, find a partner also in Calc 3 and try to set-up a 
+    double integral to calculate this. If you're not in Calc 3, find a partner
+    also not in Calc 3 and read the instructions below.
+    </p>
+
+    <!--I used [scale=1.75] for this tikzpicture-->
+    <image>
+      <shortdescription>descr</shortdescription>
+      <latex-image>
+        \begin{tikzpicture}
+          \draw[ultra thick] (-2,0)--(2,0);
+          \draw[ultra thick] (2,0) arc[start angle=0, end angle=180, radius=2];
+
+          \begin{scope}[xshift=6cm]
+          \draw[ultra thick] (-2,0)--(2,0);
+          \draw[ultra thick] (2,0) arc[start angle=0, end angle=180, radius=2];
+          \draw[red,|-|,very thick](1,0)--(1,1) node[pos=0.6,right] {$y$};
+          \draw[red,|-|,very thick](0.75,0.75)--(0.75,1) node[pos=0.6,left] {$dy$};
+          \foreach \x in {0.25,0.5,0.75,1,1.25,1.5,1.75}
+            \draw (-{sqrt(4-\x*\x)},\x)--({sqrt(4-\x*\x)},\x);
+          \end{scope}
+        \end{tikzpicture}
+      </latex-image>
+    </image>
+
+    <ol>
+        <li>
+            <p>
+                First things first, what is <m>X_{CM}</m>?
+                Do we have to go through the trouble of calculating it?
+            </p>
+        </li>
+
+        <li>
+            <p>
+                To find <m>Y_{CM}</m>, we will divide the semicircle into thin
+                strips of height <m>dy</m>, as shown in the drawing.
+                We will label the position of each strip with the coordinate
+                <m>y</m>.
+                What is the width of the strip at height <m>y</m>?
+                Hint: Pythagoras, and remember that <m>dy</m> is eventually going to
+                go to 0, so don't get too hung-up things like ''what do I do about
+                the different widths?''
+            </p>
+        </li>
+
+        <li>
+            <p>
+                How much mass does this strip have?
+            </p>
+        </li>
+
+        <li>
+            <p>
+                What is the contribution <m>dY_{CM}</m> of this strip to the
+                position <m>Y_{CM}</m>?
+            </p>
+        </li>
+
+        <li>
+            <p>
+                Add up all the <m>dY_{CM}</m> by calculating the appropriate
+                integral (with limits!).
+                Ans: <m>~{Y_{CM}=\dfrac{4R}{3\pi}}</m>
+            </p>
+        </li>
+    </ol>
+   </exercise>
+</worksheet>

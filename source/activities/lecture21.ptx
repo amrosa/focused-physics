@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- When creating a new activity, make a copy of this file with appropriate name -->
+<worksheet xml:id="activity-21" top="0.5in" left="0.5in" right="0.5in" bottom="0.5in">
+  <title>Lecture Worksheet - Intro to Relativity</title>
+
+  <exercise>
+    <statement>
+      <p>
+        Would observers on the North pole agree with those on the South pole 
+        as to definitions of <q>up</q> and <q>down</q>? What definitions of 
+        the terms could they agree on?
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise>
+   <p> 
+        The relative velocity <m>~{\vec{V}_{AB}}</m> between two particles A and B 
+        is the rate of change of the displacement vector <m>~{\vec{R}_{AB}(t)}</m>
+        that connects the two particles at any moment in time. Show that this is 
+        invariant under a Galilean transformation (hint: start from a particular 
+        reference frame and find an expression for <m>\vec{V}_{AB}</m>
+        in terms of measurements in that particular frame).
+    </p>
+  </exercise>
+  <exercise>
+    <p>
+        In an inelastic collision, the amount of thermal energy 
+        (internal mechanical energy) developed is independent of the 
+        inertial reference frame of the observer. Explain why, in words.
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+    Imagine that the universe has some type of speed limit, such that
+    <alert>
+        no information may be transmitted above that speed.
+    </alert>
+    Explain why that speed, whatever it is, must be the same for all inertial
+    observers. More specifically, explain why a signal that propagates at that
+    speed (call it <m>u</m>) must be measured to propagate at the
+    <alert>
+        same speed
+    </alert>
+    by every other inertial observer.
+    </p>
+
+    <figure>
+        <caption>
+            Measurements of the speed of electrons as a function of their 
+            kinetic energy.
+            At high energies, Newtonian physics fails completely (taken from
+            <q>Special Relativity</q> by A.P. French)
+        </caption>
+        <image source="images\activities\lec21\french-graph.png"/>
+    </figure>
+
+    <figure>
+        <caption>
+            Table showing the measurements above quantitatively (<q>flight 
+            time</q> is the time it takes for the electrons to travel 8.4m).
+            See the film <q>The Ultimate Speed</q>, it's free on YouTube!
+        </caption>
+        <image width="70%" source="images\activities\lec21\french-table.png"/>
+    </figure>
+  </exercise>
+</worksheet>

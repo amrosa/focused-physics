@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- When creating a new activity, make a copy of this file with appropriate name -->
+<worksheet xml:id="activity-25" top="0.5in" left="0.5in" right="0.5in" bottom="0.5in">
+  <title>Lecture Worksheet - Introduction to 4-momentum</title>
+
+  <!-- Exercises start here. -->
+  <exercise>
+    <p>
+        If the textbook didn't convince you, we will go through a <q>derivation</q> 
+        of what a relativistic momentum should look like. Let's propose the 
+        following form for the momentum:
+        <m>
+            ~{\vec{p}=\alpha(|\vec{v}|)m\vec{v}}
+        </m>. This follows the idea of <q>proportional to mass</q> and
+         <q>points along the particle trajectory</q>. Explain why it must be true 
+        that the limit of
+        <m>
+            \alpha(v)
+        </m>
+        when
+        <m>
+            v \ll c
+        </m>
+        (or
+        <m>
+            v \ll 1
+        </m>
+        in SR units) must be 1.
+    </p>
+  </exercise>
+
+  <exercise>
+    <introduction>
+    <p>
+        Now let's consider the symmetric collision shown below.
+        Two particles of mass <m>m</m> with opposite velocities hit each other in a
+        way that their y velocities reverse during after the collision.
+        In this frame, the total momentum is 0.
+        We have also defined events ''A, B, C, D'' which could be thought of as the
+        balls being ''thrown'' (A and C) and ''caught'' later on (B and D).
+    </p>
+
+    <image width="80%" source="images\activities\lec25\collisionsketch.png"/>
+    </introduction>
+    <task workspace="2in">
+        <statement>
+            <p>
+                In the space below, draw the collision as observed by someone moving to the right at speed
+                <m>
+                    u_{x}
+                </m>
+                (frame S) and, next to that drawing, draw the collision as observed by someone moving to the left at speed
+                <m>
+                    u_{x}
+                </m>
+                (frame S'). Identify the events ABCD in both diagrams. To fix the notation, call the velocities of the top and bottom particles (in S)
+                <m>
+                    \vec{w}
+                </m>
+                and
+                <m>
+                    \vec{v}
+                </m>
+                , respectively.
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                From your pictures, do the x components of the velocities change in either S or S'? What about the y components?
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+               In terms of the times
+                <m>
+                    \Delta t_{AB}, \Delta t_{CD}
+                </m>
+                , the distance
+                <m>
+                    d
+                </m>
+                , and
+                <m>
+                    m
+                </m>
+                , find expressions for
+                <m>
+                    \Delta p_{y,A}
+                </m>
+                and
+                <m>
+                    \Delta p_{y,B}
+                </m>
+                (I'll do that on the board). Which of these times is a proper time?
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Explain why <m>\Delta t_{AB} = \Delta t'_{CD}</m>
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Using the invariance of the interval, a Lorentz transformation, or whatever argument you want, show that 
+                <m>\Delta t_{CD} = \gamma (v_x) \Delta t_{AB}</m>
+            </p>
+        </statement>
+    </task>
+  </exercise>
+
+  <exercise>
+    <p>
+        This is a calculator exercise. Consider trying to get yourself to 
+        <m>v=0.8</m> relative to Earth so you can do interstellar travel 
+        using time dilation. How much energy would that require? 
+        In MO, 1kWh from the power company (<m>3.6\times 10^6</m> J) costs 15 
+        cents. If you could get the energy at that price, how much would that 
+        cost? Give your answer in billions (<m>10^9</m>) of dollars.
+    </p>
+  </exercise>
+  <exercise>
+    <p>
+        At what speed do you have to be moving for the Newtonian expression for
+        the momentum to be off by 1%? What about the kinetic energy? 
+        Desmos/Wolfram can help for the 2nd one.
+    </p>
+  </exercise>
+</worksheet>

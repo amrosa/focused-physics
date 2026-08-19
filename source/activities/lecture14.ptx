@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- When creating a new activity, make a copy of this file with appropriate name -->
+<worksheet xml:id="activity-14" top="0.5in" left="0.5in" right="0.5in" bottom="0.5in">
+  <title>Lecture Worksheet - Extra Work and Energy Problems</title>
+
+  <!-- Exercises start here. -->
+  <exercise>
+    <statement>
+      <p>
+        A uniform rope of mass density <m>\lambda</m> per unit length is coiled on a smooth horizontal table. 
+        One end is pulled straight up with constant speed <m>v_0</m> , as shown
+      </p>
+      <sidebyside widths="75% 25%">
+        <ol>
+            <li>
+                <p>
+                    Calculate the the mechanical energy <m>E=K+U</m> of the rope+Earth
+                    system.
+                    Express your final answer as a function of time using <m>~{y=v_0t}</m>
+                    (remember that <m>U</m> uses <m>y_{CM}</m>, not <m>y</m> ).
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    Calculate <m>\dfrac{dE}{dt}</m> 
+                </p>
+            </li>
+            <li>
+                <p>
+                    The force <m>F</m> that the hand needs to exert to keep this going
+                    can be shown to be <m>~{F=\lambda gy+\lambda v^2}</m>. Compare
+                    <m>~{P=Fv_0}</m> to <m>\dfrac{dE}{dt}</m>. Explain your result.
+                </p>
+            </li>
+        </ol>
+        <image source="images\activities\lec10\rope.png">
+            <shortdescription>descr</shortdescription>
+        </image>
+      </sidebyside>
+    </statement>
+  </exercise>
+
+  <exercise>
+    <p>
+        A spool of radius <m>R</m> is pulled by means of a force of 
+        magnitude <m>T</m> applied to a string wrapped around an axle of 
+        radius <m>r=R/2</m>. The spool is in contact with a horizontal table 
+        that applies a friction force of magnitude <m>f</m>. 
+        The spool rolls without slipping. When we talk about rotations, 
+        you will be able to solve this problem completely and show that 
+        <m>f=0</m> when the force is applied at this special position. 
+        Right now, take this for granted.
+    </p>
+    <image width="50%" source="images\activities\lec14\spool.png">
+        <shortdescription>descr</shortdescription>
+    </image>
+    <ol>
+        <li>
+            <p>
+                If the wheel rolls without slipping, argue that the speed of the
+                contact point where <m>T</m> acts is
+                <m>~{V_{hand}=\frac{3}{2}V_{CM}}</m>
+            </p>
+        </li>
+
+        <li>
+            <p>
+                Once the spool has moved forward a distance <m>R</m>, what is
+                <m>V_{CM}</m>?
+                (Hint: Impulse-Momentum + Constant Acceleration)
+            </p>
+        </li>
+
+        <li>
+            <p>
+                Use the Work-Energy Principle to find the kinetic energy
+                of the spool once it has moved forward a distance <m>R</m>.
+                Why is this not just <m>~{K=\frac{1}{2}MV_{CM}^2}</m>?
+            </p>
+        </li>
+    </ol>
+  </exercise>
+
+  <exercise>
+    <introduction>
+    <p>
+    Consider the U-tube shown below, which is filled
+    with an incompressible liquid of density <m>\rho</m>. When the water 
+    level is the same on both sides, the fluid is in equilibrium. Suppose that 
+    the fluid is instead pushed up to one side like in the figure. Since the
+    liquid is incompressible, the whole <q>fluid tube</q> moves with the same 
+    speed <m>v</m>. We will ignore any friction and viscosity, so conservation 
+    of energy can guide our approach.
+    </p>
+    </introduction>
+    <task>
+        <title>Discussion Questions</title>
+        <task>
+            <statement>
+                <p>
+                    What do you expect the motion of the liquid to look like?
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    The zero of potential energy is arbitrary. In terms of the
+                    coordinate system shown below, is there a convenient choice for
+                    where we should set <m>U=0</m>?
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    The equilibrium point at <m>~{z=0}</m> is stable. If you draw the potential
+                    energy curve <m>~{U(z)}</m>, qualitatively, what does it look like?
+                </p>
+            </statement>
+        </task>
+    </task>
+    <task>
+        <title>Calculations</title>
+        <task>
+            <statement>
+                <p>
+                    Write down the kinetic energy as a function of the area 
+                    <m>A</m> of the tube, the length <m>\ell</m>, the fluid 
+                    density <m>\rho</m>, and the derivative
+                    <m>~{\dot{z}=\dfrac{dz}{dt}}</m>.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Setting <m>U(z=0)=0</m>, calculate <m>U(z)</m>.
+                    Remember that <m>U</m> uses the height of the CM.
+                    Hint: think about how much water moved where,
+                    that will give you an idea of how the potential
+                    energy changed.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Find the frequency of small oscillations for the water.
+                </p>
+            </statement>
+        </task>    
+    </task>
+  </exercise>
+</worksheet>

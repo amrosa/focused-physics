@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- When creating a new activity, make a copy of this file with appropriate name -->
+<worksheet xml:id="activity-18" top="0.5in" left="0.5in" right="0.5in" bottom="0.5in">
+  <title>Lecture Worksheet - Fixed Axis Rotation</title>
+
+  <!-- Optional introduction -->
+   <introduction>
+    <p>
+        <alert>Note:</alert> we will use this worksheet for a few lectures,
+        so keep it with you.
+    </p>
+   </introduction>
+
+  <!-- Exercises start here. -->
+  <exercise>
+    <p>
+        Let's see how the rotation of the pulley affects the motion of the Atwood
+        machine.
+        The problem is to find the acceleration <m>a</m> of the masses for the
+        arrangement shown in the sketch.
+        We will assume that the rope does not slip on the pulley, so as the masses
+        accelerate, the pulley will also have some angular acceleration
+        <m>\alpha</m>.
+        The rope will still be taken to be massless.
+    </p>
+
+    <image width="50%" source="images\activities\lec18\atwood_massive.png"/>
+    <p>
+        <ol>
+            <li>
+                <p>
+                    Draw free body diagrams for the masses and the pulley.
+                    In your force diagram for the pulley, do not treat it as a
+                    point: show the forces where they are applied on it.
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    <alert>Discussion:</alert> Looking at your FBD for the pulley,
+                    explain why the tension in the string cannot be constant on the
+                    two ends touching the pulley.
+                    How does this not contradict our previous discussions on
+                    massless strings?
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    How does the rolling without slipping constraint relate <m>a</m>
+                    and <m>\alpha</m>?
+                    For <m>\tau_{z}</m> to be positive out of the page,
+                    <m>\alpha</m> is positive counterclockwise.
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    Write Newton's second law for the masses, and
+                    <m>\tau_{z} = \dfrac{dL_z}{dt}</m> for the pulley, with the
+                    origin taken to be the center of the pulley.
+                    <alert>DO NOT SOLVE THE EQUATIONS.</alert>
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    Check that with the three equations above and the rolling
+                    without slipping constraint, you have enough equations to solve
+                    for all of the unknown quantities.
+                    Solve these out of class (KK Example 7.10 if you need help).
+                </p>
+            </li>
+        </ol>
+    </p>
+  </exercise>
+
+  <exercise>
+   <p> 
+        A hollow cylinder, a solid cylinder, a solid sphere, and a 
+        hollow sphere all roll without slipping down an incline. 
+        Which of the shapes wins the race?
+    </p>  
+    </exercise>
+
+  <exercise>
+    <p>
+        A body is given a sharp kick by a force F acting along the line
+        <m>\gamma</m> (see picture).
+        When is the angular momentum *relative to point A* conserved?
+    </p>
+
+    <image width="50%" source="images\activities\lec18\sharp_kick.png"/>
+    <ol cols="2">
+        <li>
+            <p>
+               When F is conservative 
+            </p>
+        </li>
+        <li>
+            <p>
+                When F does no work
+            </p>
+        </li>
+        <li>
+            <p>
+                Whenever the line passes through the center of mass
+            </p>
+        </li>
+        <li>
+            <p>
+                Always
+            </p>
+        </li>
+        <li>
+            <p>
+                Never
+            </p>
+        </li>
+    </ol>
+
+  </exercise>
+
+  <exercise>
+        <p>
+        A heavy frying pan is lying on a flat, frictionless table.
+        View from above.
+        Which quantities remain constant?
+        Select all.
+    </p>
+
+    <image width="50%" source="images\activities\lec18\frying_pan.png"/>
+    <p>
+        <ol cols="2">
+            <li>
+                <p>
+                    Kinetic Energy
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    Momentum Along X
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    Momentum Along Y
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    Angular Momentum About H
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    Angular Momentum About CM
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    Total Momentum, defined as P + L
+                </p>
+            </li>
+        </ol>
+    </p>
+  </exercise>
+
+  <exercise>
+       <p>
+           As the wheel transitions from the sloped to the horizontal portion of its
+           trajectory, which quantities remain constant?
+           Select all.
+       </p>
+
+       <image source="images\activities\lec18\toothed_wheel.png"/>
+       <p>
+           <ol cols="2">
+               <li>
+                   <p>
+                       Total Mechanical Energy
+                   </p>
+               </li>
+
+               <li>
+                   <p>
+                       Rotational Kinetic Energy
+                   </p>
+               </li>
+
+               <li>
+                   <p>
+                       Horizontal Momentum
+                   </p>
+               </li>
+
+               <li>
+                   <p>
+                       Angular Momentum About A
+                   </p>
+               </li>
+
+               <li>
+                   <p>
+                       Angular Momentum About B
+                   </p>
+               </li>
+
+               <li>
+                   <p>
+                       Angular Momentum About C
+                   </p>
+               </li>
+           </ol>
+       </p>
+  </exercise>
+</worksheet>

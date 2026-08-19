@@ -3,9 +3,8 @@
 
 <handout>  
     <title>Challenge Problem 1: The Ants</title>
-    <page>
+   
     <objectives>
-        The purpose of the challenge problems is to practice:
                 <ul>
                     <li>
                         <p>
@@ -30,8 +29,8 @@
                 </li>
             </ul>
    </objectives>
-
-    <assemblage>
+ <page>
+    <paragraphs>
         <title>General Advice and Logistics</title>
         
             <p>
@@ -81,12 +80,12 @@
                 thinking until you get it right. If you need help, talk to one of your instructors, or 
                 collaborate with another group. You have two chances! Believe in yourself and take it slowly.
             </p>
-    </assemblage>
+        </paragraphs>
 </page>
 
     
 <page>
-    <conclusion>
+    <paragraphs>
         <title>Challenge Problem Statement</title>
         
         <p>
@@ -95,26 +94,34 @@
             ant A is always directed towards ant B, the velocity of ant B towards ant C, and the velocity of ant C 
             towards ant A. Find the time it will take for the ants to meet.
         </p>
-        <project>
-            <p>
-                When you solve a problem, it is always important to <alert>sanity check</alert> your answer.
-                This problem, unfortunately, is very special: perhaps the only obvious check is to see if your answer
-                has the correct units, meaning it looks something like <m>\Delta t = \text{number}\times\dfrac{L}{v}</m>,
-                but how do you know if the number is right? 
-            </p>
-            <p>
-                For this problem, the best idea is probably generalization. Once you figure out the 
-                trick, you could probably generalize the answer for a square, pentagon, <ellipsis/>
-                Then, with a clean solution for a polygon with <m>n</m> sides, set <m>~{n=3}</m> and then
-                see if your answer matches up!
-            </p>
-            <p>
-                I will not require you to have a sanity check for this problem, but you should get in the
-                habit of checking your answers once you've solved a problem. If you identify a mistake,
-                this process gives you a chance to fix it. If you thoroughly evaluate your answer and can't
-                find any errors, then you get to feel more confident in your work!
-            </p>
-    </project>
-    </conclusion>
+<project>
+
+    <p>
+        When you solve a problem, it is always important to
+        <alert>sanity check</alert> your answer.
+        This problem, unfortunately, is very special: perhaps the only obvious
+        check is to see if your answer has the correct units, meaning it looks
+        something like <m>\Delta t = \text{number}\times\dfrac{L}{v}</m>, but
+        how do you know if the number is right?
+    </p>
+
+    <p>
+        For this problem, the best idea is probably generalization.
+        Once you figure out the trick, you could probably generalize the answer
+        for a square, pentagon, <ellipsis/> Then, with a clean solution for a
+        polygon with <m>n</m> sides, set <m>~{n=3}</m> and then see if your
+        answer matches up!
+    </p>
+
+    <p>
+        I will not require you to have a sanity check for this problem, but you
+        should get in the habit of checking your answers once you've solved a
+        problem.
+        If you identify a mistake, this process gives you a chance to fix it.
+        If you thoroughly evaluate your answer and can't find any errors, then
+        you get to feel more confident in your work!
+    </p>
+</project>
+        </paragraphs>
     </page>
 </handout>

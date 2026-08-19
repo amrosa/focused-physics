@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- When creating a new activity, make a copy of this file with appropriate name -->
+<worksheet xml:id="activity-16" top="0.5in" left="0.5in" right="0.5in" bottom="0.5in">
+    <title>Lecture Worksheet - Resonance and Transients</title>
+
+    <!-- Exercises start here. -->
+    <exercise>
+        <statement>
+            <p>
+                The general solution to
+                <m>\ddot{x}+\gamma\dot{x}+\omega_{0}^{2}x=\cos(\Omega t)</m> can
+                be written as
+                <md>x(t)=a(\Omega)\cos(\Omega t+\phi(\Omega)) + Ae^{-\gamma t/2}\cos(\omega_{0} t) + Be^{-\gamma t/2}\sin(\omega_{0} t)</md>,
+                where <m>a</m> and <m>\phi</m> were found in class.
+            </p>
+
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            What two pieces of information do we need to
+                            determine the constants <m>A</m> and <m>B</m>?
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Write the system of equations that determines
+                            <m>A</m> and <m>B</m> for the case
+                            <m>x(0)=\dot{x}(0)=0</m>.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Go to <url href="https://www.desmos.com/calculator/31qlfilhjl">this Desmos calculator</url>
+                            and play around.
+                            The curve <m>y_{1}(t)</m> is the solution with the
+                            transient, and <m>y_{2}(t)</m> is the steady-state
+                            solution (both rescaled so you can change the
+                            frequency and damping)
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Look at <m>y_{1}</m> and <m>y_{2}</m> together.
+                            How does the time it take for the black curve to
+                            match the red curve depend on the damping?
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Now show only <m>y_{3}</m>, which is the steady
+                            state solution normalized to have an amplitude of 1
+                            at resonance.
+                            Keep <m>\omega_{0}</m> constant and vary the driving
+                            frequency <m>\Omega</m> ( <m>w_{1}</m> on Desmos).
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            You should find that the amplitude of <m>y_{3}</m>
+                            is only noticeable if you are close to resonance.
+                            How does the range of frequencies depend on the
+                            damping?
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <p>
+            This week has been all about the equation <m>\ddot{x}+\gamma\dot{x}+\omega_0^2x=f_0\cos(\omega t)</m>,
+            corresponding to a damped oscillator driven by a single sinusoidal driving force.
+        </p>
+        <ol>
+            <li>
+                <p>
+                    Using what you know about solutions to this differential equation, 
+                    what do you think the steady state solution <m>x(t)</m> would look like if instead of a 
+                    single driving force you had two driving forces of different frequencies
+                    <m>\omega_1</m> and <m>\omega_2</m>? 
+                    That is, what is a particular solution to
+                    <m>\ddot{x}+\gamma\dot{x}+\omega_0^2x=a\cos(\omega_1 t)+b\cos(\omega_2t)</m>? 
+                    Note, extensive derivations are not required here: you can use results you learned in class/textbook.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Go to desmos and plot the following functions:
+                    <ul>
+                        <li>
+                            <p>
+                                <m>f(x) = \sin(x)+\frac{\sin(3x)}{3}+\frac{\sin(5x)}{5}+\frac{\sin(7x)}{7}+\frac{\sin(9x)}{9}+...</m>
+                            </p>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <p>
+                                <m>g(x) = \cos(x)-\frac{\cos(2x)}{4}+\frac{\cos(3x)}{9}-\frac{\cos(4x)}{16}+\frac{\cos(5x)}{25}+...</m>
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </li>
+            <li>
+                <p>
+                    Challenge: can you turn the expressions on our Desmos calculator into functions that you can use to find the response
+                    <m>x(t)</m> of the oscillator to the above interesting driving forces?
+                </p>
+            </li>
+        </ol>
+    </exercise>
+</worksheet>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- When creating a new activity, make a copy of this file with appropriate name -->
+<worksheet xml:id="activity-24" top="0.5in" left="0.5in" right="0.5in" bottom="0.5in">
+  <title>Lecture Worksheet - Spacetime Diagrams</title>
+
+  <!-- Exercises start here. -->
+  <exercise>
+    <statement>
+    <p>
+        Use the two-observer spacetime diagram below to find the coordinates
+        <m>x'</m> and <m>t'</m> of events <m>P,Q,R</m>.
+        No need to be exact here, just estimate the coordinates.
+    </p>
+    <image source="images\activities\lect24\two_observer_diagram.png"/>
+    </statement>
+  </exercise>
+
+  <exercise>
+
+        <p>
+            Consider two blinking warning lights 3000 m apart along a railroad track.
+            These lights flash simultaneously in the ground frame.
+            Let W be the event of the west light blinking, and let E be the event of the east light blinking.
+            A train moves eastward along the track at a relativistic speed <m>\beta</m>.
+        </p>
+        <p>
+            Suppose an observer in the train passes the west light just as event W
+            happens.
+            By carefully measuring when the light from event E arrives and calculating
+            the distance between the two lights (by observing how long it takes to
+            travel between the lights at the known speed <m>\beta</m> ), the observer is
+            able to infer when event E actually happened in the train frame.
+            Draw a qualitative spacetime diagram to determine which event happens first.
+        </p>
+  
+  </exercise>
+
+  <exercise>
+    <p>
+        Use the provided two-observer diagram to mark the following two events:
+    </p>
+
+    <p>
+        <ul>
+            <li>
+                <p>
+                    The t' observer that went through the origin event measures
+                    <m>t'=4s</m> according to their clock <m>(A)</m>
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    The t observer that went through the origin event measures
+                    <m>t= 4s</m> according to their clock. <m>(B)</m>
+                </p>
+            </li>
+        </ul>
+    </p>
+
+  <ol>
+      <li>
+          <p>
+              Use your diagram to show that <m>\Delta t_{OA}&lt; 4s</m>
+          </p>
+      </li>
+
+      <li>
+          <p>
+              Use your diagram to show that <m>\Delta t'_{OB}&lt; 4s</m>.
+          </p>
+      </li>
+
+      <li>
+          <p>
+              Your results mean that S observers see S' clocks run slow and
+              vice-versa.
+              This sounds confusing, but look at the x and x' coordinates of
+              events A and B to get a feeling of what might be happening.
+          </p>
+      </li>
+  </ol>
+  </exercise>
+
+  <exercise>
+        <p>
+            A stick of length 4m has one of its ends at the origin of the x-t frame and lies at rest relative to it. Draw the worldline of the stick in the spacetime diagram and show which events the x't' observer uses to measure the length of the stick. Show that the stick is shorter in the x't' frame.
+        </p>
+   </exercise>
+
+   <exercise>
+    <p>
+        A stick of length 4m has one of its ends at the origin of the x'-t' frame and lies at rest relative to it. Draw the worldline of the stick in the spacetime diagram and show which events the x-t observer uses to measure the length of the stick. Show that the stick is shorter in the xt frame. Use color or some other method to distinguish your worldlines!
+    </p>
+   </exercise>
+</worksheet>

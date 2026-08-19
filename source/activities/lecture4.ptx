@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- When creating a new activity, make a copy of this file with appropriate name -->
+<worksheet xml:id="activity-04" top="0.5in" left="0.5in" right="0.5in" bottom="0.5in">
+  <title>Lecture Worksheet - Newton's Laws</title>
+
+  <!-- Optional introduction -->
+
+  <!-- Exercises start here. -->
+  <exercise>
+    <statement>
+        <sidebyside widths="70% 30%">
+        <p>
+            Two magnets that attract each other hang from a string, as shown (the magnets are touching). 
+            If we replace the bottom magnet with a stronger one, what happens to the tension in the string?
+        </p>
+        <image>
+            <shortdescription>descr</shortdescription>
+            <latex-image>
+                \begin{tikzpicture}
+                    	\draw[thick,fill=gray!40]
+                        (0,0)--(0.5,0) 
+                        to[out=100,in=180] (1.5,3.5)
+                        to[out=0,in=80] (2.5,0)--(3,0)
+                        to[out=80,in=0] (1.5,4)
+                        to[out=180,in=100] (0,0)
+                        to[out=260,in=180] (1.5,-4)
+                        to[out=0,in=-80] (3,0)--(2.5,0)
+                        to[out=280,in=0] (1.5,-3.5)
+                        to[out=180,in=-100] (0.5,0);
+
+                        \draw[ultra thick] (1.5,3.5)--(1.5,6);
+                        \draw[ultra thick] (-1,6)--(4,6);
+                        
+                        \foreach \x in {-0.8,-0.6,...,3.8} 
+                        \draw[thick] (\x,6)--++(0.1,0.2);
+                \end{tikzpicture}
+            </latex-image>
+        </image>
+        </sidebyside>
+    </statement>
+  </exercise>
+
+  <exercise>
+    <statement>
+        <p>
+            In the picture below, a painter pulls himself upward by applying a 
+            force <m>F</m> to each of the ropes. Draw free-body diagrams for the 
+            painter, for the plank, and for a combined <q>painter+plank</q> system.
+        </p>
+        <image width="50%" source="images\activities\lec4\painter.png">
+            <shortdescription></shortdescription>
+        </image>
+    </statement>
+  </exercise>
+
+  <exercise>
+    <p>
+        Consider the variation on the Atwood machine shown below 
+        (no, this is not a practical set-up). The fixed pulley is massless, 
+        but the shaded pulleys have the same mass <m>m</m>. There is one 
+        continuous piece of string going through the pulley system, and the 
+        string slides without friction on all surfaces. Apply the algorithm to
+        find the acceleration of the masses! <alert>Do not skip steps</alert>.
+        The goal here is to at least write the constraint equation.
+    </p>
+    <image width="40%" source="images\activities\lec4\atwood.png">
+        <shortdescription>descr</shortdescription>
+    </image>
+  </exercise>
+</worksheet>
