@@ -19,6 +19,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
 <link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<style>
+@counter-style ptx-marker-0 { system: extends lower-alpha; prefix: '('; suffix: ') '; }
+</style>
 <script type="module">import { startMathJax } from './_static/pretext/js/dist/mathjax_startup.js';
 startMathJax({
 hasWebworkReps: false,
@@ -36,7 +39,7 @@ lang: "en-US",
 <meta name="twitter:description" content="Phys 1760 Fall 2026">
 <meta property="og:description" content="Phys 1760 Fall 2026">
 <meta name="twitter:card" content="summary">
-<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/dist/pretext-core.js?v=2.47"></script><script src="_static/pretext/js/dist/pretext-read-aloud.js?v=2.47"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/dist/pretext-core.js?v=2.50"></script><script src="_static/pretext/js/dist/pretext-read-aloud.js?v=2.50"></script><!--** eBookCongig is necessary to configure interactive       **-->
 <!--** Runestone components to run locally in reader's browser **-->
 <!--** No external communication:                              **-->
 <!--**     log level is 0, Runestone Services are disabled     **-->
@@ -415,21 +418,21 @@ eBookConfig.enable_chatcodes =  false;
 <div class="para" id="homework-7-4-3-2">Whenever you see a differential equation of the type <span class="process-math">\(\dfrac{d^2 x}{dt^2}=-\dfrac{dV}{dx}\text{,}\)</span> even if mechanics doesn’t have anything to do with it, you can apply “conservation of energy” to say that <span class="process-math">\(\frac{1}{2}\dot{x}^2+V(x)=E\)</span> is constant and use energy-diagram methods to learn about your solution! One such example is the Friedmann equation, which describes the expansion of the universe using a scale factor a(t) that describes how length scales increase with time<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#homework-7-4-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para logical" id="homework-7-4-3-3">
-<ol class="lower-alpha lower-alpha-level-1" id="homework-7-4-3-3-1">
+<ol class="decimal" id="homework-7-4-3-3-1">
 <li id="homework-7-4-3-3-1-1">
 <div class="para" id="homework-7-4-3-3-1-1-1">The Friedmann equation for a universe with just matter and dark energy can be written, after some simplification, as <span class="process-math">\(\dfrac{d^2 a}{dt^2}=-\dfrac{B}{a^2} +2Wa\text{.}\)</span> <span class="process-math">\(B,W\)</span> are positive constants, related, respectively, to the amount of matter and dark energy in the universe. Find the “potential energy” <span class="process-math">\(V(a)\)</span> for this problem<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#homework-7-4-3-3-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Item 3.a"><a tabindex="-1" href="#homework-7-4-3-3-1-1" title="Copy heading and permalink for Item 3.a" aria-label="Copy heading and permalink for Item 3.a">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item 3.1"><a tabindex="-1" href="#homework-7-4-3-3-1-1" title="Copy heading and permalink for Item 3.1" aria-label="Copy heading and permalink for Item 3.1">🔗</a></div>
 </li>
 <li id="homework-7-4-3-3-1-2">
 <div class="para" id="homework-7-4-3-3-1-2-1">Sketch a graph of the potential energy. Note: the particular values of <span class="process-math">\(B,W\)</span> aren’t super important here, all that matters is the shape of the graph.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#homework-7-4-3-3-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Item 3.b"><a tabindex="-1" href="#homework-7-4-3-3-1-2" title="Copy heading and permalink for Item 3.b" aria-label="Copy heading and permalink for Item 3.b">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item 3.2"><a tabindex="-1" href="#homework-7-4-3-3-1-2" title="Copy heading and permalink for Item 3.2" aria-label="Copy heading and permalink for Item 3.2">🔗</a></div>
 </li>
 <li id="homework-7-4-3-3-1-3">
 <div class="para" id="homework-7-4-3-3-1-3-1">The “total energy” <span class="process-math">\(E\)</span> in the Friedmann equation can be positive, negative, or zero. Assuming that the universe starts from a small size (so <span class="process-math">\(a\simeq 0\)</span> at some point in time), use your energy diagram to describe the possible fates of the universe, and take some time to ponder that it is possible to do so much with very little math (once you have the Friedmann equation!).<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#homework-7-4-3-3-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Item 3.c"><a tabindex="-1" href="#homework-7-4-3-3-1-3" title="Copy heading and permalink for Item 3.c" aria-label="Copy heading and permalink for Item 3.c">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item 3.3"><a tabindex="-1" href="#homework-7-4-3-3-1-3" title="Copy heading and permalink for Item 3.3" aria-label="Copy heading and permalink for Item 3.3">🔗</a></div>
 </li>
 </ol>
 <div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#homework-7-4-3-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
