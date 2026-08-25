@@ -57,8 +57,9 @@
         </p>
       </introduction>
       <!-- Remove the example and replace with your own activities -->
-      <!-- Activities here if you want to include them
+
       <xi:include href="./activities/lecture1.ptx"/>
+      <!-- Activities here if you want to include them
       <xi:include href="./activities/lecture2.ptx"/>
       <xi:include href="./activities/lecture3.ptx"/>
       <xi:include href="./activities/lecture4.ptx"/>
