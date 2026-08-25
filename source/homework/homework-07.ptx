@@ -120,6 +120,8 @@
         <p>
             Consider a rocket-powered skateboard that is about to roll downhill. To escape on the right with 
             the maximum speed, where should it fire a brief impulse (i.e., blast its engines)?
+            <fn>This problem is adapted from <url href="https://doi.org/10.1119/1.5126818">this paper</url>, and the effect described
+            here (the Oberth effect) is useful for real rockets!</fn>
         </p>
         
         <image source="images/hwimg/hw6/rocket_valley.svg" width="50%">

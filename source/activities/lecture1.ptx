@@ -55,20 +55,25 @@
           \end{tikzpicture}
         </latex-image>
       </image>
-      <ol>
-        <li>
-          <p>
-            Draw approximate velocity vectors at the labeled points 1, 2, and 3.
-          </p>
-        </li>
-        <li>
-          <p>
-            Use the velocity vectors you drew to find the approximate direction of the 
-            acceleration at point 2. Draw the velocity vectors in the space below, 
-            and draw the vectors <alert>large</alert> so you can see what you're doing
-          </p>
-        </li>
-      </ol>
+      
+      <p>
+        <ol>
+          <li>
+            <p>
+              Draw approximate velocity vectors at the labeled points 1, 2, and 3.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Use the velocity vectors you drew to find the approximate direction of
+              the acceleration at point 2.
+              Draw the velocity vectors in the space below, and draw the vectors
+              <alert>large</alert> so you can see what you're doing
+            </p>
+          </li>
+        </ol>
+      </p>
     </statement>
   </exercise>
 </page>

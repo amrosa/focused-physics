@@ -96,37 +96,43 @@
     <exercise>
         <title>Wing-Flapping Frequency of Birds</title>
         
-        <p>
+        <introduction>
+          <p>
             A hovering animal (like a hummingbird) must use its wings to generate a lift force that is equal in 
             magnitude to its weight. It does this by flapping its wings and pushing air downwards. This process can be 
             complicated, but our goal is to obtain a simple estimate of how often a bird must flap its wings: 
-            this will be a frequency f (beats per second)
-        </p>
-
-        <ol>
-            <li>
-                <p>
-                    Find an approximate formula for what this lift force should depend on. Clearly define any 
-                    parameters you introduce, such as the length <m>L</m> of the wings. At this point, its fine to 
-                    keep your lift force in terms of a speed instead of trying to introduce the frequency.
-                </p>
-            </li>
-            <li>
-                <p>
-                    Now figure out how to relate, approximately, the speed you used in the previous part to the 
-                    wing beating frequency <m>f</m> (hint: frequency has units of 1/time)
-                </p>
-            </li>
-            <li>
-                <p>
-                    	Let us now make the gross estimate that all animals have roughly the same density <m>\rho</m>. 
-                        Using your assumption, find how the frequency f scales with animal size: that is, you should find 
-                        an expression of the type <m>~{f=CL^n}</m>. The constant <m>C</m> isn't particularly important 
-                        (it can depend on lots of things that we aren't taking into account here!), but the power n can be 
-                        compared to experiment. This is an example of an <term>allometric scaling relation</term>
-                </p>
-            </li>
-        </ol>
+            this will be a frequency f (beats per second) 
+            <fn>This problem is adapted from <url href="https://doi.org/10.1119/5.0223350">this paper</url>, which has some data. You should check it out!</fn>
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              Find an approximate formula for what this lift force should depend on. Clearly define any 
+              parameters you introduce, such as the length <m>L</m> of the wings. At this point, its fine to 
+              keep your lift force in terms of a speed instead of trying to introduce the frequency.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Now figure out how to relate, approximately, the speed you used in the previous part to the 
+              wing beating frequency <m>f</m> (hint: frequency has units of 1/time)
+             </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Let us now make the gross estimate that all animals have roughly the same density <m>\rho</m>. 
+              Using your assumption, find how the frequency f scales with animal size: that is, you should find 
+              an expression of the type <m>~{f=CL^n}</m>. The constant <m>C</m> isn't particularly important 
+              (it can depend on lots of things that we aren't taking into account here!), but the power n can be 
+              compared to experiment. This is an example of an <term>allometric scaling relation</term>
+            </p>
+          </statement>
+        </task>
     </exercise>
 
   </page>

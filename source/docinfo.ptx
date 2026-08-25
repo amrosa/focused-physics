@@ -25,6 +25,7 @@
     \usetikzlibrary{decorations.markings}
   </latex-image-preamble>
   
+  <directories external="..\assets"/>
 <!-- source should be in docinfo, but something is complaining
   <source>
     
