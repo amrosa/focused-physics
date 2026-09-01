@@ -83,49 +83,58 @@
         <title>Energy of two particles in the CM frame</title>
         <p>
             Show that the kinetic energy of a two-particle system, 
-            <m>K=\frac{1}{2} m_1 v_1^2+\frac{1}{2} m_2 v_2^2 = \frac{1}{2} MV_{CM}^2+\frac{1/2}   μV_r^2</m>, where <m>V_{CM}</m> is the speed of the 
+            <m>K=\frac{1}{2} m_1 v_1^2+\frac{1}{2} m_2 v_2^2 = \frac{1}{2} MV_{CM}^2+\frac{1/2}μV_r^2</m>, where <m>V_{CM}</m> is the speed of the 
             center of mass; <m>V_r</m> is the relative speed between the two particles, and 
             <m>\mu=\dfrac{m_1 m_2}{m_1+m_2}</m>. Hint: start by solving for <m>(v_1,v_2)</m> in terms of 
-            <m>(V_CM,V_r)</m>. You may work in one dimension instead of using vectors, but this result is valid in 3D.
+            <m>(V_{CM},V_r)</m>. You may work in one dimension instead of using vectors, but this result is valid in 3D.
         </p>
         
     </exercise>
     
     <exercise>
         <title>Conservation of Energy-Like Problems in Other Contexts</title>
+        <introduction>
         <p>
-            Whenever you see a differential equation of the type <m>\dfrac{d^2 x}{dt^2}=-\dfrac{dV}{dx}</m>, 
+            Whenever you see a differential equation of the type <m>~{\dfrac{d^2 x}{dt^2}=-\dfrac{dV}{dx}}</m>, 
             even if mechanics doesn't have anything to do with it, you can apply <q>conservation of energy</q> to 
             say that <m>\frac{1}{2}\dot{x}^2+V(x)=E</m> is constant and use energy-diagram methods to learn about 
-            your solution! One such example is the Friedmann equation, which describes the expansion of the universe
-            using a scale factor a(t) that describes how length scales increase with time 
+            your solution!
+        </p> 
+        <p> 
+            One such example is the <term>Friedmann equation</term>, which describes the expansion of the universe
+            using a scale factor <m>a(t)</m> that describes how length scales increase with time. If <m>a(t)</m>
+            changes from 1 to 2, for instance, this means that the distance between two objects will double in the
+            time it takes for that to happen. 
         </p>
-        <p>
-            <ol>
-                <li>
-                    <p>
-                        The Friedmann equation for a universe with just matter and dark energy can be written, after some
-                         simplification, as <m>\dfrac{d^2 a}{dt^2}=-\dfrac{B}{a^2} +2Wa</m>. <m>B,W</m> are 
-                         positive constants, related, respectively, to the amount of matter and dark energy in the 
-                         universe. Find the <q>potential energy</q> <m>V(a)</m> for this problem
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        Sketch a graph of the potential energy. Note: the particular values of <m>B,W</m> aren't 
-                        super important here, all that matters is the shape of the graph.
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        The <q>total energy</q> <m>E</m> in the Friedmann equation can be positive, negative, or zero. 
-                        Assuming that the universe starts from a small size (so <m>a\simeq 0</m> at some point in time),
-                        use your energy diagram to describe the possible fates of the universe, and take some time to ponder that 
-                        it is possible to do so much with very little math (once you have the Friedmann equation!).
-                    </p>
-                </li>
-            </ol>
-        </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                     The Friedmann equation for a universe with just matter and dark energy can be written, after some
+                     simplification, as <md>\dfrac{d^2 a}{dt^2}=-\dfrac{B}{a^2} +2Wa</md>.
+                     <m>B,W</m> are positive constants, related, respectively, to the amount of matter and dark energy in the 
+                     universe. Find the <q>potential energy</q> <m>V(a)</m> for this problem
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                     Sketch a graph of the potential energy. Note: the particular values of <m>B,W</m> aren't 
+                     super important here, all that matters is the general shape of the graph.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    The <q>total energy</q> <m>E</m> in the Friedmann equation can be positive, negative, or zero. 
+                    Assuming that the universe starts from a small size (so <m>a\simeq 0</m> at some point in time),
+                    use your energy diagram to describe the possible fates of the universe, and take some time to ponder that 
+                    it is possible to do so much with very little math (once you have the Friedmann equation!).
+                </p>
+            </statement>
+        </task>
     </exercise>
   </page>
 </worksheet>

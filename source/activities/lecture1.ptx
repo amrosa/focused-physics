@@ -20,7 +20,7 @@
         <ol cols="2">
           <li>
             <p>
-              If a vector <m>\vec{A}=0</m>, then <m>~{A_{x}+A_{y}=0}</m>
+              <m>~{A_x+A_y=0}</m> means that the 2D vector <m>~{\vec{A}=0}</m>
             </p>
           </li>
           <li>

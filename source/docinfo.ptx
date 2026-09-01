@@ -26,14 +26,7 @@
   </latex-image-preamble>
   
   <directories external="..\assets"/>
-<!-- source should be in docinfo, but something is complaining
-  <source>
-    
-    <directories external="../assets" generated="../generated-assets" />
-    <version include="w1s"/>
 
-  </source>
--->
   <!-- It is possible to rename elements: -->
   <!-- <rename element="assemblage" xml:lang="en-US">Summary</rename> -->
 

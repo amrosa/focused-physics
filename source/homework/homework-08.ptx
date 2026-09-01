@@ -167,6 +167,7 @@
 
     <exercise>
         <title>Power</title>
+        <p>
         <ol>
             <li>
                 <p>
@@ -194,7 +195,7 @@
                 </p>
             </li>
         </ol>
-        
+        </p>
     </exercise>
   </page>
 </worksheet>

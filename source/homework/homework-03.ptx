@@ -47,6 +47,9 @@
   </introduction>
 
   <page>
+    <p>
+      Note: 2.5, 3.2, 3.5, 3.9, 3.10, and 3.17 are a little easier. You may want to start with those.
+    </p>
     <exercise>
       <title>K&amp;K Problems</title>
       <statement>
