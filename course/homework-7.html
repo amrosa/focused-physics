@@ -19,9 +19,6 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
 <link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
-<style>
-@counter-style ptx-marker-0 { system: extends lower-alpha; prefix: '('; suffix: ') '; }
-</style>
 <script type="module">import { startMathJax } from './_static/pretext/js/dist/mathjax_startup.js';
 startMathJax({
 hasWebworkReps: false,
@@ -61,14 +58,14 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '8.2.7';
+eBookConfig.runestone_version = '8.2.9';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.7d3f08d51c2b60f8.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.bb5ac777721d4056.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
+<script src="_static/prefix-runtime.5ef53875c58b216b.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.c5ba0ffa5f963084.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
 <link rel="stylesheet" type="text/css" href="_static/prefix-runestone.efe427683fc41f98.css">
 <script src="_static/pretext/js/dist/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/dist/pretext_search.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
@@ -408,36 +405,43 @@ eBookConfig.enable_chatcodes =  false;
 <article class="exercise exercise-like" id="homework-7-4-2"><h2 class="heading">
 <span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Energy of two particles in the CM frame.</span>
 </h2>
-<div class="para" id="homework-7-4-2-2">Show that the kinetic energy of a two-particle system, <span class="process-math">\(K=\frac{1}{2} m_1 v_1^2+\frac{1}{2} m_2 v_2^2 = \frac{1}{2} MV_{CM}^2+\frac{1/2}   μV_r^2\text{,}\)</span> where <span class="process-math">\(V_{CM}\)</span> is the speed of the center of mass; <span class="process-math">\(V_r\)</span> is the relative speed between the two particles, and <span class="process-math">\(\mu=\dfrac{m_1 m_2}{m_1+m_2}\text{.}\)</span> Hint: start by solving for <span class="process-math">\((v_1,v_2)\)</span> in terms of <span class="process-math">\((V_CM,V_r)\text{.}\)</span> You may work in one dimension instead of using vectors, but this result is valid in 3D.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#homework-7-4-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="homework-7-4-2-2">Show that the kinetic energy of a two-particle system, <span class="process-math">\(K=\frac{1}{2} m_1 v_1^2+\frac{1}{2} m_2 v_2^2 = \frac{1}{2} MV_{CM}^2+\frac{1/2}μV_r^2\text{,}\)</span> where <span class="process-math">\(V_{CM}\)</span> is the speed of the center of mass; <span class="process-math">\(V_r\)</span> is the relative speed between the two particles, and <span class="process-math">\(\mu=\dfrac{m_1 m_2}{m_1+m_2}\text{.}\)</span> Hint: start by solving for <span class="process-math">\((v_1,v_2)\)</span> in terms of <span class="process-math">\((V_{CM},V_r)\text{.}\)</span> You may work in one dimension instead of using vectors, but this result is valid in 3D.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#homework-7-4-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 2: Energy of two particles in the CM frame"><a tabindex="-1" href="#homework-7-4-2" title="Copy heading and permalink for Worksheet Exercise 2: Energy of two particles in the CM frame" aria-label="Copy heading and permalink for Worksheet Exercise 2: Energy of two particles in the CM frame">🔗</a></div>
 </article>
 <article class="exercise exercise-like" id="homework-7-4-3"><h2 class="heading">
 <span class="codenumber">3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Conservation of Energy-Like Problems in Other Contexts.</span>
 </h2>
-<div class="para" id="homework-7-4-3-2">Whenever you see a differential equation of the type <span class="process-math">\(\dfrac{d^2 x}{dt^2}=-\dfrac{dV}{dx}\text{,}\)</span> even if mechanics doesn’t have anything to do with it, you can apply “conservation of energy” to say that <span class="process-math">\(\frac{1}{2}\dot{x}^2+V(x)=E\)</span> is constant and use energy-diagram methods to learn about your solution! One such example is the Friedmann equation, which describes the expansion of the universe using a scale factor a(t) that describes how length scales increase with time<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#homework-7-4-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="introduction" id="homework-7-4-3-2">
+<div class="para" id="homework-7-4-3-2-1">Whenever you see a differential equation of the type <span class="process-math">\(~{\dfrac{d^2 x}{dt^2}=-\dfrac{dV}{dx}}\text{,}\)</span> even if mechanics doesn’t have anything to do with it, you can apply “conservation of energy” to say that <span class="process-math">\(\frac{1}{2}\dot{x}^2+V(x)=E\)</span> is constant and use energy-diagram methods to learn about your solution!<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#homework-7-4-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para logical" id="homework-7-4-3-3">
-<ol class="decimal" id="homework-7-4-3-3-1">
-<li id="homework-7-4-3-3-1-1">
-<div class="para" id="homework-7-4-3-3-1-1-1">The Friedmann equation for a universe with just matter and dark energy can be written, after some simplification, as <span class="process-math">\(\dfrac{d^2 a}{dt^2}=-\dfrac{B}{a^2} +2Wa\text{.}\)</span> <span class="process-math">\(B,W\)</span> are positive constants, related, respectively, to the amount of matter and dark energy in the universe. Find the “potential energy” <span class="process-math">\(V(a)\)</span> for this problem<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#homework-7-4-3-3-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="homework-7-4-3-2-2">One such example is the <dfn class="terminology">Friedmann equation</dfn>, which describes the expansion of the universe using a scale factor <span class="process-math">\(a(t)\)</span> that describes how length scales increase with time. If <span class="process-math">\(a(t)\)</span> changes from 1 to 2, for instance, this means that the distance between two objects will double in the time it takes for that to happen.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#homework-7-4-3-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Item 3.1"><a tabindex="-1" href="#homework-7-4-3-3-1-1" title="Copy heading and permalink for Item 3.1" aria-label="Copy heading and permalink for Item 3.1">🔗</a></div>
-</li>
-<li id="homework-7-4-3-3-1-2">
-<div class="para" id="homework-7-4-3-3-1-2-1">Sketch a graph of the potential energy. Note: the particular values of <span class="process-math">\(B,W\)</span> aren’t super important here, all that matters is the shape of the graph.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#homework-7-4-3-3-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Item 3.2"><a tabindex="-1" href="#homework-7-4-3-3-1-2" title="Copy heading and permalink for Item 3.2" aria-label="Copy heading and permalink for Item 3.2">🔗</a></div>
-</li>
-<li id="homework-7-4-3-3-1-3">
-<div class="para" id="homework-7-4-3-3-1-3-1">The “total energy” <span class="process-math">\(E\)</span> in the Friedmann equation can be positive, negative, or zero. Assuming that the universe starts from a small size (so <span class="process-math">\(a\simeq 0\)</span> at some point in time), use your energy diagram to describe the possible fates of the universe, and take some time to ponder that it is possible to do so much with very little math (once you have the Friedmann equation!).<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#homework-7-4-3-3-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<article class="task exercise-like" id="homework-7-4-3-3"><h3 class="heading"><span class="codenumber">(a)</span></h3>
+<div class="para logical" id="homework-7-4-3-3-1-1">
+<div class="para">The Friedmann equation for a universe with just matter and dark energy can be written, after some simplification, as</div>
+<div class="displaymath process-math" id="homework-7-4-3-3-1-1-1">
+\begin{equation*}
+\dfrac{d^2 a}{dt^2}=-\dfrac{B}{a^2} +2Wa\text{.}
+\end{equation*}
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Item 3.3"><a tabindex="-1" href="#homework-7-4-3-3-1-3" title="Copy heading and permalink for Item 3.3" aria-label="Copy heading and permalink for Item 3.3">🔗</a></div>
-</li>
-</ol>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#homework-7-4-3-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para">
+<span class="process-math">\(B,W\)</span> are positive constants, related, respectively, to the amount of matter and dark energy in the universe. Find the “potential energy” <span class="process-math">\(V(a)\)</span> for this problem</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#homework-7-4-3-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 3: Conservation of Energy-Like Problems in Other Contexts"><a tabindex="-1" href="#homework-7-4-3" title="Copy heading and permalink for Worksheet Exercise 3: Conservation of Energy-Like Problems in Other Contexts" aria-label="Copy heading and permalink for Worksheet Exercise 3: Conservation of Energy-Like Problems in Other Contexts">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 3.a"><a tabindex="-1" href="#homework-7-4-3-3" title="Copy heading and permalink for Task 3.a" aria-label="Copy heading and permalink for Task 3.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="homework-7-4-3-4"><h3 class="heading"><span class="codenumber">(b)</span></h3>
+<div class="para" id="homework-7-4-3-4-1-1">Sketch a graph of the potential energy. Note: the particular values of <span class="process-math">\(B,W\)</span> aren’t super important here, all that matters is the general shape of the graph.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#homework-7-4-3-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 3.b"><a tabindex="-1" href="#homework-7-4-3-4" title="Copy heading and permalink for Task 3.b" aria-label="Copy heading and permalink for Task 3.b">🔗</a></div>
+</article>
+<article class="task exercise-like" id="homework-7-4-3-5"><h3 class="heading"><span class="codenumber">(c)</span></h3>
+<div class="para" id="homework-7-4-3-5-1-1">The “total energy” <span class="process-math">\(E\)</span> in the Friedmann equation can be positive, negative, or zero. Assuming that the universe starts from a small size (so <span class="process-math">\(a\simeq 0\)</span> at some point in time), use your energy diagram to describe the possible fates of the universe, and take some time to ponder that it is possible to do so much with very little math (once you have the Friedmann equation!).<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#homework-7-4-3-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 3.c"><a tabindex="-1" href="#homework-7-4-3-5" title="Copy heading and permalink for Task 3.c" aria-label="Copy heading and permalink for Task 3.c">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 3: Conservation of Energy-Like Problems in Other Contexts"><a tabindex="-1" href="#homework-7-4-3" title="Copy heading and permalink for Worksheet Exercise 3: Conservation of Energy-Like Problems in Other Contexts" aria-label="Copy heading and permalink for Worksheet Exercise 3: Conservation of Energy-Like Problems in Other Contexts">🔗</a></div>
 </article></section><div class="autopermalink" aria-hidden="true" data-description="Worksheet: Homework 06"><a tabindex="-1" href="#homework-7" title="Copy heading and permalink for Worksheet: Homework 06" aria-label="Copy heading and permalink for Worksheet: Homework 06">🔗</a></div>
 </section>
 </div>
