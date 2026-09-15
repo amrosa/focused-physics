@@ -55,10 +55,30 @@
             <ul>
                 <li>
                     <p>
-                        3.15. Note: It looks scary, but follow the instructions: write down the differential 
-                        equation and then find the period by identifying the <m>\omega^2</m> in the diff. eq. Make 
-                        sure to apply the results of the <q>shell theorem</q> of section 3.3.1, and look at note 3.1 
-                        if it's not clear how to do this.
+                        3.15. Note: It looks scary, but follow the instructions:
+                        <ul>
+                            <li>
+                                <p>
+                                    Apply the <q>shell theorem</q> mentioned in 3.3.1 and Note 3.1. You
+                                    <alert>do not</alert> need to prove it, just use the fact that the force
+                                    at distance <m>r</m> only comes from the mass enclosed by a sphere of radius
+                                    <m>r</m>, which acts like a point mass at its center.      
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Having an expression for the net force on the particle, use Newton's 2nd
+                                    law to write the differential equation for <m>\ddot{r}</m>, and by comparing
+                                    with the example from class, identify <m>~{\omega=\dfrac{2\pi}{T}}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Grab a calculator (or use Google/Wolfram) to combine the quantities (with units!)
+                                    and find the period.
+                                </p>
+                            </li>
+                        </ul> 
                     </p>
                 </li>
             </ul>
@@ -154,7 +174,8 @@
                     <li>
                         <p>
                             4.7 Note: this will require using a differential equation, center of mass, AND momentum 
-                            arguments. Do this problem last
+                            arguments. Do this problem last. A substitution of the type <m>~{u=x(t)-x_0}</m> will be useful
+                            to reduce the differential equation to the one from class, and then you can solve for <m>u(t)</m>.
                         </p>
                     </li>
                 </ul>
