@@ -113,7 +113,7 @@
                 <p>
                     Combine the equation you obtained in the previous part with the conservation of momentum statement
                     <md>
-                        m_1v_i+m_2v_i=m_1v_f+m_2u_f
+                        m_1v_i+m_2u_i=m_1v_f+m_2u_f
                     </md>
                     and solve for <m>~{v_f,u_f}</m> in terms of the initial velocities. You should find that
                     <md>
