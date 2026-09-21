@@ -1429,7 +1429,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Reading Quiz 07: Mass and Momentum Flows",
-  "body": " Reading Quiz 07: Mass and Momentum Flows    Contents: This quiz covers sections 4.7 through 4.9   Instructions: Answer all the questions to the best of your ability on paper. When you are done, screenshot your work and upload it as a pdf using the File Upload question below. When you submit the quiz, don't navigate away from Canvas. Scroll down to the bottom of the page for a download link to the solutions to the quiz.      Draw a before-and-after picture of the Freight Car and Hopper in Example 4.13. That is, draw the system at time t and then draw it again at time t+dt, and show the velocity vectors of all relevant parts of the system. Use your drawing to verify the equations for P(t) and P(t+dt) in the text.      Same thing for example 4.14, but let a constant force F act on the cart, so its speed will not remain constant. Use the impulse-momentum principle to obtain an equation for , the acceleration of the cart.      Go back to example 4.8: what can you say about the momentum in this example? Try to give your answer as the impulse of a specific force      Can you explain the result of the previous problem physically? It should look rather simple.      Explain, mathematically, what is meant by the statement on page 140: The correct equation of motion results from taking the limit and including only the non-vanishing first-order terms. Terms beyond the first order, such as vanish in the limit       In variable mass situations like the rocket, we could consider our system to be the rocket and all of the fuel, including the fuel expelled in the past. The momentum of this system is conserved and the definition of the system doesn't change in time, so this might be simpler. Can you think of any reasons not to do this?     "
+  "body": " Reading Quiz 07: Mass and Momentum Flows    Contents: This quiz covers sections 4.7 through 4.9   Instructions: Answer all the questions to the best of your ability on paper. When you are done, screenshot your work and upload it as a pdf using the File Upload question below. When you submit the quiz, don't navigate away from Canvas. Scroll down to the bottom of the page for a download link to the solutions to the quiz.      Draw a before-and-after picture of the Freight Car and Hopper in Example 4.13. That is, draw the system at time t and then draw it again at time t+dt, and show the velocity vectors of all relevant parts of the system. Use your drawing to verify the equations for P(t) and P(t+dt) in the text.      Same thing for example 4.14, but let a constant force F act on the cart, so its speed will not remain constant. Use the impulse-momentum principle to obtain an equation for , the acceleration of the cart.      Can you explain the result of the previous problem physically? It should look rather simple.      Explain, mathematically, what is meant by the statement on page 140: The correct equation of motion results from taking the limit and including only the non-vanishing first-order terms. Terms beyond the first order, such as vanish in the limit       In variable mass situations like the rocket, we could consider our system to be the rocket and all of the fuel, including the fuel expelled in the past. The momentum of this system is conserved and the definition of the system doesn't change in time, so this might be simpler. Can you think of any reasons not to do this?     "
 },
 {
   "id": "ch-quizzes-8-3-1",
@@ -1456,7 +1456,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "",
-  "body": "  Go back to example 4.8: what can you say about the momentum in this example? Try to give your answer as the impulse of a specific force   "
+  "body": "  Can you explain the result of the previous problem physically? It should look rather simple.   "
 },
 {
   "id": "ch-quizzes-8-3-4",
@@ -1465,7 +1465,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "",
-  "body": "  Can you explain the result of the previous problem physically? It should look rather simple.   "
+  "body": "  Explain, mathematically, what is meant by the statement on page 140: The correct equation of motion results from taking the limit and including only the non-vanishing first-order terms. Terms beyond the first order, such as vanish in the limit    "
 },
 {
   "id": "ch-quizzes-8-3-5",
@@ -1473,15 +1473,6 @@ var ptx_lunr_docs = [
   "url": "ch-quizzes-8.html#ch-quizzes-8-3-5",
   "type": "Worksheet Exercise",
   "number": "5",
-  "title": "",
-  "body": "  Explain, mathematically, what is meant by the statement on page 140: The correct equation of motion results from taking the limit and including only the non-vanishing first-order terms. Terms beyond the first order, such as vanish in the limit    "
-},
-{
-  "id": "ch-quizzes-8-3-6",
-  "level": "2",
-  "url": "ch-quizzes-8.html#ch-quizzes-8-3-6",
-  "type": "Worksheet Exercise",
-  "number": "6",
   "title": "",
   "body": "  In variable mass situations like the rocket, we could consider our system to be the rocket and all of the fuel, including the fuel expelled in the past. The momentum of this system is conserved and the definition of the system doesn't change in time, so this might be simpler. Can you think of any reasons not to do this?   "
 },
