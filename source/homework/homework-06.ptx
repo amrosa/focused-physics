@@ -123,6 +123,14 @@
                 </p>
             </statement>
         </task>
+        <task>
+            <statement>
+                <p>
+                    Consider the case when <m>~{u_i=0}</m> and explain the outcomes of the collision when
+                    <m>m_1\ll m_2</m>,<m>m_1 \gg m_2</m>, and <m>m_1=m_2</m>
+                </p>
+            </statement>
+        </task>
     </exercise>
     
     <exercise>
