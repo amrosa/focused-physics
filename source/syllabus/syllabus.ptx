@@ -4,7 +4,11 @@
   <title>Syllabus</title>
 
   <introduction>
-    <p/>
+      <p>
+        <alert>DISCLAIMER:</alert> the instructor reserves the right to
+        make modifications to this course information throughout the semester
+        as necessary.
+      </p>
   </introduction>
   <!-- Include chapters -->
   <subsection xml:id="sec-course-info">

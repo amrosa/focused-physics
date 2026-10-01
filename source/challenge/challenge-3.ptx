@@ -121,9 +121,9 @@
                 </li>
                 <li>
                     <p>
-                        You are not required to solve for the full time evolution <m>v(t)</m> by finding a 
-                        differential equation: once you've identified all the relevant forces and systems,
-                        you can set everything to a steady state and solve for the terminal speed.
+                        You are not required to solve for the full time evolution <m>v(t)</m> by working throught
+                        the solution of a differential equation: once you've identified all the relevant equations of
+                        motion, you can set everything to a steady state to solve for the terminal speed.
                     </p>
                 </li>
             </ol>
