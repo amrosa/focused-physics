@@ -23,6 +23,7 @@
       <xi:include href="./syllabus/expectations.ptx"/>
       <xi:include href="./syllabus/grading_chart.ptx"/>
       <xi:include href="./syllabus/skills.ptx"/>
+      <xi:include href="./syllabus/explanations.ptx"/>
       <!-- Other documents could go here, like a schedule, project description, etc. -->
     </chapter>
 

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="explaining-reasoning" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title> Explaining Your Reasoning in Written Work</title>
+    <p>
+       Explaining your reasoning clearly is a key part of the homework process. 
+       One of the course learning goals is <q>communication dexterity</q>. 
+       This is an important skill by itself, since most of modern science and engineering is 
+       collaborative and requires careful explanations of your process to other people.
+    </p>
+    <p>
+     Clear communication is also good as a study tool: you will likely forget some of what you
+     have done when we move to new content, so you should write your notes in such a way 
+     that you can reference them later when you are studying. <q>Later</q>, by the way, might be years down 
+     the line when you see a problem again in a different class! Having good documentation can save future you from a lot of frustration.
+    </p>
+    <p>
+    If you do not explain problems clearly, one possible consequence is we may ask you to resubmit one or more problems. 
+    We understand this can be frustrating, but the goal is to help you. When working on complex problems, 
+    having the ability to approach them with a high standard of logic and clarity will help you not to get lost. 
+    Your solution does not have to be an essay. But notations should be defined (a picture is sufficient); 
+    equations should be labeled (what they represent), and important choices need to be specified.
+    </p>
+    <p> 
+        Q: How do I know what choice is important enough to be explained? I can't read your mind! This seems so arbitrary and unfair!
+    </p>
+    <p>
+        A: Understanding what the problem is about (and what needs to be explained) is part of understanding the material. 
+        Imagine you're hiring a contractor to build a wooden structure in your back yard and you ask them, <q>tell me how you'll make it structurally sound</q>.
+        But instead of telling you what structure of beams and supports they're planning (which is what you're asking), 
+        they first start telling you at length how theylll make sure any planks are hammered together with nails, as it's really-really important; 
+        and they'll also make sure the wood is solid and not rotten<ellipsis/> 
+        Both are valid points, yet you'll immediately conclude they barely know what they're talking about! 
+    </p>
+    <p>
+        Parable out of the way, here are some things that should always be explained in your written work:
+    </p>
+    <p>
+        <dl>
+            <li>
+                <title>Defining Variables</title>
+                <p>
+                    What your variables mean, as well as distinguishing between scalar and vector variables. 
+                    This will almost always require some sort of coordinate system or reference to be specified.
+                    It will <alert>certainly require that you draw a picture for every problem.</alert>
+                </p>
+            </li>
+            <li>
+                <title>Plan of Attack</title>
+                
+                <p>
+                  You should outline your plan of attack for a given problem. This can go together with the math,
+                  but before your write down an equation, you should explain <em>why you are writing it
+                  in the first place</em>
+                </p>
+            </li>
+            <li>
+                <title>Specify Systems Clearly</title>
+                <p>
+                    You should be very specific as to which physical principles you are applying to which systems
+                    (ex: <q>using Newton's second law for the heavy block</q>, <q>mechanical energy remains constant for
+                    the pair of masses and the Earth during this specific process</q>). As discussed in class, quantities like
+                    momentum and energy are system-dependent, so without a clearly defined system, whatever equation follows
+                    is not meaningful.
+                </p>
+            </li>
+            <li>
+                <title>Sanity Checks</title>
+                <p>
+                    Most problems should have a sanity check. To sanity check your answer, you should start by trying to make a guess for
+                    what the answer should be before you solve the problem. You don't have to write this down, and it's OK if you're wrong. 
+                </p>
+            </li>
+        </dl>
+    </p>
+    <p>
+        Based on previous work, here are some notes to help you understand why I want you
+        to do this, which will reference specific mistakes I've observed in some student work.
+        Note: if you made this mistake, please don't think I am trying to judge you. The goal
+        here is to show how adding a small amount of structure can help you avoid mistakes
+        in the future. As the saying goes, <q>an ounce of prevention is worth a pound of cure</q>
+    </p>
+    <p>
+        Notes on variables, diagrams, and coordinates:
+        <ul>
+            <li>
+                <p>
+                    If a variable shows up in your mathematical solution, it needs to either be defined in the problem statement 
+                    *explicitly* or defined in a diagram. If you're using an angle <m>\alpha</m>: angle with which direction? 
+                    If you're using a distance: distance from what? If you're talking about a displacement or velocity, what is the origin? 
+                    What are the + and – directions? Most mistakes on problems 2 and 3 in the midterm go back to this in one way or another.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Using coordinate systems does *not* just mean <q>slap x and y axes in a figure</q> and be done. 
+                    A good number of students got confused, e.g., in problem 3 of the midterm, because they had a vertical 
+                    axes in their picture but the distance downwards from the pulley to to the mass clearly increases downwards,
+                    and if that is your <q>y-direction</q>, this affects how you write the 2nd law equations.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Clearly distinguish between vector variables <m>\vec{u}</m> and their components <m>~{u_x,u_y}</m>, and magnitude <m>u</m>. 
+                    If a vector points directly along an axis (e.g x), remember that its component will be <m>\~{pm u}</m> (depending on whether
+                    the vector points in the +x or -x direction). Many mistakes on problem 1 of the midterm 
+                    for not noticing that you were implicitly defining the <term>velocity</term> of the current relative to the ground as
+                    <m>~{\vec{u}=-u\hat{i}}</m> and clearly distinguishing between the vector, its x component, and the magnitude.
+                </p>
+            </li>
+        </ul>
+    </p>
+    <p>
+        Notes on plan of attack:
+        <ul>
+            <li>
+                <p>
+                    This is what real experts do when solving problems. No one starts with equations or computations, you start by
+                    identifying which conceptual and mathematical tools are relevant. That's part of why I want you to practice
+                    this on your work.
+                </p>
+            </li>
+            <li>
+                <p>
+                    The other part is that the feedback process is much better when you write down your ideas. That way the graders
+                    can tell you more than <q>the equation is wrong here</q>, but they can help you study by evaluating your ideas.
+                    This is the level of feedback you should <alert>demand</alert> from your homework.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Many of the individual terms that go in an equation come from a diagram, so the best way to make this clear
+                    is by having a good diagram in the first place. Statements that you should be writing often might look something
+                    like <q>We want to find the acceleration, so let's use FBD + pictures to write down Newton's 2nd law for each of the masses</q>;
+                    <q>We can find the change in momentum for system X by using our before-after-picture, and we know the external forces from the FBD”</q>;
+                    <q>I'm swimming directly North, which means that my velocity relative to the ground points North, and this relates to the
+                    current velocity in the way shown in the picture</q>
+                </p>
+            </li>
+            <li>
+                <p>
+                    You do not ever have to explain algebra and arithmetic in great detail, but I have noticed lots of mistakes from trying to write
+                    one equation and simplify it all in one go in your head without writing intermediate steps. This is generally not a good idea, take
+                    it easy.
+                </p>
+            </li>
+        </ul>
+    </p>
+    <p>
+        Notes on sanity checks:
+        <ul>
+            <li>
+                <p>
+                    Start easy: you solved the problem and found X = (expression), does (expression) have the same units as X?
+                </p>
+            </li>
+            <li>
+                <p>
+                    Check for basic mathematical consistency: if your expression has a square root, 
+                    are you sure that the thing inside of it is positive? 
+                    Does your expression have the correct sign? 
+                    Do note that this will sometimes require having a good understanding of vectors vs magnitudes.
+                    A good chunk of mistakes in problem 3 of the midterm could have been caught by noticing a denominator
+                    like <m>m-M</m>, which would lead to an unreasonable infinity.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Quick addendum to the previous note: sometimes the possibility of an infinity or a negative square
+                    root isn't wrong, but indicates that certain constraints need to be satisfied. That can be useful
+                    to note, as well
+                </p>
+            </li>
+            <li>
+                <p>
+                    Look for limiting cases that are simple. This could be something like setting an angle to be 0 or
+                    90 degrees, or a mass to zero or infinity. The goal of doing this is to transform the general problem
+                    into one you can guess the solution in your head (mostly) <em>before</em> you do any math.
+                </p>
+            </li>
+        </ul>
+    </p>
+</section>
