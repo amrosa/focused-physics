@@ -21,7 +21,10 @@
           	Draw a picture showing the equivalence of the <q>corkscrew rule</q> to the following method to find
             the direction of <m>\vec{A}\times\vec{B}</m>: put the index finger of your right hand in the direction 
             of <m>\vec{A}</m>, then have your middle finger point in the direction of <m>\vec{B}</m>. The
-            cross-product <m>\vec{A}\times\vec{B}</m> then points in the direction of your thumb.
+            cross-product <m>\vec{A}\times\vec{B}</m> then points in the direction of your thumb. Don't overthink
+            your drawings, just practice the hand-motions and be clear about which finger goes where. You can use
+            the symbol <m>\odot</m> to represent vectors/fingers going out of the page/screen and <m>\otimes</m>
+            to represent vectors going into the page/screen.
         </p>
       </statement>
     </exercise>
@@ -33,7 +36,8 @@
             really correct (you’ll fix this in 4011). For now, show that for all the examples in 8.2 you can find 
             the direction of <m>\vec{\omega}</m> in the following way. Curl your right hand in the direction of 
             rotation, and then <m>\vec{\omega}</m>points along your thumb. Its magnitude is given by the instantaneous
-            <m>\frac{d\theta}{dt}</m> about the axis of rotation (this part is a definition, don't show it).
+            <m>\frac{d\theta}{dt}</m> about the axis of rotation (this part is a definition, don't show it). Again,
+            don't overthink the drawings too much, just try to sketch out what you are doing with your hands.
         </p>
       </statement>
     </exercise>
