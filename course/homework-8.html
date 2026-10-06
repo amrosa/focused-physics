@@ -420,15 +420,65 @@ eBookConfig.enable_chatcodes =  false;
 <div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 1: K&amp;K Problems"><a tabindex="-1" href="#homework-8-4-1" title="Copy heading and permalink for Worksheet Exercise 1: K&amp;K Problems" aria-label="Copy heading and permalink for Worksheet Exercise 1: K&amp;K Problems">🔗</a></div>
 </article>
 <article class="exercise exercise-like" id="homework-8-4-2"><h2 class="heading">
-<span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">The Astro-blaster.</span>
+<span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Conservation of Energy Determines Motion.</span>
 </h2>
-<div class="para" id="homework-8-4-2-2">A tennis ball with a small mass m sits on top of a basketball with a large mass M (see figure). The bottom of the basketball is a height <span class="process-math">\(h\)</span> above the ground, and the tennis ball is standing right on top of it. After the balls are dropped, how high does the tennis ball go? Assume <span class="process-math">\(M\gg m\)</span> and that the balls are separated by a very small distance, so that they basically collide the moment the basketball reverses its motion. No need to solve the elastic collision problem again from scracth. If you’re up to the challenge, imagine what would happen if you have N balls stacked on top of each other, all satisfying <span class="process-math">\(m_1\gg m_2 \gg m_3 \gg \cdots \gg m_N\)</span> [this is optional].<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#homework-8-4-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="introduction" id="homework-8-4-2-2">
+<div class="para" id="homework-8-4-2-2-1">Consider the Atwood machine shown in the figure below, with ideal ropes and pulleys. Our system of interest will be the masses and the Earth. This system is <dfn class="terminology">effectively one dimensional</dfn> because it can be fully described with a single variable, <span class="process-math">\(z\text{.}\)</span> We will take <span class="process-math">\(z\)</span> to be the displacement from the intial position of the mass <span class="process-math">\(M\text{,}\)</span> with the positive direction oriented downwards.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#homework-8-4-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;">
+<img src="external/images/hwimg/hw6/atwood.png" class="contained" alt="Image of an Atwood machine"><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="homework-8-4-2-2-2-description">
+<div class="para" id="homework-8-4-2-2-2-2-1">Image of an atwood machine. A block of mass <span class="process-math">\(m\)</span> lies on the ground, attached to a vertical rope that goes over a pulley. The rope hangs downwards and attaches to a mass <span class="process-math">\(M\text{,}\)</span> which hangs vertically at some distance from the ground.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#homework-8-4-2-2-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div></details>
+</div>
+</div>
+<article class="task exercise-like" id="homework-8-4-2-3"><h3 class="heading"><span class="codenumber">(a)</span></h3>
+<div class="para" id="homework-8-4-2-3-1-1">Find an expression for the potential energy <span class="process-math">\(~{U(z)}\)</span> for this system, setting <span class="process-math">\(U(z=0)=0\text{.}\)</span> Meaning: find the change in potential energy when the masses are displaced by <span class="process-math">\(z\text{.}\)</span> Make sure you’re using the constraint.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#homework-8-4-2-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 2.a"><a tabindex="-1" href="#homework-8-4-2-3" title="Copy heading and permalink for Task 2.a" aria-label="Copy heading and permalink for Task 2.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="homework-8-4-2-4"><h3 class="heading"><span class="codenumber">(b)</span></h3>
+<div class="para logical" id="homework-8-4-2-4-1-1">
+<div class="para">Using the constraint, show that the kinetic energy of this system (ignoring any motion of the Earth, of course), is</div>
+<div class="displaymath process-math" id="homework-8-4-2-4-1-1-1">
+\begin{equation*}
+K=\frac{1}{2}(M+m)\dot{z}^2    
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#homework-8-4-2-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 2.b"><a tabindex="-1" href="#homework-8-4-2-4" title="Copy heading and permalink for Task 2.b" aria-label="Copy heading and permalink for Task 2.b">🔗</a></div>
+</article>
+<article class="task exercise-like" id="homework-8-4-2-5"><h3 class="heading"><span class="codenumber">(c)</span></h3>
+<div class="para" id="homework-8-4-2-5-1-1">The external interaction for this system is the tension forces from the rope. Show that the rope does no net work on the masses, so that we can really say that the mechanical energy <span class="process-math">\(K+U\)</span> remains constant. In fact, “ideal rope and pulley system”, regardless of context, really means “no dissipation”.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#homework-8-4-2-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 2.c"><a tabindex="-1" href="#homework-8-4-2-5" title="Copy heading and permalink for Task 2.c" aria-label="Copy heading and permalink for Task 2.c">🔗</a></div>
+</article>
+<article class="task exercise-like" id="homework-8-4-2-6"><h3 class="heading"><span class="codenumber">(d)</span></h3>
+<div class="para logical" id="homework-8-4-2-6-1-1">
+<div class="para">Since there’s no dissipation in our system, the total energy E(t) remains cosntant. By setting the time derivative <span class="process-math">\(\dfrac{dE}{dt}=0\text{,}\)</span> show that you can deduce the Atwood machine’s equation of motion, which is</div>
+<div class="displaymath process-math" id="homework-8-4-2-6-1-1-2">
+\begin{equation*}
+(m+M)\ddot{z}=(M-m)g \Rightarrow \ddot{z}=\dfrac{M-m}{M+m}g.
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#homework-8-4-2-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="homework-8-4-2-6-1-2">Lesson: if a system has no dissipation and can be described by a single variable <span class="process-math">\(q\text{,}\)</span> then the constancy of the mechanical energy completely determines its motion! In a higher level mechanics course, you will learn that this turns out to be true <em class="emphasis">in general</em>, which is quite powerful.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#homework-8-4-2-6-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 2.d"><a tabindex="-1" href="#homework-8-4-2-6" title="Copy heading and permalink for Task 2.d" aria-label="Copy heading and permalink for Task 2.d">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 2: Conservation of Energy Determines Motion"><a tabindex="-1" href="#homework-8-4-2" title="Copy heading and permalink for Worksheet Exercise 2: Conservation of Energy Determines Motion" aria-label="Copy heading and permalink for Worksheet Exercise 2: Conservation of Energy Determines Motion">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="homework-8-4-3"><h2 class="heading">
+<span class="codenumber">3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">The Astro-blaster.</span>
+</h2>
+<div class="para" id="homework-8-4-3-2">A tennis ball with a small mass m sits on top of a basketball with a large mass M (see figure). The bottom of the basketball is a height <span class="process-math">\(h\)</span> above the ground, and the tennis ball is standing right on top of it. After the balls are dropped, how high does the tennis ball go? Assume <span class="process-math">\(M\gg m\)</span> and that the balls are separated by a very small distance, so that they basically collide the moment the basketball reverses its motion. No need to solve the elastic collision problem again from scracth. If you’re up to the challenge, imagine what would happen if you have N balls stacked on top of each other, all satisfying <span class="process-math">\(m_1\gg m_2 \gg m_3 \gg \cdots \gg m_N\)</span> [this is optional].<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#homework-8-4-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/images/hwimg/hw6/astro-blaster.svg" class="contained" alt="A small ball is on top of a large ball. The large ball is at a certain height above the ground."></div>
-<div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 2: The Astro-blaster"><a tabindex="-1" href="#homework-8-4-2" title="Copy heading and permalink for Worksheet Exercise 2: The Astro-blaster" aria-label="Copy heading and permalink for Worksheet Exercise 2: The Astro-blaster">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 3: The Astro-blaster"><a tabindex="-1" href="#homework-8-4-3" title="Copy heading and permalink for Worksheet Exercise 3: The Astro-blaster" aria-label="Copy heading and permalink for Worksheet Exercise 3: The Astro-blaster">🔗</a></div>
 </article></section><section class="onepage" id="homework-8-5">
 <article class="exercise exercise-like" id="homework-8-5-1"><h2 class="heading">
-<span class="codenumber">3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">The Rocket-Powered Skateboard.</span>
+<span class="codenumber">4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">The Rocket-Powered Skateboard.</span>
 </h2>
 <div class="para" id="homework-8-5-1-2">Consider a rocket-powered skateboard that is about to roll downhill. To escape on the right with the maximum speed, where should it fire a brief impulse (i.e., blast its engines)? <details class="ptx-footnote" aria-live="polite" id="homework-8-5-1-2-1"><summary class="ptx-footnote__number" title="Footnote 2"><sup> 2 </sup></summary>
 <div class="ptx-footnote__contents" id="homework-8-5-1-2-1">This problem is adapted from <a class="external" href="https://doi.org/10.1119/1.5126818" target="_blank">this paper</a>, and the effect described here (the Oberth effect) is useful for real rockets!
@@ -451,27 +501,27 @@ eBookConfig.enable_chatcodes =  false;
 <li id="homework-8-5-1-6-1-1">
 <div class="para" id="homework-8-5-1-6-1-1-1">Show that the change in the rocket’s velocity immediately after the blast is the same regardless of where you fire the blast.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#homework-8-5-1-6-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Item 3.1"><a tabindex="-1" href="#homework-8-5-1-6-1-1" title="Copy heading and permalink for Item 3.1" aria-label="Copy heading and permalink for Item 3.1">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item 4.1"><a tabindex="-1" href="#homework-8-5-1-6-1-1" title="Copy heading and permalink for Item 4.1" aria-label="Copy heading and permalink for Item 4.1">🔗</a></div>
 </li>
 <li id="homework-8-5-1-6-1-2">
 <div class="para" id="homework-8-5-1-6-1-2-1">Show that the total change in kinetic energy (rocket + fuel) also does not depend on where you fire the blast.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#homework-8-5-1-6-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Item 3.2"><a tabindex="-1" href="#homework-8-5-1-6-1-2" title="Copy heading and permalink for Item 3.2" aria-label="Copy heading and permalink for Item 3.2">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item 4.2"><a tabindex="-1" href="#homework-8-5-1-6-1-2" title="Copy heading and permalink for Item 4.2" aria-label="Copy heading and permalink for Item 4.2">🔗</a></div>
 </li>
 <li id="homework-8-5-1-6-1-3">
 <div class="para" id="homework-8-5-1-6-1-3-1">Finally, show that the change in kinetic energy of the rocket does depend on where the blast is fired<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#homework-8-5-1-6-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Item 3.3"><a tabindex="-1" href="#homework-8-5-1-6-1-3" title="Copy heading and permalink for Item 3.3" aria-label="Copy heading and permalink for Item 3.3">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item 4.3"><a tabindex="-1" href="#homework-8-5-1-6-1-3" title="Copy heading and permalink for Item 4.3" aria-label="Copy heading and permalink for Item 4.3">🔗</a></div>
 </li>
 <li id="homework-8-5-1-6-1-4">
 <div class="para" id="homework-8-5-1-6-1-4-1">To make sure you’re interpreting everything correctly, complete the following sentence: “The total kinetic energy of the system increases by <span class="fillin underline" role="img" aria-label="5-character blank" style="width: 2.272727272727273em;"></span>. Mechanistically (or shall we say chemically?), this extra energy comes from <span class="fillin underline" role="img" aria-label="5-character blank" style="width: 2.272727272727273em;"></span>, so it makes sense that it’s a fixed amount regardless of when the rocket fires. However, the resulting increase in rocket kinetic energy can be different, because <span class="fillin underline" role="img" aria-label="5-character blank" style="width: 2.272727272727273em;"></span>.”<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#homework-8-5-1-6-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Item 3.4"><a tabindex="-1" href="#homework-8-5-1-6-1-4" title="Copy heading and permalink for Item 3.4" aria-label="Copy heading and permalink for Item 3.4">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item 4.4"><a tabindex="-1" href="#homework-8-5-1-6-1-4" title="Copy heading and permalink for Item 4.4" aria-label="Copy heading and permalink for Item 4.4">🔗</a></div>
 </li>
 </ol>
 <div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#homework-8-5-1-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 3: The Rocket-Powered Skateboard"><a tabindex="-1" href="#homework-8-5-1" title="Copy heading and permalink for Worksheet Exercise 3: The Rocket-Powered Skateboard" aria-label="Copy heading and permalink for Worksheet Exercise 3: The Rocket-Powered Skateboard">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 4: The Rocket-Powered Skateboard"><a tabindex="-1" href="#homework-8-5-1" title="Copy heading and permalink for Worksheet Exercise 4: The Rocket-Powered Skateboard" aria-label="Copy heading and permalink for Worksheet Exercise 4: The Rocket-Powered Skateboard">🔗</a></div>
 </article></section><div class="autopermalink" aria-hidden="true" data-description="Worksheet: Homework 07"><a tabindex="-1" href="#homework-8" title="Copy heading and permalink for Worksheet: Homework 07" aria-label="Copy heading and permalink for Worksheet: Homework 07">🔗</a></div>
 </section>
 </div>
