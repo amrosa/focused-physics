@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="schedule" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Standalone Course Schedule</title>
+<section xml:id="schedule-new" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>New Course Schedule</title>
 
     <p>
         <dl>
@@ -171,7 +171,8 @@
                 </p>
 
                 <p>
-                    Monday: Catch-up on energy, intro to complex numbers
+                    Monday: Rotational Kinematics, Angular Momentum, Moment
+                    of Inertia
                 </p>
 
                 <p>
@@ -179,11 +180,12 @@
                 </p>
 
                 <p>
-                    Wednesday: Damped Harmonic Motion
+                    Wednesday: Conservation of Angular Momentum, Fixed
+                    Axis Rotation
                 </p>
 
                 <p>
-                    Friday: Driven Oscillations, <alert>Challenge 3 due</alert>
+                    Friday: Planar Motion, <alert>Challenge 3 due</alert>
                 </p>
             </li>
 
@@ -191,23 +193,15 @@
                 <title>Week 9 (10/19)</title>
 
                 <p>
-                    Sunday: Reading Quiz 13
+                    Monday: Planar motion continued, HW 8 Due
                 </p>
 
                 <p>
-                    Monday: Angular Momentum and Moment of Inertia, HW 8 Due
+                    Wednesday: <alert>Retry Exam</alert>
                 </p>
 
                 <p>
-                    Tuesday: Reading Quiz 14
-                </p>
-
-                <p>
-                    Wednesday: Angular Momentum and Fixed-axis Rotation
-                </p>
-
-                <p>
-                    Friday: Planar Motion,
+                    Friday: Statics
                     <alert>Challenge 3 revisions due</alert>
                 </p>
             </li>
@@ -216,15 +210,15 @@
                 <title>Week 10 (10/26)</title>
 
                 <p>
-                    Monday: Planar Motion and Statics, Homework 9 Due
+                    Monday: Finish statics, continue precession
                 </p>
 
                 <p>
-                    Wednesday: Statics and problem-solving
+                    Wednesday: Problem-Solving, HW9 Due
                 </p>
 
                 <p>
-                    Friday: Precession, <alert>Challenge 4 Due</alert>
+                    Friday: Exam 2 catch-up 
                 </p>
             </li>
 
@@ -232,19 +226,23 @@
                 <title>Week 11 (11/2)</title>
 
                 <p>
-                    Monday: Catch-up day for exam 2, Homework 10 Due
+                    Monday: <alert>Exam 2 </alert>
                 </p>
 
                 <p>
-                    Wednesday: Exam 2
+                    Tuesday: Reading Quiz 13
+                </p>
+                <p>
+                    Wednesday: Introduction to Special Relativity
                 </p>
 
                 <p>
-                    Thursday: Reading Quiz 15
+                    Thursday: Reading Quiz 14
                 </p>
 
                 <p>
-                    Friday: Introduction to Special Relativity
+                    Friday: Simultaneity, Time Dilation, Length Contraction,
+                    <alert>C4 Due</alert>
                 </p>
             </li>
 
@@ -252,20 +250,18 @@
                 <title>Week 12 (11/9)</title>
 
                 <p>
-                    Sunday: Reading Quiz 16
+                    Monday: Relativistic Kinematics Continued
                 </p>
 
                 <p>
-                    Monday: Simultaneity, Time Dilation, Length Contraction
+                    Wednesday: Lorentz Transformations, Velocity Addition
                 </p>
 
                 <p>
-                    Wednesday: Relativistic Kinematics continued
+                    Thursday: Reading Quiz 15
                 </p>
-
                 <p>
-                    Friday: Lorentz Transformations, Velocity Addition,
-                    <alert>Challenge 4 revisions due</alert>
+                    Friday: Spacetime Diagrams Start
                 </p>
             </li>
 
@@ -273,24 +269,21 @@
                 <title>Week 13 (11/16)</title>
 
                 <p>
-                    Sunday: Reading Quiz 17
+                    Monday: <alert>Retries</alert>
+                </p>
+                <p>
+                    Tuesday: HW 11 Due
+                </p>
+                <p>
+                    Wednesday: Barn and Pole, Twin Paradox
                 </p>
 
                 <p>
-                    Monday: Spacetime diagrams, barn and pole, Homework 11 due
+                    Thursday: Reading Quiz 16
                 </p>
 
                 <p>
-                    Wednesday: The twin paradox
-                </p>
-
-                <p>
-                    Thursday: Reading Quiz 18
-                </p>
-
-                <p>
-                    Friday: Introduction to 4-momentum,
-                    <alert>Challenge 5 due</alert>
+                    Friday: Introduction to 4-momentum, <alert>C4 due</alert>
                 </p>
             </li>
 
@@ -298,9 +291,11 @@
                 <title>Week 14 (11/23)</title>
 
                 <p>
-                    Monday: More on 4-momentum, Homework 12 Due
+                    Monday: More on 4-momentum
                 </p>
-
+                <p>
+                    Tuesday: HW12 Due
+                </p>
                 <p>
                     <alert>Thanksgiving break starts Wednesday!</alert>
                 </p>
@@ -310,11 +305,11 @@
                 <title>Week 15(11/30)</title>
 
                 <p>
-                    Monday: Reading Quiz 19, Conservation of 4 momentum
+                    Monday: Reading Quiz 17, Conservation of 4 momentum
                 </p>
 
                 <p>
-                    Tuesday: Reading Quiz 20
+                    Tuesday: Reading Quiz 18
                 </p>
 
                 <p>
@@ -322,7 +317,7 @@
                 </p>
 
                 <p>
-                    Friday: Problem-solving, Homework 13 Due
+                    Friday: <alert>First part of Exam 3</alert>, Homework 13 Due
                 </p>
             </li>
 
@@ -330,11 +325,7 @@
                 <title>Week 16 (12/06)  </title>
 
                 <p>
-                    Sunday: <alert>Challenge 5 revisions due</alert>
-                </p>
-
-                <p>
-                    Monday: <alert>Exam 3</alert>
+                    Monday: <alert>Second part of exam 3</alert>
                 </p>
             </li>
 
