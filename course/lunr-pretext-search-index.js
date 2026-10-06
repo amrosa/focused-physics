@@ -19,9 +19,9 @@ var ptx_lunr_docs = [
   "body": "Focused Physics I (Phys 1760) "
 },
 {
-  "id": "advice",
+  "id": "schedule",
   "level": "1",
-  "url": "advice.html",
+  "url": "schedule.html",
   "type": "Section",
   "number": "",
   "title": "Standalone Course Schedule",
