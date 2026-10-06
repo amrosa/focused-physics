@@ -19,6 +19,7 @@
       <!-- Course syllabus -->
       <xi:include href="./syllabus/syllabus.ptx" />
       <xi:include href="./syllabus/course_schedule.ptx"/>
+      <xi:include href="./syllabus/new_schedule.ptx"/>
       <xi:include href="./syllabus/advice.ptx"/>
       <xi:include href="./syllabus/expectations.ptx"/>
       <xi:include href="./syllabus/grading_chart.ptx"/>
