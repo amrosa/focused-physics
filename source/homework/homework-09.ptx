@@ -61,12 +61,13 @@
                 </li>
                 <li>
                     <p>
-                        7.7
+                        7.7 Hint: use the parallel axis theorem to find the moment of inertia of a horizontal strip
+                        of width dy. You can do this and 7.8 after everything else.
                     </p>
                 </li>
                 <li>
                     <p>
-                        7.8
+                        7.8 Hint: a sphere = many thin disks rotating about the axis.
                     </p>
                 </li>
             </ul>
@@ -77,7 +78,9 @@
     <exercise>
         <title>Statics</title>
         <p>
-            7.5
+            7.5 Hint: a good picture goes a long way. Note that you will find
+            3 equations for 4 unknowns, but you can solve for the sum of the
+            friction forces, which will be enough here.
         </p>        
     </exercise>
 
@@ -85,7 +88,8 @@
     <exercise>
         <title>Using the angular momentum principle</title>
             <p>
-                7.10
+                7.10 Note that the CM of the cylinder is at rest, so the
+                forces on it should balance.
             </p>
     </exercise>
 
@@ -95,7 +99,9 @@
             <ul>
                 <li>
                     <p>
-                        7.3
+                        7.3 Careful! The speed <m>v</m> is
+                        <alert>relative to the ring</alert>. Remember to
+                        use the parallel axis theorem.
                     </p>
                 </li>
                 <li>
@@ -110,7 +116,11 @@
                 </li>
                 <li>
                     <p>
-                        7.20
+                        7.20 Remember that the acceleration of the CM has two
+                        components: one parallel to the velocity, and one perpendicular. This
+                        is probably the hardest problem in this HW, as it will require using
+                        forces, angular momentum, and energy. But it's quite rewarding, your
+                        final answer should be simple!
                     </p>
                 </li>
                 <li>
