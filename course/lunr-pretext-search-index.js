@@ -916,7 +916,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Homework 09",
-  "body": " Homework 09    The purpose of the homework is to:     Practice applying the concepts and techniques discussed this week    Reveal gaps in your understanding so you know what to study    Enable a productive re-read of the textbook chapter\/engagement with other course resources.     The homework is both a valuable learning opportunity and a gauge of how well you're doing. Did you solve all the problems by yourself with no help? Incredible! If that didn't happen, that's OK: we're not expected to get everything right the first time. What you need to do is look carefully at what you needed help with, and then make a study plan, which will likely include solving more problems, to fill in the gaps in your understanding.      Instructions: Complete all the exercises below and submit your work on Canvas by the due date.     Properties of Angular Momentum and Moment of Inertia      7.1 Hint: this problem is easier if you use vector notation and, yes, you can take out a constant vector out of a sum if you do it carefully.    7.7    7.8        Statics  7.5    Using the angular momentum principle  7.10    Putting Everything Together     7.3    7.4    7.13    7.20    7.33       "
+  "body": " Homework 09    The purpose of the homework is to:     Practice applying the concepts and techniques discussed this week    Reveal gaps in your understanding so you know what to study    Enable a productive re-read of the textbook chapter\/engagement with other course resources.     The homework is both a valuable learning opportunity and a gauge of how well you're doing. Did you solve all the problems by yourself with no help? Incredible! If that didn't happen, that's OK: we're not expected to get everything right the first time. What you need to do is look carefully at what you needed help with, and then make a study plan, which will likely include solving more problems, to fill in the gaps in your understanding.      Instructions: Complete all the exercises below and submit your work on Canvas by the due date.     Properties of Angular Momentum and Moment of Inertia      7.1 Hint: this problem is easier if you use vector notation and, yes, you can take out a constant vector out of a sum if you do it carefully.    7.7 Hint: use the parallel axis theorem to find the moment of inertia of a horizontal strip of width dy. You can do this and 7.8 after everything else.    7.8 Hint: a sphere = many thin disks rotating about the axis.        Statics  7.5 Hint: a good picture goes a long way. Note that you will find 3 equations for 4 unknowns, but you can solve for the sum of the friction forces, which will be enough here.    Using the angular momentum principle  7.10 Note that the CM of the cylinder is at rest, so the forces on it should balance.    Putting Everything Together     7.3 Careful! The speed is relative to the ring . Remember to use the parallel axis theorem.    7.4    7.13    7.20 Remember that the acceleration of the CM has two components: one parallel to the velocity, and one perpendicular. This is probably the hardest problem in this HW, as it will require using forces, angular momentum, and energy. But it's quite rewarding, your final answer should be simple!    7.33       "
 },
 {
   "id": "homework-10-2",
@@ -934,7 +934,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Properties of Angular Momentum and Moment of Inertia.",
-  "body": " Properties of Angular Momentum and Moment of Inertia      7.1 Hint: this problem is easier if you use vector notation and, yes, you can take out a constant vector out of a sum if you do it carefully.    7.7    7.8      "
+  "body": " Properties of Angular Momentum and Moment of Inertia      7.1 Hint: this problem is easier if you use vector notation and, yes, you can take out a constant vector out of a sum if you do it carefully.    7.7 Hint: use the parallel axis theorem to find the moment of inertia of a horizontal strip of width dy. You can do this and 7.8 after everything else.    7.8 Hint: a sphere = many thin disks rotating about the axis.      "
 },
 {
   "id": "homework-10-4-2",
@@ -943,7 +943,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "Statics.",
-  "body": " Statics  7.5  "
+  "body": " Statics  7.5 Hint: a good picture goes a long way. Note that you will find 3 equations for 4 unknowns, but you can solve for the sum of the friction forces, which will be enough here.  "
 },
 {
   "id": "homework-10-4-3",
@@ -952,7 +952,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "Using the angular momentum principle.",
-  "body": " Using the angular momentum principle  7.10  "
+  "body": " Using the angular momentum principle  7.10 Note that the CM of the cylinder is at rest, so the forces on it should balance.  "
 },
 {
   "id": "homework-10-4-4",
@@ -961,7 +961,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "Putting Everything Together.",
-  "body": " Putting Everything Together     7.3    7.4    7.13    7.20    7.33     "
+  "body": " Putting Everything Together     7.3 Careful! The speed is relative to the ring . Remember to use the parallel axis theorem.    7.4    7.13    7.20 Remember that the acceleration of the CM has two components: one parallel to the velocity, and one perpendicular. This is probably the hardest problem in this HW, as it will require using forces, angular momentum, and energy. But it's quite rewarding, your final answer should be simple!    7.33     "
 },
 {
   "id": "homework-11",
