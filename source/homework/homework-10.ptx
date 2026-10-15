@@ -50,6 +50,18 @@
 
     <exercise>
       <title>K&amp;K Problems</title>
+      <p>
+        <alert>Note:</alert> all of the problems in this set can be answered (perhaps using some impulse-like
+        arguments) by rigorously applying the principles discussed in class
+        <md>
+            \vec{F}_{net,ext}=\dfrac{d\vec{P}}{dt} = M\vec{A}_{CM} \quad 
+            \dfrac{d\vec{L}}{dt} = \vec{\tau}_{net,ext}
+        </md>,
+        where we can use our origin for the angular momentum as either the CM or a fixed point in an inertial frame.
+        Some problems (I won't tell you which!) can have simpler solutions (at least to a part of the problem) by also
+        applying energy arguments and/or making a clever choice of origin about which the angular momentum remains constant.
+        Keep a sharp eye, and use the results summarized in note 7.2.
+      </p>
         <p>
             <ul>
                 <li>
