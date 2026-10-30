@@ -104,11 +104,28 @@
                 </li>
                 <li>
                     <p>
-                        3-16 Note: It is ok to make estimates for this problem, don't try to be exact. 
-                        The map in the book gives distances in milliarcseconds, which is an angle. The conversion factor to light 
-                        years is the distance <m>L</m> between the quasar and Earth given in the text 
-                        (you can think about the <q>distance</q> in mas as the angle between the directions where different points 
-                        in the map are located, and then <m>L\theta</m> is a distance because <m>\theta</m> is very small)
+                        3-16 Notes:
+                        <ul>
+                            <li>
+                                <p>
+                                    For parts a-c, you're supposed to think of the distance between the quasar and Earth
+                                    as very large, which is why the directions look the way they do
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    You can skip parts d and e, and just use part (f) to show that the apparent speed can clearly
+                                    be larger than 1
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    For part g, do not try to be too exact, just estimate the <q>distance</q> the object moved.
+                                    Note that the figure caption gives the conversion from milliarcseconds to radians. To convert from
+                                    angle to distance, use <m>s = L \theta</m>, where <m>L</m> is the distance to the quasar.
+                                </p>
+                            </li>
+                        </ul>
                     </p>
                 </li>
             </ul>
@@ -116,7 +133,7 @@
     </exercise>
 
     <exercise>
-        <title>Rocket Trave</title>
+        <title>Rocket Travel</title>
         <p>
             At noon a rocketship passes the earth with a velocity 0.8c. Observers on the ship and on Earth agree
             that it is noon. Let this be our t=0. It will make your life easier to measure distances in units of 
@@ -155,9 +172,10 @@
 
   <page>
     <exercise>
-        <title>Doing it again.</title>
+        <title>Doing it again</title>
         <p>
-            Do problem 3 again, but this time take the rocket frame to be the one at rest.
+            Do problem 3 again, but this time take the rocket frame to be the one at rest, so you'll say things
+            like <q>Earth clocks run slow</q>. It's fine to not do this part in the same order.
         </p>
     </exercise>
 

@@ -101,12 +101,12 @@
                 <li>
                     <p>
                         L-8 Note: to make the next problem easier, transform the adequate displacements to solve 
-                        for <m>\cos\phi</m>
+                        for <m>\cos\phi</m>. This is algebraically a little annoying, but it's doable. Be patient!
                     </p>
                 </li>
                 <li>
                     <p>
-                        L-9 Solve it using velocity transformation
+                        L-9 Solve it using velocity transformation derived in class.
                     </p>
                 </li>
                 <li>
@@ -137,33 +137,7 @@
   </page>
   
   <page>
-    <exercise>
-        <title>Two-observer spacetime diagram</title>
-        <p>
-            Your boss is on the Earth-Pluto shuttle, which travels at a constant velocity of 0.60 straight from Earth to 
-            Pluto, a distance of 5.0 h in an inertial frame attached to the sun. An hour into the flight 
-            (according to your boss's watch) your boss sends a laser message to you on earth, asking you to send a 
-            wake-up call appropriately timed so that your boss can catch a 1-h nap 
-            (as measured on your boss's watch). You immediately reply with the wake-up call 
-            and an apology that the call is late, claiming in your defense that the laws of physics prevented a 
-            timely response. Draw a two-observer spacetime diagram to answer the following questions:
-
-            <ol>
-                <li>
-                    <p>
-                    Why was your boss's request impossible?
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        How long did your boss sleep (according to your boss's watch) before your message was 
-                        received at the shuttle? 
-                    </p>
-                </li>
-            </ol>
-        </p>
-        
-    </exercise>
+    
 
     <exercise>
         <title>Explicit Solution to the twin paradox</title>
@@ -199,6 +173,34 @@
                         message each 3 years of Earth time for the first 9 years after the departure, and then receives 
                         3 more messages during the last year, making a total of 6—which is just right,
                         since for the astronaut the trip has taken 3 years each way.
+                    </p>
+                </li>
+            </ol>
+        </p>
+        
+    </exercise>
+
+    <exercise>
+        <title>Two-observer spacetime diagram</title>
+        <p>
+            Your boss is on the Earth-Pluto shuttle, which travels at a constant velocity of 0.60 straight from Earth to 
+            Pluto, a distance of 5.0 h in an inertial frame attached to the sun. An hour into the flight 
+            (according to your boss's watch) your boss sends a laser message to you on earth, asking you to send a 
+            wake-up call appropriately timed so that your boss can catch a 1-h nap 
+            (as measured on your boss's watch). You immediately reply with the wake-up call 
+            and an apology that the call is late, claiming in your defense that the laws of physics prevented a 
+            timely response. Draw a two-observer spacetime diagram to answer the following questions:
+
+            <ol>
+                <li>
+                    <p>
+                    Why was your boss's request impossible?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        How long did your boss sleep (according to your boss's watch) before your message was 
+                        received at the shuttle? 
                     </p>
                 </li>
             </ol>

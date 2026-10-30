@@ -103,7 +103,7 @@
             <m>v_x,\omega</m>.
         </p>
         <p>
-            Once you solve the collision with the floor, you may then assume that the ball is thrown with no rotation,
+            Once you solve the two collisions, you may then assume that the ball is <alert>thrown with no rotation</alert>,
             and then analyze the sequence of three collisions to check that the ball should roughly have reversed its
             direction of motion after the third impact, once you set <m>\alpha=2/5</m>.
         </p>
